@@ -26,10 +26,10 @@ date,guest,qid,sourceID
 1834-06,Ada Lovelace,Q7259,Toole1992d
 1834-06,Annabella Byron,Q272161,Toole1992d
 1835-03-14,Samuel Rogers,Q3471218,Clayden1889a
-1835-03-14,Sydney Morgan, Q459275,Clayden1889a
+1835-03-14,Sydney Morgan,Q459275,Clayden1889a
 1835-03-14,Jane Porter,Q3161890,Clayden1889a
 1835-03-14,Samuel Rogers,Q3471218,Clayden1889b
-1835-03-14,Sydney Morgan, Q459275,Clayden1889b
+1835-03-14,Sydney Morgan,Q459275,Clayden1889b
 1835-03-14,Jane Porter,Q3161890,Clayden1889b
 1836-02-20,Michael Faraday,Q8750,Faraday1993
 1836-02-20,Mary Somerville,Q268702,Faraday1993
@@ -55,7 +55,7 @@ date,guest,qid,sourceID
 1838-05-26,Ann Taylor,Q96077643,Ticknor1880
 1838-05-26,Francis Chantrey,Q1476802,Ticknor1880
 1838-05-26,Jane Porter,Q3161890,Ticknor1880
-1838-05-26,Sydney Morgan, Q459275,Ticknor1880
+1838-05-26,Sydney Morgan,Q459275,Ticknor1880
 1839-02-16,Ellen Coolidge,Q60536153,Coolidge2013a
 1839-02-16,Ellen Coolidge,Q60536153,Coolidge2013b
 1839-02-16,David Wilkie,Q902759,Coolidge2013b
@@ -98,7 +98,7 @@ date,guest,qid,sourceID
 1844,Felix Mendelssohn,Q46096,Hensel1881
 1844,Ernst Ludwig von Gerlach,Q65780,Hensel1881
 1844,Charles Bennet,Q5075542,Hensel1881
-1844,Indian princes,,Hensel1881
+1844,Indian princes,Unknown,Hensel1881
 1844-02-24,Annabella Byron,Q272161,Talbot1844
 1851-07-09,Frederick Pollock,Q18531536,Pollock1887
 1851-07-09,Charles Dupin,Q860206,Pollock1887
@@ -107,21 +107,21 @@ date,guest,qid,sourceID
 1851-07-09,David Brewster,Q168468,Pollock1887
 1835,Michael Faraday,Q8750,Dodge1873
 1835,Henry Wadsworth Longfellow,Q152513,Longfellow1886
-1835,Sydney Morgan, Q459275,Longfellow1886
+1835,Sydney Morgan,Q459275,Longfellow1886
 1835,Jane Porter,Q3161890,Longfellow1886
-1835,Abraham Hayward, Q4668904,Longfellow1886
-1835,Helen Blackwood, Q5701894,Longfellow1886
-1835,Georgiana Seymour, Q5548110,Longfellow1886
-0,Charles Bunbury, Q1063834,Bunbury2011a
-0,Charles Bunbury, Q1063834,Bunbury2011b
-0,Edward Ryan, Q5345150,Bunbury2011b
-0,John Moore, Q16063392,Bunbury2011b
-0,Hugh Falconer, Q223013,Bunbury2011b
+1835,Abraham Hayward,Q4668904,Longfellow1886
+1835,Helen Blackwood,Q5701894,Longfellow1886
+1835,Georgiana Seymour,Q5548110,Longfellow1886
+0,Charles Bunbury,Q1063834,Bunbury2011a
+0,Charles Bunbury,Q1063834,Bunbury2011b
+0,Edward Ryan,Q5345150,Bunbury2011b
+0,John Moore,Q16063392,Bunbury2011b
+0,Hugh Falconer,Q223013,Bunbury2011b
 0,Mrs Milner,Unknown,Bunbury2011b
-0,Charles Bunbury, Q1063834,Bunbury2011c
+0,Charles Bunbury,Q1063834,Bunbury2011c
 0,Charles Dickens,Q5686,Bunbury2011c
-1835-05,Sydney Morgan, Q459275, Morgan1863
-1835-05,Sylvain Van de Weyer, Q546727, Morgan1863
-1843-02-04,Sydney Morgan, Q459275,Morgan1862
+1835-05,Sydney Morgan,Q459275, Morgan1863
+1835-05,Sylvain Van de Weyer,Q546727, Morgan1863
+1843-02-04,Sydney Morgan,Q459275,Morgan1862
 1843-02-04,Samuel Rogers,Q3471218,Morgan1862
-1843-02-04,Charles Landseer, Q5080054,Morgan1862
+1843-02-04,Charles Landseer,Q5080054,Morgan1862
