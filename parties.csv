@@ -1,0 +1,127 @@
+date,guest,qid,sourceID
+1832,Harriet Martineau,Q234570,Martineau1855
+1833,Ada Lovelace,Q7259,Toole1992b
+1833,Sophia de Morgan,Q22917436,Toole1992b
+1837,Ada Lovelace,Q7259,deMorgan1882
+1837,Sophia de Morgan,Q22917436,deMorgan1882
+1837,Augustus de Morgan,Q208448,deMorgan1882
+1839,Caroline Darwin,Q55363478,Darwin1839a
+1839,Erasmus Darwin,Q5384940,Darwin1839a
+1839,Charles Darwin,Q1035,Darwin1839b
+1839,Emma Darwin,Q242147,Darwin1839b
+1839,Caroline Darwin,Q55363478,Darwin1839b
+1839,Charles Darwin,Q1035,Darwin1839c
+1839,Emma Darwin,Q242147,Darwin1839c
+1839,Frances Allen,Q96079996,Darwin1839c
+1833–06-05,Ada Lovelace,Q7259,Toole1998a
+1833-06-05,Ada Lovelace,Q7259,Toole1992a
+1833-06-05,Annabella Byron,Q272161,Toole1992a
+1833-06-16,Annabella Byron,Q272161,Stein1985
+1833-06-16,Ada Lovelace,Q7259,Stein1985
+1833-07,Ada Lovelace,Q7259,Toole1992c
+1834-03-21,Ada Lovelace,Q7259,Toole1998c
+1834-03-21,Mary Montgomery,Q18122778,Toole1998c
+1834-03-21,Charlotte Murchison,Q15994653,Toole1998c
+1834-03-21,Mary Somerville,Q268702,Toole1998c
+1834-06,Ada Lovelace,Q7259,Toole1992d
+1834-06,Annabella Byron,Q272161,Toole1992d
+1835-03-14,Samuel Rogers,Q3471218,Clayden1889a
+1835-03-14,Sydney Morgan, Q459275,Clayden1889a
+1835-03-14,Jane Porter,Q3161890,Clayden1889a
+1835-03-14,Samuel Rogers,Q3471218,Clayden1889b
+1835-03-14,Sydney Morgan, Q459275,Clayden1889b
+1835-03-14,Jane Porter,Q3161890,Clayden1889b
+1836-02-20,Michael Faraday,Q8750,Faraday1993
+1836-02-20,Mary Somerville,Q268702,Faraday1993
+1836-06-04,Charles Lyell,Q5333,Lyell1881a
+1836-06-04,Mary Lyell,Q3296187,Lyell1881a
+1836-06-04,Mary Somerville,Q268702,Lyell1881b
+1836-06-04,William Somerville,Q8018611,Lyell1881b
+1837-05-25,Charles Lyell,Q5333,Lyell1881c
+1837-05-25,John Taylor,Q6260357,Lyell1881c
+1838-05-26,George Ticknor,Q5545233,Ticknor1880
+1838-05-26,Henry Hallam,Q1234977,Ticknor1880
+1838-05-26,Henry Hart Milman,Q4269655,Ticknor1880
+1838-05-26,Mary Ann Milman,Q76075859,Ticknor1880
+1838-05-26,Edward Stanley,Q5345414,Ticknor1880
+1838-05-26,Thomas Musgrave,Q3525438,Ticknor1880
+1838-05-26,Samuel Rogers,Q3471218,Ticknor1880
+1838-05-26,John Herschel,Q14278,Ticknor1880
+1838-05-26,Margaret Herschel,Q75567564,Ticknor1880
+1838-05-26,Adam Sedgwick,Q350891,Ticknor1880
+1838-05-26,Mary Somerville,Q268702,Ticknor1880
+1838-05-26,Nassau William Senior,Q687552,Ticknor1880
+1838-05-26,John Taylor,Q6260357,Ticknor1880
+1838-05-26,Ann Taylor,Q96077643,Ticknor1880
+1838-05-26,Francis Chantrey,Q1476802,Ticknor1880
+1838-05-26,Jane Porter,Q3161890,Ticknor1880
+1838-05-26,Sydney Morgan, Q459275,Ticknor1880
+1839-02-16,Ellen Coolidge,Q60536153,Coolidge2013a
+1839-02-16,Ellen Coolidge,Q60536153,Coolidge2013b
+1839-02-16,David Wilkie,Q902759,Coolidge2013b
+1839-02-16,William Whewell,Q333922,Coolidge2013b
+1839-02-16,Henry Hallam,Q1234977,Coolidge2013b
+1839-03-15,William Macready,Q637374,Macready1875a
+1839-03-15,Michael Faraday,Q8750,Macready1875a
+1839-03-15,David Wilkie,Q902759,Macready1875a
+1839-03-15,Francis Chantrey,Q1476802,Macready1875a
+1839-03-15,Benjamin Hawes,Q4888797,Macready1875a
+1839-03-15,Sidney Smith,Q6182166,Macready1875a
+1839-03-15,Lord Northampton, Q8007034,Macready1875a
+1839-03-15,Jane Marcet,Q433093,Macready1875a
+1839-03-30,Ada Lovelace,Q7259,Toole1998b
+1840-02-01,William Henry Fox Talbot,Q299565,Talbot1840
+1840-02-01,David Wilkie,Q902759,Talbot1840
+1840-02-01,Francis Chantrey,Q1476802,Talbot1840
+1840-04-25,William Macready,Q637374,Macready1875b
+1840-04-25,David Colden,Q98558441,Macready1875b
+1840-04-25,Sidney Smith,Q6182166,Macready1875b
+1840-04-25,Charles Wheatstone,Q156942,Macready1875b
+1840-04-25,William Brockedon,Q4019944,Macready1875b
+1840-04-25,William Harness,Q16065697,Macready1875b
+1840-04-25,Benjamin Travers,Q4889308,Macready1875b
+1840-04-25,Benjamin Hawes,Q4888797,Macready1875b
+1840-04-25,Catherine Stepney,Q18575958,Macready1875b
+1840-04-25,Neil Arnott,Q1398302,Macready1875b
+1840-04-25,Henry Hart Milman,Q4269655,Macready1875b
+1840-04-25,Edward Stanley,Q5345414,Macready1875b
+1840-05-09,William Macready,Q637374,Macready1912
+1840-05-09,Thomas Talfourd,Q2426332,Macready1912
+1840-05-09,Charles Dickens,Q5686,Macready1912
+1840-05-09,Charles Wheatstone,Q156942,Macready1912
+1840-05-09,Edward Kater,Q21166109,Macready1912
+1840-05-09,Catherine Stepney,Q18575958,Macready1912
+1840-05-09,Samuel Rogers,Q3471218,Macready1912
+1840-06,Jean Charles Léonard de Sismondi,Q124073,Darwin1840
+1840-06,Jessie Allen de Sismondi,Q94777333,Darwin1840
+1840-06,Frances Allen,Q96079996,Darwin1840
+1844,Felix Mendelssohn,Q46096,Hensel1881
+1844,Ernst Ludwig von Gerlach,Q65780,Hensel1881
+1844,Charles Bennet,Q5075542,Hensel1881
+1844,Indian princes,,Hensel1881
+1844-02-24,Annabella Byron,Q272161,Talbot1844
+1851-07-09,Frederick Pollock,Q18531536,Pollock1887
+1851-07-09,Charles Dupin,Q860206,Pollock1887
+1851-07-09,Marcellin Jobard,Q2276484,Pollock1887
+1851-07-09,John Herschel,Q14278,Pollock1887
+1851-07-09,David Brewster,Q168468,Pollock1887
+1835,Michael Faraday,Q8750,Dodge1873
+1835,Henry Wadsworth Longfellow,Q152513,Longfellow1886
+1835,Sydney Morgan, Q459275,Longfellow1886
+1835,Jane Porter,Q3161890,Longfellow1886
+1835,Abraham Hayward, Q4668904,Longfellow1886
+1835,Helen Blackwood, Q5701894,Longfellow1886
+1835,Georgiana Seymour, Q5548110,Longfellow1886
+0,Charles Bunbury, Q1063834,Bunbury2011a
+0,Charles Bunbury, Q1063834,Bunbury2011b
+0,Edward Ryan, Q5345150,Bunbury2011b
+0,John Moore, Q16063392,Bunbury2011b
+0,Hugh Falconer, Q223013,Bunbury2011b
+0,Mrs Milner,Unknown,Bunbury2011b
+0,Charles Bunbury, Q1063834,Bunbury2011c
+0,Charles Dickens,Q5686,Bunbury2011c
+1835-05,Sydney Morgan, Q459275, Morgan1863
+1835-05,Sylvain Van de Weyer, Q546727, Morgan1863
+1843-02-04,Sydney Morgan, Q459275,Morgan1862
+1843-02-04,Samuel Rogers,Q3471218,Morgan1862
+1843-02-04,Charles Landseer, Q5080054,Morgan1862
