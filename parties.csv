@@ -112,14 +112,15 @@ date,guest,qid,sourceID
 1835,Abraham Hayward,Q4668904,Longfellow1886
 1835,Helen Blackwood,Q5701894,Longfellow1886
 1835,Georgiana Seymour,Q5548110,Longfellow1886
-0,Charles Bunbury,Q1063834,Bunbury2011a
-0,Charles Bunbury,Q1063834,Bunbury2011b
-0,Edward Ryan,Q5345150,Bunbury2011b
-0,John Moore,Q16063392,Bunbury2011b
-0,Hugh Falconer,Q223013,Bunbury2011b
-0,Mrs Milner,Unknown,Bunbury2011b
-0,Charles Bunbury,Q1063834,Bunbury2011c
-0,Charles Dickens,Q5686,Bunbury2011c
+1845-04-26,Charles Bunbury,Q1063834,Bunbury2011a
+1845-04-26,Frances Joanna Bunbury, Q27255564,Bunbury2011a
+1847-04-24,Charles Bunbury,Q1063834,Bunbury2011b
+1847-04-24,Edward Ryan,Q5345150,Bunbury2011b
+1847-04-24,John Moore,Q16063392,Bunbury2011b
+1847-04-24,Hugh Falconer,Q223013,Bunbury2011b
+1847-04-24,Arethusa Milner Gibson,Q18810603,Bunbury2011b
+1846-02-14,Charles Bunbury,Q1063834,Bunbury2011c
+1846-02-14,Charles Dickens,Q5686,Bunbury2011c
 1835-05,Sydney Morgan,Q459275, Morgan1863
 1835-05,Sylvain Van de Weyer,Q546727, Morgan1863
 1843-02-04,Sydney Morgan,Q459275,Morgan1862
