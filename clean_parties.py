@@ -40,7 +40,8 @@ guests = pd.read_csv('guest_qid.csv')
 #---CREATE A NEW CSV FILE WITH ONE ROW PER GUEST---#
 # Merge parties and guests using the field 'guest' as the shared field and keeping all the fields in both
 parties = parties.merge(guests, on='guest', how='left')
-parties = parties.drop_duplicates()
+
+parties = parties.drop_duplicates(["date", "guest"])
 #parties['certainty_P1480'] = parties['certainty_P1480'].fillna('stated in source')
 parties = parties[['date', 'guest', 'qid', 'certainty_P1480', 'sourceID', 'pages', 'quote']]
 
@@ -52,7 +53,7 @@ print("Number of unique Dates:", num_unique_dates)
 
 # Save to csv and excel files
 parties.to_csv('parties.csv', index=False)
-parties.to_excel('parties.xlsx', index=False)
+#parties.to_excel('parties.xlsx', index=False)
 
 exit()
 
