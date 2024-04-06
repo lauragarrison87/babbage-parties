@@ -1,0 +1,560 @@
+- model: parties.person
+  pk: 7259
+  fields:
+    name: "Ada Lovelace"
+    presumed: False
+
+
+- model: parties.person
+  pk: 350891
+  fields:
+    name: "Adam Sedgwick"
+    presumed: True
+
+
+- model: parties.person
+  pk: 96077643
+  fields:
+    name: "Ann Taylor"
+    presumed: False
+
+
+- model: parties.person
+  pk: 272161
+  fields:
+    name: "Annabella Byron"
+    presumed: False
+
+
+- model: parties.person
+  pk: 208448
+  fields:
+    name: "Augustus de Morgan"
+    presumed: False
+
+
+- model: parties.person
+  pk: 4888797
+  fields:
+    name: "Benjamin Hawes"
+    presumed: False
+
+
+- model: parties.person
+  pk: 4889308
+  fields:
+    name: "Benjamin Travers"
+    presumed: True
+
+
+- model: parties.person
+  pk: 55363478
+  fields:
+    name: "Caroline Darwin"
+    presumed: False
+
+
+- model: parties.person
+  pk: 18575958
+  fields:
+    name: "Catherine Stepney"
+    presumed: False
+
+
+- model: parties.person
+  pk: 5075542
+  fields:
+    name: "Charles Bennet"
+    presumed: True
+
+
+- model: parties.person
+  pk: 1035
+  fields:
+    name: "Charles Darwin"
+    presumed: False
+
+
+- model: parties.person
+  pk: 5686
+  fields:
+    name: "Charles Dickens"
+    presumed: False
+
+
+- model: parties.person
+  pk: 860206
+  fields:
+    name: "Charles Dupin"
+    presumed: False
+
+
+- model: parties.person
+  pk: 5333
+  fields:
+    name: "Charles Lyell"
+    presumed: False
+
+
+- model: parties.person
+  pk: 156942
+  fields:
+    name: "Charles Wheatstone"
+    presumed: False
+
+
+- model: parties.person
+  pk: 15994653
+  fields:
+    name: "Charlotte Murchison"
+    presumed: True
+
+
+- model: parties.person
+  pk: 168468
+  fields:
+    name: "David Brewster"
+    presumed: False
+
+
+- model: parties.person
+  pk: 98558441
+  fields:
+    name: "David Colden"
+    presumed: True
+
+
+- model: parties.person
+  pk: 902759
+  fields:
+    name: "David Wilkie"
+    presumed: True
+
+
+- model: parties.person
+  pk: 21166109
+  fields:
+    name: "Edward Kater"
+    presumed: False
+
+
+- model: parties.person
+  pk: 5345414
+  fields:
+    name: "Edward Stanley"
+    presumed: False
+
+
+- model: parties.person
+  pk: 60536153
+  fields:
+    name: "Ellen Coolidge"
+    presumed: False
+
+
+- model: parties.person
+  pk: 242147
+  fields:
+    name: "Emma Darwin"
+    presumed: False
+
+
+- model: parties.person
+  pk: 5384940
+  fields:
+    name: "Erasmus Darwin"
+    presumed: False
+
+
+- model: parties.person
+  pk: 65780
+  fields:
+    name: "Ernst Ludwig von Gerlach"
+    presumed: False
+
+
+- model: parties.person
+  pk: 46096
+  fields:
+    name: "Felix Mendelssohn"
+    presumed: False
+
+
+- model: parties.person
+  pk: 96079996
+  fields:
+    name: "Frances Allen"
+    presumed: False
+
+
+- model: parties.person
+  pk: 1476802
+  fields:
+    name: "Francis Chantrey"
+    presumed: False
+
+
+- model: parties.person
+  pk: 18531536
+  fields:
+    name: "Frederick Pollock"
+    presumed: False
+
+
+- model: parties.person
+  pk: 5545233
+  fields:
+    name: "George Ticknor"
+    presumed: False
+
+
+- model: parties.person
+  pk: 234570
+  fields:
+    name: "Harriet Martineau"
+    presumed: False
+
+
+- model: parties.person
+  pk: 1234977
+  fields:
+    name: "Henry Hallam"
+    presumed: False
+
+
+- model: parties.person
+  pk: 4269655
+  fields:
+    name: "Henry Hart Milman"
+    presumed: False
+
+
+- model: parties.person
+  pk: 433093
+  fields:
+    name: "Jane Marcet"
+    presumed: False
+
+
+- model: parties.person
+  pk: 3161890
+  fields:
+    name: "Jane Porter"
+    presumed: False
+
+
+- model: parties.person
+  pk: 124073
+  fields:
+    name: "Jean Charles Léonard de Sismondi"
+    presumed: False
+
+
+- model: parties.person
+  pk: 94777333
+  fields:
+    name: "Jessie Allen de Sismondi"
+    presumed: False
+
+
+- model: parties.person
+  pk: 14278
+  fields:
+    name: "John Herschel"
+    presumed: False
+
+
+- model: parties.person
+  pk: 6260357
+  fields:
+    name: "John Taylor"
+    presumed: True
+
+
+- model: parties.person
+  pk: 2276484
+  fields:
+    name: "Marcellin Jobard"
+    presumed: False
+
+
+- model: parties.person
+  pk: 75567564
+  fields:
+    name: "Margaret Herschel"
+    presumed: False
+
+
+- model: parties.person
+  pk: 43386537
+  fields:
+    name: "Martha Charters Somerville"
+    presumed: False
+
+
+- model: parties.person
+  pk: 76075859
+  fields:
+    name: "Mary Ann Milman"
+    presumed: False
+
+
+- model: parties.person
+  pk: 125116928
+  fields:
+    name: "Mary Charlotte Somerville"
+    presumed: False
+
+
+- model: parties.person
+  pk: 3296187
+  fields:
+    name: "Mary Lyell"
+    presumed: False
+
+
+- model: parties.person
+  pk: 18122778
+  fields:
+    name: "Mary Montgomery"
+    presumed: True
+
+
+- model: parties.person
+  pk: 268702
+  fields:
+    name: "Mary Somerville"
+    presumed: False
+
+
+- model: parties.person
+  pk: 8750
+  fields:
+    name: "Michael Faraday"
+    presumed: False
+
+
+- model: parties.person
+  pk: 687552
+  fields:
+    name: "Nassau William Senior"
+    presumed: False
+
+
+- model: parties.person
+  pk: 1398302
+  fields:
+    name: "Neil Arnott"
+    presumed: False
+
+
+- model: parties.person
+  pk: 3471218
+  fields:
+    name: "Samuel Rogers"
+    presumed: False
+
+
+- model: parties.person
+  pk: 6182166
+  fields:
+    name: "Sidney Smith"
+    presumed: False
+
+
+- model: parties.person
+  pk: 22917436
+  fields:
+    name: "Sophia de Morgan"
+    presumed: False
+
+
+- model: parties.person
+  pk: 338197
+  fields:
+    name: "Spencer Compton"
+    presumed: True
+
+
+- model: parties.person
+  pk: 3525438
+  fields:
+    name: "Thomas Musgrave"
+    presumed: False
+
+
+- model: parties.person
+  pk: 2426332
+  fields:
+    name: "Thomas Talfourd"
+    presumed: False
+
+
+- model: parties.person
+  pk: 4019944
+  fields:
+    name: "William Brockedon"
+    presumed: False
+
+
+- model: parties.person
+  pk: 16065697
+  fields:
+    name: "William Harness"
+    presumed: True
+
+
+- model: parties.person
+  pk: 299565
+  fields:
+    name: "William Henry Fox Talbot"
+    presumed: False
+
+
+- model: parties.person
+  pk: 637374
+  fields:
+    name: "William Macready"
+    presumed: False
+
+
+- model: parties.person
+  pk: 8018611
+  fields:
+    name: "William Somerville"
+    presumed: False
+
+
+- model: parties.person
+  pk: 333922
+  fields:
+    name: "William Whewell"
+    presumed: False
+
+
+- model: parties.person
+  pk: 8007034
+  fields:
+    name: "Lord Northampton"
+    presumed: False
+
+
+- model: parties.person
+  pk: 152513
+  fields:
+    name: "Henry Wadsworth Longfellow"
+    presumed: False
+
+
+- model: parties.person
+  pk: 4668904
+  fields:
+    name: "Abraham Hayward"
+    presumed: False
+
+
+- model: parties.person
+  pk: 5701894
+  fields:
+    name: "Helen Blackwood"
+    presumed: False
+
+
+- model: parties.person
+  pk: 5548110
+  fields:
+    name: "Georgiana Seymour"
+    presumed: False
+
+
+- model: parties.person
+  pk: 16063392
+  fields:
+    name: "John Moore"
+    presumed: False
+
+
+- model: parties.person
+  pk: 223013
+  fields:
+    name: "Hugh Falconer"
+    presumed: False
+
+
+- model: parties.person
+  pk: 459275
+  fields:
+    name: "Sydney Morgan"
+    presumed: False
+
+
+- model: parties.person
+  pk: 5080054
+  fields:
+    name: "Charles Landseer"
+    presumed: True
+
+
+- model: parties.person
+  pk: 546727
+  fields:
+    name: "Sylvain Van de Weyer"
+    presumed: False
+
+
+- model: parties.person
+  pk: 1063834
+  fields:
+    name: "Charles Bunbury"
+    presumed: False
+
+
+- model: parties.person
+  pk: 5345150
+  fields:
+    name: "Edward Ryan"
+    presumed: False
+
+
+- model: parties.person
+  pk: 18810603
+  fields:
+    name: "Arethusa Milner Gibson"
+    presumed: False
+
+
+- model: parties.person
+  pk: 24238356
+  fields:
+    name: "Indian princes"
+    presumed: False
+
+
+- model: parties.person
+  pk: 27255564
+  fields:
+    name: "Frances Joanna Bunbury"
+    presumed: False
+
+
+- model: parties.person
+  pk: 315346
+  fields:
+    name: "Thomas Moore"
+    presumed: False
+
+
+- model: parties.person
+  pk: 850141
+  fields:
+    name: "Caroline Norton"
+    presumed: True
+
+
+- model: parties.person
+  pk: 6261749
+  fields:
+    name: "John Van Buren"
+    presumed: True
+
+
