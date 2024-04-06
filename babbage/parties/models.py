@@ -7,5 +7,6 @@ class Person(models.Model):
     birth = models.DateField(null=True)
     death = models.DateField(null=True)
 
-
+    def __str__(self):
+        return f'{self.name} (Q{self.qid})'
 
