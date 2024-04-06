@@ -12,7 +12,7 @@ class Person(models.Model):
 
 
 class Source(models.Model):
-    sid = models.CharField(max_length=80, primary_key=True)
+    sid = models.CharField("Source ID", max_length=80, primary_key=True)
     source = models.CharField(max_length=80, null=True)
     quote = models.TextField(null=False)
     pages = models.CharField(max_length=80, null=True)
