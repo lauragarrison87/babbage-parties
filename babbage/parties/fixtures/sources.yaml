@@ -1,0 +1,296 @@
+- model: parties.source
+  pk: "Martineau1855"
+  fields:
+    source: "(Martineau 1855)"
+    quote: "“All were eager to go to his glorious soirées; and I always thought he appeared to great advantage as a host. His patience in explaining his machine in those days was really exemplary. I felt it so, the first time I saw the miracle, as it appeared to me; but I thought so much more, a year or two after, when a lady, to whom he had sacrificed some very precious time, on the supposition that she understood as much as she assumed to do, finished by saying “Now, Mr. Babbage, there is only one thing more that I want to know. If you put the question in wrong, will the answer come out right?” All time and attention devoted to lady examiners of his machine, from that time forward, I regarded as sacrifices of genuine good nature.”"
+    pages: "166"
+
+
+- model: parties.source
+  pk: "Toole1992b"
+  fields:
+    source: "Toole (?)"
+    quote: "“As Mrs. De Morgan wrote, ‘While other visitors gazed at the working of this beautiful instrument with the sort of expression, and I dare say the sort of feeling, that some savages are said to have shown on first seeing a looking glass or hearing a gun, . . . Miss Byron, young as she was, understood its workings, and saw the great beauty of the invention’ (Angluin, 7)"
+    pages: "434"
+
+
+- model: parties.source
+  pk: "deMorgan1882"
+  fields:
+    source: "(de Morgan 1882)"
+    quote: "“My husband afterwards gave her daughter, Lady Lovelace, then Lady King, much help in her mathematical studies, which were carried farther than her mother’s had been. I well remember accompanying her to see Mr. Babbage’s wonderful analytical engine. While other visitors gazed at the working of this beautiful instrument with the sort of expression, and I dare say the sort of feeling, that some savages are said to have shown on first seeing a looking-glass or a hearing a gun – if, indeed, they had as strong an idea of its marvellousness – Miss Byron, young as she was, understood its working, and saw the great beauty of the invention.”"
+    pages: "89"
+
+
+- model: parties.source
+  pk: "Darwin1839a"
+  fields:
+    source: "(Darwin 1839a)"
+    quote: "“I am very much obliged to you for your several cards which you have so kindly sent us, & which I should have had greater pleasure in accepting than any other parties, had not I found by dear-bought experience that my health will not at present stand going out in the evening. I am going to take a liberty, which I trust you will excuse; it is to ask permission for my sister who is staying with us to accompany my brother, whom I understand you have also kindly asked, to your party tomorrow evening: Mrs. Darwin not being well enough to go out at present.”"
+    pages: ""
+
+
+- model: parties.source
+  pk: "Darwin1839b"
+  fields:
+    source: "(Darwin 1839b)"
+    quote: "“My sister is at present staying with us, will you be so kind as to allow me to bring her to your party on Saturday, that she may see the World.”"
+    pages: ""
+
+
+- model: parties.source
+  pk: "Darwin1839c"
+  fields:
+    source: "(Darwin 1839c)"
+    quote: "“Will you have the kindness to excuse me, once again asking your permission to bring with Mrs. Darwin and myself, to your party on Saturday Evening, a relative of ours, Miss Allen  of Cresselly, who is staying with us.”"
+    pages: ""
+
+
+- model: parties.source
+  pk: "Toole1998a"
+  fields:
+    source: "Toole (1998)"
+    quote: "“On 5 June 1833, Ada attended a party where she met Charles Babbage [...]"
+    pages: ""
+
+
+- model: parties.source
+  pk: "Toole1992a"
+  fields:
+    source: "(Toole 1992)"
+    quote: "“On 5 June 1833, Ada attended a party where she met Charles Babbage.”"
+    pages: "Kindle loc. 596"
+
+
+- model: parties.source
+  pk: "Stein1985"
+  fields:
+    source: "Stein (1985) LP 886, Lady Byron to Dr. King, 21 June 1833."
+    quote: "“We both went to see the thinking machine (for such it seems) last Monday. It raised several Nos. to the 2nd & 3rd powers, and extracted the root of a Quadratic Equation. - I had but faint glimpses of the principles by which it worked -Babbage said it had given him notions with respect to general laws which were never before presented to his mind-For instance, the machine would go on counting regularly, 1, 2, 3, 4, &c-to 10,000-and then pursue its calculation according to a new ratio, which was, I think, 10,002, 10,005, 1O,009-but I am only certain that the numbers were no longer successive ones, and that their differences were neither in arithmetical nor Geometrical ratio, as far as I could apprehend. -If this occult principle of change existed in the law according to which the machine was constructed, (for Babbage discovered it to be latent in the mathematical formula originally applied by him) it may be consistent with the general laws of our solar system that the sun shall not rise tomorrow. -He said, indeed, that the exceptions which took place in the operation of his Machine, & which were not to be accounted for by any errors or derangement of structure, would follow a greater number of uniform experiences than the world has known of days & nights. -There was a sublimity in the views thus opened of the ultimate results of intellectual power.”"
+    pages: "42"
+
+
+- model: parties.source
+  pk: "Toole1992c"
+  fields:
+    source: "(Toole 1992)"
+    quote: "“Babbage invited Ada to see the miraculous Difference Engine a few weeks after they met. Ada’s impression of the Difference Engine was recalled by Sophia Frend more than fifty years later: “Miss Byron, young as she was, understood its working, and saw the great beauty of the invention.” An excerpt from Lady Byron’s letter to Dr King on 21 June  gives us more information about the first time she went with Ada to see the Difference Engine.”"
+    pages: ""
+
+
+- model: parties.source
+  pk: "Toole1998c"
+  fields:
+    source: "Toole (1998)"
+    quote: "“I hope I may have the pleasure of meeting you on Saturday at Mr Babbage’s. I am going with Miss Montgomery to dine at Mrs Murchison’s, & we shall be at Mr B’s for a short time in the evening. I have not seen him yet, but he sent a very respectful message through Mrs Murchison, inviting Miss Montgomery & me to his Saturday parties.”"
+    pages: "44"
+
+
+- model: parties.source
+  pk: "Toole1992d"
+  fields:
+    source: "(Toole 1992)"
+    quote: "“By June 1834 Lady Byron wrote that Ada regarded “the Difference Engine as a friend.” Ada continued to attend Babbage’s Saturday night soirées. He sent her an invitation enticing her to come to see the “Silver Lady,” one of the two automatic dolls he had. In Passages he described one of the dolls, “whose eyes were filled with imagination . . . ”; however, from Ada’s letters to Mrs Somerville, it appears that she was more captivated by the Difference Engine than by the “Silver Lady.”"
+    pages: "Kindle loc. 726"
+
+
+- model: parties.source
+  pk: "Clayden1889a"
+  fields:
+    source: "Clayden (1889)"
+    quote: "“Babbage’s parties are becoming blue with Lady Morgan, Miss Jane Porter, &c.”"
+    pages: "116"
+
+
+- model: parties.source
+  pk: "Clayden1889b"
+  fields:
+    source: "Clayden (1889)"
+    quote: "“Babbage had a very blue party last Saturday. Lady Morgan, Miss Jane Porter, &c., &c.”"
+    pages: "120"
+
+
+- model: parties.source
+  pk: "Faraday1993"
+  fields:
+    source: "Faraday (1993)"
+    quote: "“The information obtained from Mr Babbage on Saturday Evening respecting the Argostoli stream was so far complete that I will not trouble you any further about the matter but write out to Sir Howard Douglas & tell him what we know of the case here & what hands it is in.”"
+    pages: "346"
+
+
+- model: parties.source
+  pk: "Lyell1881a"
+  fields:
+    source: "(Lyell 1881)"
+    quote: "“We dine to-day (June 4) with the Somervilles, and in the evening Babbage gives one of his evening meetings which are very brilliantly attended by fashionable ladies, as well as literary and scientific gents, and where one meets with persons high in all professions, and with distinguished foreigners.”"
+    pages: "466"
+
+
+- model: parties.source
+  pk: "Lyell1881b"
+  fields:
+    source: "(Lyell 1881)"
+    quote: "“We dine to-day (June 4) with the Somervilles, and in the evening Babbage gives one of his evening meetings which are very brilliantly attended by fashionable ladies, as well as literary and scientific gents, and where one meets with persons high in all professions, and with distinguished foreigners.”"
+    pages: ""
+
+
+- model: parties.source
+  pk: "Lyell1881c"
+  fields:
+    source: "(Lyell 1881)"
+    quote: "“At Babbage’s yesterday, there was much talk of Wheatstone’s new plan for telegraphing information by five wires conducting electricity [...] The experiment Mr. J. Taylor said had, according to Wheatstone, conveyed information through a rope five miles long [...]"
+    pages: "13"
+
+
+- model: parties.source
+  pk: "Ticknor1880"
+  fields:
+    source: "Ticknor (1880)"
+    quote: "“About eleven o’clock we got away from Lord Fitzwilliam’s and went to Mr Babbage’s. It was very crowded tonight, and very brilliant; for among the people there were Hallam, Milman and his pretty wife; the Bishop of Norwich, Stanley, the Bishop of Hereford, Musgrave, both the Hellenists; Rogers, Sir J. Herschel and his beautiful wife, Sedgwick, Mrs Somerville and her daughters, Senior, the Taylors, Sir F. Chantrey, Jane Porter, Lady Morgan, and I know not how many others. We seemed really to know as many people as we should in a party at home, which is a rare thing in a strange capital, and rarest of all in this vast overgrown London. Notwithstanding, therefore, our fatiguing day, we enjoyed it very much.”"
+    pages: "178"
+
+
+- model: parties.source
+  pk: "Coolidge2013a"
+  fields:
+    source: "Coolidge"
+    quote: "“Here was a gathering of the elect, a ‘re-union’ of literary & scientific men, artists, authors, celebrities of both sexes. Those who like myself had no claim of learning or letters for admittance into so choice an assembly, could only rejoice in the opportunity of seeing so many Lions in one cage. We had, Mr Babbage himself the inventor of the famous calculating machine. . .”"
+    pages: ""
+
+
+- model: parties.source
+  pk: "Coolidge2013b"
+  fields:
+    source: "oolidge"
+    quote: "“The persons . . . whom I meet in society have all, more or less, the same style of manners and of dress, and their ordinary conversation is pitched nearly in the same key. They vary because Nature has put it out of their power to conform in all things to a given standard, but they vary as little as they can. This, in general society, produces a certain amount of insipidity, a want of heartiness, or earnestness, of any sort of warmth or glow. At [Babbage’s] saturday evening parties, where so many political, literary, scientific & artistic characters assemble, I should say that the distinguishing mark was want of all character for good or evil. . . . [I]t seems a pity that Babbage, Hallam, Whewell, Wilkie &c &c should move about requiring . . . to have labels pinned to their backs, in order to tell one from another.”"
+    pages: ""
+
+
+- model: parties.source
+  pk: "Macready1875a"
+  fields:
+    source: "Macready (1875)"
+    quote: "“Went to Babbage’s conversazione, where I saw Faraday, Wilkie, Chantrey, Hawes, who told me that the House gave me a lusty cheer on the occasion of Lord John Russell’s mention of my name. Babbage showed me a very curious machine to mark on paper the velocity of a steam-carriage, &c., its shakings both vertical and horizontal: also an effect of the sun’s rays on glass laid over a certain composition, which gives shade all round the object placed between the glass and composition. Sidney Smith, Lord Northampton, Mrs. Marcet, I also Saw.”"
+    pages: "140"
+
+
+- model: parties.source
+  pk: "Toole1998b"
+  fields:
+    source: "Toole (1998)"
+    quote: "“Satdy next will suit us perfectly, but we hope you will stay on as far into the following week, as possible.”"
+    pages: "84"
+
+
+- model: parties.source
+  pk: "Talbot1840"
+  fields:
+    source: "(Talbot 1840)"
+    quote: "“My pictures had great success at Mr Babbage's last night, Sir David Wilkie and Sir Francis Chantrey happened to be there & admired them.”"
+    pages: ""
+
+
+- model: parties.source
+  pk: "Macready1875b"
+  fields:
+    source: "Macready (1875)"
+    quote: "“David Colden came into my room and accompanied me to Babbage’s, where I saw Sidney Smith, Professor Wheatstone, the Brockedons, two or three whom I knew, but not by name, Harness, Travers, Hawes, Lady Stepney, Dr. Arnott Milman, the Bishop of Norwich (Stanley), who wished to be known to me. I had a very interesting conversation with him, a man I admire and reverence so much, speaking with great warmth of the effort I had made and the probable effect it carried out. I was very much pleased with him.”"
+    pages: "159"
+
+
+- model: parties.source
+  pk: "Macready1912"
+  fields:
+    source: "Macready (1912)"
+    quote: "“Talfourd came into my room. [...] Dickens came, and we went in his carriage, all three to Babbage's. The room was very much crowded, but I saw few that I knew there – Wheatstone, Edward Kater, Lady Stepney, and Rogers, who invited Dickens and myself to dine with him on Sunday fortnight. Talfourd left us soon; Dickens set me down.”"
+    pages: "59"
+
+
+- model: parties.source
+  pk: "Darwin1840"
+  fields:
+    source: "(Darwin 1840)"
+    quote: "“I have called with this note to beg a favour of you. M. Sismondi, the historian & Madam Sismondi (my wife’s aunt) have just arrived in England and are coming together with Miss Allen to stay with us, would you, therefore, permit us to bring them to the parties, you have been kind enough to ask us to.”"
+    pages: ""
+
+
+- model: parties.source
+  pk: "Hensel1881"
+  fields:
+    source: "Hensel (1881)"
+    quote: "“Mr. Babbage gave me for the latter a pamphlet giving an account of his calculating machine, which I have brought to Soden. He gives such evening parties, frequented by all the celebrities – Indian princes, Baron Gerlach, the beauties of the season, Lord Ossulstone, and myself.”"
+    pages: "293"
+
+
+- model: parties.source
+  pk: "Talbot1844"
+  fields:
+    source: "Talbot (1844)"
+    quote: "“Many thanks for the loan of those  beautiful photographs. They were much admired last Saturday Evg... In the meantime I gave Lady Byron a treat to whom I lent them for a few hours.”"
+    pages: ""
+
+
+- model: parties.source
+  pk: "Pollock1887"
+  fields:
+    source: "(Pollock 1887)"
+    quote: "“To Babbage's where were some foreign men of science–Dupin, Jobard; Sir John Hershel, and Sir David Brewster, but altogether not more than a dozen people.”"
+    pages: "293-294"
+
+
+- model: parties.source
+  pk: "Dodge1873"
+  fields:
+    source: "(Dodge, 1873)"
+    quote: "“Of Faraday, on the contrary, he was an ardent admirer. Among all the guests who used to assemble in Dorset street, and who took part in those delightful entertainments that made Mr. Babbage’s house almost as famous for the flavor of its society as Charles Lamb’s was at an earlier day, no one was more honored than the Secretary of the Royal Institution.”"
+    pages: "240"
+
+
+- model: parties.source
+  pk: "Longfellow1886"
+  fields:
+    source: "(Longfellow, 1886)"
+    quote: "“spending an evening at Mr. Babbage's, where were Miss Jane Porter, Lady Morgan, Mr. Hayward the translator of Faust, and Mrs. Blackwood and Lady Seymour, the reigning beauties.”"
+    pages: "204"
+
+
+- model: parties.source
+  pk: "Bunbury2011a"
+  fields:
+    source: "(Bunbury, Bunbury, and Lyell 2011)"
+    quote: "“April 26th. We went to Babbage's evening party, which was a very agreeable one, and less inconveniently crowded than usual.”"
+    pages: "59"
+
+
+- model: parties.source
+  pk: "Bunbury2011b"
+  fields:
+    source: "(Bunbury, Bunbury, and Lyell 2011)"
+    quote: "“Babbage's evening party and enjoyed it much. There was a great variety of people. I met many whom I knew and liked, and had much pleasant talk, especially with Sir Edward Ryan, John Moore and his brother, Dr. Falconer, and Mrs Milner”"
+    pages: "228"
+
+
+- model: parties.source
+  pk: "Bunbury2011c"
+  fields:
+    source: "(Bunbury, Bunbury, and Lyell 2011)"
+    quote: "“Babbage's party this evening, the celebrated Charles Dickens was pointed out to me. His appearance, I must say, is not much in his favour, though he has certainly a clever countenance.”"
+    pages: "118"
+
+
+- model: parties.source
+  pk: "Morgan1863"
+  fields:
+    source: "Morgan1863"
+    quote: "“Babbage’s party last night very pleasant; got into mon petit coin—had a minister, a philosopher, a reviewer, a politician, and a dandy, successively sur la sellette. Vanderweyer charming, spirituel and observing. He inspires one with views and opinions similar to his own, and we agree upon most things.”"
+    pages: "299"
+
+
+- model: parties.source
+  pk: "Morgan1862"
+  fields:
+    source: "Morgan1862"
+    quote: "“We did our Babbage last Saturday (his first of the season), where were all the habitues of the good old times, ‘your slave, but now your slave no longer,’ Rogers, gave me a crush of the hand as he passed me in the crowd, and turned his eyes tenderly on me, whilst I averted mine disdainfully; we looked an illustration of Death and the Lady and I had a mind to ask Landseer, who stood near me, to take it for his next subject.”"
+    pages: "474"
+
+

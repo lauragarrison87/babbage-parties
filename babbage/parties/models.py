@@ -10,3 +10,12 @@ class Person(models.Model):
     def __str__(self):
         return f'{self.name} (Q{self.qid})'
 
+
+class Source(models.Model):
+    sid = models.CharField(max_length=80, primary_key=True)
+    source = models.CharField(max_length=80, null=True)
+    quote = models.CharField(max_length=1000, null=False)
+    pages = models.CharField(max_length=80, null=True)
+
+    def __str__(self):
+        return self.sid
