@@ -27,7 +27,7 @@
   fields:
     source: "(Darwin 1839a)"
     quote: "“I am very much obliged to you for your several cards which you have so kindly sent us, & which I should have had greater pleasure in accepting than any other parties, had not I found by dear-bought experience that my health will not at present stand going out in the evening. I am going to take a liberty, which I trust you will excuse; it is to ask permission for my sister who is staying with us to accompany my brother, whom I understand you have also kindly asked, to your party tomorrow evening: Mrs. Darwin not being well enough to go out at present.”"
-    pages: ""
+    pages: null
 
 
 - model: parties.source
@@ -35,7 +35,7 @@
   fields:
     source: "(Darwin 1839b)"
     quote: "“My sister is at present staying with us, will you be so kind as to allow me to bring her to your party on Saturday, that she may see the World.”"
-    pages: ""
+    pages: null
 
 
 - model: parties.source
@@ -43,7 +43,7 @@
   fields:
     source: "(Darwin 1839c)"
     quote: "“Will you have the kindness to excuse me, once again asking your permission to bring with Mrs. Darwin and myself, to your party on Saturday Evening, a relative of ours, Miss Allen  of Cresselly, who is staying with us.”"
-    pages: ""
+    pages: null
 
 
 - model: parties.source
@@ -51,7 +51,7 @@
   fields:
     source: "Toole (1998)"
     quote: "“On 5 June 1833, Ada attended a party where she met Charles Babbage [...]"
-    pages: ""
+    pages: null
 
 
 - model: parties.source
@@ -75,7 +75,7 @@
   fields:
     source: "(Toole 1992)"
     quote: "“Babbage invited Ada to see the miraculous Difference Engine a few weeks after they met. Ada’s impression of the Difference Engine was recalled by Sophia Frend more than fifty years later: “Miss Byron, young as she was, understood its working, and saw the great beauty of the invention.” An excerpt from Lady Byron’s letter to Dr King on 21 June  gives us more information about the first time she went with Ada to see the Difference Engine.”"
-    pages: ""
+    pages: null
 
 
 - model: parties.source
@@ -131,7 +131,7 @@
   fields:
     source: "(Lyell 1881)"
     quote: "“We dine to-day (June 4) with the Somervilles, and in the evening Babbage gives one of his evening meetings which are very brilliantly attended by fashionable ladies, as well as literary and scientific gents, and where one meets with persons high in all professions, and with distinguished foreigners.”"
-    pages: ""
+    pages: null
 
 
 - model: parties.source
@@ -155,7 +155,7 @@
   fields:
     source: "Coolidge"
     quote: "“Here was a gathering of the elect, a ‘re-union’ of literary & scientific men, artists, authors, celebrities of both sexes. Those who like myself had no claim of learning or letters for admittance into so choice an assembly, could only rejoice in the opportunity of seeing so many Lions in one cage. We had, Mr Babbage himself the inventor of the famous calculating machine. . .”"
-    pages: ""
+    pages: null
 
 
 - model: parties.source
@@ -163,7 +163,7 @@
   fields:
     source: "oolidge"
     quote: "“The persons . . . whom I meet in society have all, more or less, the same style of manners and of dress, and their ordinary conversation is pitched nearly in the same key. They vary because Nature has put it out of their power to conform in all things to a given standard, but they vary as little as they can. This, in general society, produces a certain amount of insipidity, a want of heartiness, or earnestness, of any sort of warmth or glow. At [Babbage’s] saturday evening parties, where so many political, literary, scientific & artistic characters assemble, I should say that the distinguishing mark was want of all character for good or evil. . . . [I]t seems a pity that Babbage, Hallam, Whewell, Wilkie &c &c should move about requiring . . . to have labels pinned to their backs, in order to tell one from another.”"
-    pages: ""
+    pages: null
 
 
 - model: parties.source
@@ -187,7 +187,7 @@
   fields:
     source: "(Talbot 1840)"
     quote: "“My pictures had great success at Mr Babbage's last night, Sir David Wilkie and Sir Francis Chantrey happened to be there & admired them.”"
-    pages: ""
+    pages: null
 
 
 - model: parties.source
@@ -211,7 +211,7 @@
   fields:
     source: "(Darwin 1840)"
     quote: "“I have called with this note to beg a favour of you. M. Sismondi, the historian & Madam Sismondi (my wife’s aunt) have just arrived in England and are coming together with Miss Allen to stay with us, would you, therefore, permit us to bring them to the parties, you have been kind enough to ask us to.”"
-    pages: ""
+    pages: null
 
 
 - model: parties.source
@@ -227,7 +227,7 @@
   fields:
     source: "Talbot (1844)"
     quote: "“Many thanks for the loan of those  beautiful photographs. They were much admired last Saturday Evg... In the meantime I gave Lady Byron a treat to whom I lent them for a few hours.”"
-    pages: ""
+    pages: null
 
 
 - model: parties.source

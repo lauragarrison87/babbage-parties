@@ -6,7 +6,7 @@ template = """\
   fields:
     source: "{source}"
     quote: "{quote}"
-    pages: "{pages}"
+    pages: {pages}
 
 """
 
@@ -18,6 +18,10 @@ with open("sources.csv", newline="", encoding="utf8") as f:
         sid, source, quote, pages = line
         if not source or source == '""':
             source = sid
+        if not pages:
+            pages = "null"
+        else:
+            pages = f'"{pages}"'
         print(template.format(sid=sid, source=source, quote=quote, pages=pages))
         
 
