@@ -40,3 +40,16 @@ class Party(models.Model):
         ordering = ["year", "month", "day"]
         verbose_name_plural = "parties"
 
+
+class Guest(models.Model):
+    party = models.ForeignKey(Party, on_delete=models.CASCADE)
+    name = models.ForeignKey(Person, on_delete=models.CASCADE)
+    source = models.ForeignKey(Source, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f"{party}: {name}"
+    
+    class Meta:
+        unique_together = ["party", "name", "source"]
+
+    

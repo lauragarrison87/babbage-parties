@@ -294,3 +294,19 @@
     pages: "474"
 
 
+- model: parties.source
+  pk: "Moore1983"
+  fields:
+    source: "Moore1983"
+    quote: "From the dinner Rogers & I went together to Babbage’s, where we staid but for a short time & then home"
+    pages: "1866"
+
+
+- model: parties.source
+  pk: "Perkins1909"
+  fields:
+    source: "Perkins1909"
+    quote: "We hear of her again from another American, John Van Buren, son of the President of the United States, who had come to England for the Queen's coronation, and was still lingering there in March of the following year. He met her at a reception at Babbage's, standing in a doorway, talking to Mr. Talfourd. She was very gracious to him and he admired her conversation, but her beauty was so unlike the fragile loveliness of his own countrywomen that he was not entirely pleased with 'that superb lump of flesh,' as Sidney Smith once jokingly called her. [...] It was in the summer of this year, 1839, that the Bill for which she had fought so long [...]"
+    pages: "156"
+
+
