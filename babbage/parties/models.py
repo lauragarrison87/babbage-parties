@@ -14,7 +14,7 @@ class Person(models.Model):
 class Source(models.Model):
     sid = models.CharField(max_length=80, primary_key=True)
     source = models.CharField(max_length=80, null=True)
-    quote = models.CharField(max_length=1000, null=False)
+    quote = models.TextField(null=False)
     pages = models.CharField(max_length=80, null=True)
 
     def __str__(self):
