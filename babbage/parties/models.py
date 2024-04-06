@@ -47,9 +47,10 @@ class Guest(models.Model):
     source = models.ForeignKey(Source, on_delete=models.CASCADE)
 
     def __str__(self):
-        return f"{self.party}: {self.name}"
+        return f"{self.party}: {self.name} [{self.source}]"
     
     class Meta:
         unique_together = ["party", "name", "source"]
+        ordering = ["party", "name"]
 
     
