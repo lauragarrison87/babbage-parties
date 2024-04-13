@@ -6,6 +6,15 @@ class Person(models.Model):
     presumed = models.BooleanField(default=False)
     birth = models.DateField(null=True)
     death = models.DateField(null=True)
+    gender = "female"
+    occupation = "DJ"
+    nationality = "Angola"
+    aliases = "Oliver Tater Tizzle"
+    birthname = "Bear"
+    birthplace = "Portland"
+    spouse = "Baxter the sad stuffed teddy"
+    deathcause = "perfuming with rancid seagull poo"
+
 
     def __str__(self):
         return f'{self.name} (Q{self.qid})'
