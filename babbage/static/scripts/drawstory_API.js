@@ -41,7 +41,7 @@ async function drawStory(url){
 
     // 4. create scales 
     const xScale = d3.scaleTime()
-        .domain([dateParser("1830-01-01"),dateParser("1850-01-01")])
+        .domain([dateParser("1830-01-01"),dateParser("1851-01-01")])
         .range([0, (dimensions.boundedWidth - 2)])
         .nice()
 
@@ -58,12 +58,13 @@ async function drawStory(url){
     const lineGenerator = d3.line()
         .x(p => xScale(xAccessor(p)))
         .y(p => yScale(yAccessor(p)))
-        .curve(d3.curveNatural)
+        //.curve(d3.curveNatural)
 
     let guest_group = bounds.selectAll("g")
         .data(guests)
         .enter()
         .append("g")
+        .text(g => g.name)
 
     guest_group.append("path")
         .attr("d", g => lineGenerator(g.parties)) 
@@ -74,9 +75,10 @@ async function drawStory(url){
     guest_group.selectAll("circle")
         .data(g => g.parties)
         .enter().append("circle")
-            .attr("cx", d => xScale(xAccessor(d)))
-            .attr("cy", d => yScale(yAccessor(d)))
+            .attr("cx", p => xScale(xAccessor(p)))
+            .attr("cy", p => yScale(yAccessor(p)))
             .attr("r", 4)
+            .text(p=> [p.year, p.month, p.day]) //for debugging
 
 
     // 6. draw peripherals 

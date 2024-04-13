@@ -79,9 +79,23 @@ def get_visdata_by_party(request):
 
     return JsonResponse(response)
 
+static_party_number = {}
+MAX_PARTY_NUM = 0
+def generate_ypos_by_party(party):
+    if not static_party_number:
+        all_parties = Party.objects.all()
+        for i,p in enumerate(all_parties):
+            static_party_number[p] = i
+        global MAX_PARTY_NUM
+        MAX_PARTY_NUM = i
+        
 
-def generate_ypos():
-    return random.random()
+    return (static_party_number[party] + 0.5*random.random()) / MAX_PARTY_NUM
+
+
+def generate_ypos_by_person(person):
+    
+    return (static_party_number[party] + 0.5*random.random()) / MAX_PARTY_NUM
 
 
 def get_visdata_by_person(request):
@@ -97,16 +111,31 @@ def get_visdata_by_person(request):
             "birthdate": person.birth if person.birth else "null",
             "deathdate": person.death if person.death else "null",
             "parties" : [],
+            "personal_yval" : random.random(),
         }
+        
     
-    for mention in Guest.objects.order_by("party"):
+    for mention in (
+            Guest.objects
+            .select_related("party","name")
+            .order_by("party")
+        ):
         response['people'][mention.name.qid]['parties'].append(
             {
                 "year": mention.party.year,
                 "month": mention.party.month if mention.party.month else 6,
                 "day": mention.party.day if mention.party.day else 1,
-                "ypos": generate_ypos(),
+                "ypos": response['people'][mention.name.qid]["personal_yval"],
             }
         )
+    popular_people = []
+    for key, value in response["people"].items():
+        print(len(value["parties"]))
+        if len(value["parties"]) > 1:
+            popular_people.append(value)
 
-    return JsonResponse(list(response["people"].values()), safe=False)
+    print(*popular_people, sep="\n")
+
+
+    # return JsonResponse(list(response["people"].values()), safe=False)
+    return JsonResponse(popular_people, safe=False)
