@@ -3,7 +3,10 @@
     {% if all_people %}
         <ul>
         {% for p in all_people %}
-            <li>{{ p.name }} {{ p.qid }}</li>
+            <li>
+                <a href="{% url 'person' p.qid %}">{{ p.name }}</a>
+                {{ p.qid }}
+            </li>
         {% endfor %}
         </ul>
     {% else %}
