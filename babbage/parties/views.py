@@ -10,6 +10,11 @@ def index(request):
     template = loader.get_template("parties/index.html")
     return HttpResponse(template.render(context, request))
 
+def balloon(request):
+    context = {'title' : 'Party Balloons'}
+    template = loader.get_template("parties/balloon.html")
+    return HttpResponse(template.render(context, request))
+
 def person_list(request):
     all_people = Person.objects.order_by("name")
     template = loader.get_template("parties/person/index.html")
@@ -58,8 +63,7 @@ def person_qid(request, qid):
     return HttpResponse(template.render(context, request))
 
 
-def get_visdata_by_party(request):
-    # party date, person
+def api_balloon(request):
     all_parties = Party.objects.all()
     response = {
         'parties' : {},
@@ -67,17 +71,20 @@ def get_visdata_by_party(request):
     for party in all_parties:
         print(party.year, party.month)
         response['parties'][party.pid] = {
+                "pid" : party.pid,
                 "year": party.year,
                 "month": party.month if party.month else 6,
                 "day": party.day if party.day else 1,
                 "guests": [],
+                "party_size": 0,
+                "ypos": random.random(),
             }
     
     for mention in Guest.objects.all():
         response['parties'][mention.party.pid]['guests'].append(mention.name.qid)
+        response['parties'][mention.party.pid]["party_size"] += 1
 
-
-    return JsonResponse(response)
+    return JsonResponse(list(response["parties"].values()), safe=False)
 
 static_party_number = {}
 MAX_PARTY_NUM = 0
@@ -92,10 +99,6 @@ def generate_ypos_by_party(party):
 
     return (static_party_number[party] + 0.5*random.random()) / MAX_PARTY_NUM
 
-
-def generate_ypos_by_person(person):
-    
-    return (static_party_number[party] + 0.5*random.random()) / MAX_PARTY_NUM
 
 
 def get_visdata_by_person(request):
