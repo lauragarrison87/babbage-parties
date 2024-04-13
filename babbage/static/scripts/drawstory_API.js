@@ -2,8 +2,7 @@ async function drawStory(url){
 
     // 1. access data
     let guests = await d3.json(url)
-    console.log(guests[1])
-
+   
     // helper functions to transform data /////
     const dateParser = d3.timeParse("%Y-%m-%d")
     
@@ -53,9 +52,6 @@ async function drawStory(url){
 
 
     // 5. draw data 
-    console.log("AAARGH", guests);
-
-
     const xAccessor = p => dateParser(p.year + "-" + p.month + "-" + p.day);
     const yAccessor = p => p.ypos;
 
@@ -64,10 +60,10 @@ async function drawStory(url){
         .y(p => yScale(yAccessor(p)))
         .curve(d3.curveNatural)
 
-    let guest_group = bounds.selectAll('sdhfbsdjh')
+    let guest_group = bounds.selectAll("g")
         .data(guests)
         .enter()
-        .append('g').text(g => g.name)
+        .append("g")
 
     guest_group.append("path")
         .attr("d", g => lineGenerator(g.parties)) 
