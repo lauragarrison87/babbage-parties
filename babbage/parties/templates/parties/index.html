@@ -35,10 +35,10 @@
     
 
     <script src="{% static 'scripts/d3.v6.js' %}"></script>
-    <script src="{% static 'scripts/drawstory.js' %}"></script>
+    <script src="{% static 'scripts/drawstory_API.js' %}"></script>
     <script>
         console.log("Hey, look at me!");
-        drawStory("{% static 'data/parties-imputed-date.csv' %}");
+        drawStory("{% url 'get_visdata' %}");
     </script>
 </body>
 </html>
