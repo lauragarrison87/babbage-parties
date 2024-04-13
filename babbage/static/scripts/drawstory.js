@@ -1,7 +1,8 @@
-async function drawStory(){
+async function drawStory(csvfile){
 
+    console.log("Looking at " + csvfile);
     // 1. access data
-    let dataset = await d3.csv("./parties-imputed-date.csv")
+    let dataset = await d3.csv(csvfile)
 
     // helper functions to transform data /////
     const dateParser = d3.timeParse("%Y-%m-%d")
@@ -157,5 +158,3 @@ async function drawStory(){
     }
 
 }
-
-drawStory();

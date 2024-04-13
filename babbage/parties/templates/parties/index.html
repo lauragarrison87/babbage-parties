@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,6 +25,8 @@
     </style>
 </head>
 <body>
+    {{ foobar }}
+
     <div id="storylines">
         <div id="tooltip" class="tooltip">
             Name: <span id="names"></span>
@@ -30,7 +34,11 @@
     </div>
     
 
-    <script src="./d3.v6.js"></script>
-    <script src="./drawstory.js"></script>
+    <script src="{% static 'scripts/d3.v6.js' %}"></script>
+    <script src="{% static 'scripts/drawstory.js' %}"></script>
+    <script>
+        console.log("Hey, look at me!");
+        drawStory("{% static 'data/parties-imputed-date.csv' %}");
+    </script>
 </body>
 </html>
