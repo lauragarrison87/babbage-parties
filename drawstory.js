@@ -7,10 +7,6 @@ async function drawStory(){
     const dateParser = d3.timeParse("%Y-%m-%d")
     const partyGuestCount = d3.rollup(dataset, D => D.length, d => d.date_imputed);//, (d) => d.guest);
 
-    // this is another way to try to show the lines for each party guest 
-    const partyGuest = d3.rollup(dataset, D => D.length,(d) => d.guest, d => d.date_imputed);
-    console.log(partyGuest)
-
     let guests = Array.from(d3.group(dataset, (d) => d.guest).keys()); 
 
     let guestsDict = {}
@@ -22,6 +18,7 @@ async function drawStory(){
         //     value: Math.random() //just for now something to try 
         // })
         guestsDict[guests[g]] = Math.random() //TODO can I add this instead to the dataset as a new column? Would let me then get rid of guestsDict as its own separate thing 
+        //dataset.push() something like this I think?
     }
 
     // nested function for use in d3.filter() when drawing lines for each party guest 
@@ -30,6 +27,13 @@ async function drawStory(){
             return d.guest == guest
         }
     }
+
+    // this is another way to try to show the lines for each party guest 
+    const partyGuest = d3.rollup(dataset, D => D.length,(d) => d.guest, d => d.date_imputed);
+    // https://observablehq.com/@d3/multi-line-chart/2
+    // const points = unemployment.map((d) => [x(d.date), y(d.unemployment), d.division]);
+    // const groups = d3.rollup(points, v => Object.assign(v, {z: v[0][2]}), d => d[2]);
+    console.log(partyGuest)
 
     // accessor functions for charting //////
     const xAccessor = d => dateParser(d.date_imputed)
