@@ -42,7 +42,7 @@ async function drawStory(url){
 
     // 4. create scales 
     const xScale = d3.scaleTime()
-        .domain([dateParser("1830-01-01"),dateParser("1860-01-01")])
+        .domain([dateParser("1830-01-01"),dateParser("1850-01-01")])
         .range([0, (dimensions.boundedWidth - 2)])
         .nice()
 
@@ -54,32 +54,34 @@ async function drawStory(url){
 
     // 5. draw data 
     console.log("AAARGH", guests);
-    for (const g of guests) {
-        // accessor functions for charting //////
-        const xAccessor = p => dateParser(p.year + "-" + p.month + "-" + p.day);
-        const yAccessor = p => g.ypos;
 
-        const lineGenerator = d3.line()
-            .x(p => xScale(xAccessor(p)))
-            .y(p => yScale(yAccessor(p)))
-            //.curve(d3.curveNatural)
-        
-        console.log(g.parties)
-        const line = bounds.append("path")
-            .attr("d", lineGenerator(g.parties)) 
-            .attr("fill", "none")
-            .attr("stroke", "#af9358")
-            .attr("stroke-width", 2)
 
-        const dots = bounds.selectAll("circle")
-            .data(g.parties)
-            .enter().append("circle")
-                .attr("cx", d => xScale(xAccessor(d)))
-                .attr("cy", d => yScale(yAccessor(d)))
-                .attr("r", 4)
-    }
+    const xAccessor = p => dateParser(p.year + "-" + p.month + "-" + p.day);
+    const yAccessor = p => p.ypos;
 
-    
+    const lineGenerator = d3.line()
+        .x(p => xScale(xAccessor(p)))
+        .y(p => yScale(yAccessor(p)))
+        .curve(d3.curveNatural)
+
+    let guest_group = bounds.selectAll('sdhfbsdjh')
+        .data(guests)
+        .enter()
+        .append('g').text(g => g.name)
+
+    guest_group.append("path")
+        .attr("d", g => lineGenerator(g.parties)) 
+        .attr("fill", "none")
+        .attr("stroke", "#af9358")
+        .attr("stroke-width", 2)
+
+    guest_group.selectAll("circle")
+        .data(g => g.parties)
+        .enter().append("circle")
+            .attr("cx", d => xScale(xAccessor(d)))
+            .attr("cy", d => yScale(yAccessor(d)))
+            .attr("r", 4)
+
 
     // 6. draw peripherals 
     const xAxisGenerator = d3.axisBottom()

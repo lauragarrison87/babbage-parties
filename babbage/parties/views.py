@@ -80,7 +80,12 @@ def get_visdata_by_party(request):
     return JsonResponse(response)
 
 
+def generate_ypos():
+    return random.random()
+
+
 def get_visdata_by_person(request):
+
     all_people = Person.objects.order_by("name")
     response = {
         'people' : {},
@@ -92,7 +97,6 @@ def get_visdata_by_person(request):
             "birthdate": person.birth if person.birth else "null",
             "deathdate": person.death if person.death else "null",
             "parties" : [],
-            "ypos" : random.random()
         }
     
     for mention in Guest.objects.order_by("party"):
@@ -101,6 +105,7 @@ def get_visdata_by_person(request):
                 "year": mention.party.year,
                 "month": mention.party.month if mention.party.month else 6,
                 "day": mention.party.day if mention.party.day else 1,
+                "ypos": generate_ypos(),
             }
         )
 
