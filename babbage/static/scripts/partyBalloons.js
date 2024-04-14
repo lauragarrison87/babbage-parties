@@ -69,6 +69,7 @@ async function drawBalloons(url){
         .attr("x2", p => xScale(xAccessor(p)))
         .attr("y2", dimensions.boundedHeight)
         .attr("stroke", "gray")
+        .attr("class", "zoomable")
 
     
     party_group.append("circle")
@@ -77,23 +78,8 @@ async function drawBalloons(url){
         .attr("r", p => p.party_size * 4)
         .attr("fill", "pink")
         .attr("stroke", "gray")
+        .attr("class", "zoomable")
     
-    
-
-    // guest_group.append("path")
-    //     .attr("d", g => lineGenerator(g.parties)) 
-    //     .attr("fill", "none")
-    //     .attr("stroke", "#af9358")
-    //     .attr("stroke-width", 2)
-
-    // guest_group.selectAll("circle")
-    //     .data(g => g.parties)
-    //     .enter().append("circle")
-    //         .attr("cx", p => xScale(xAccessor(p)))
-    //         .attr("cy", p => yScale(yAccessor(p)))
-    //         .attr("r", 4)
-    //         .text(p=> [p.year, p.month, p.day]) //for debugging
-
 
     // 6. draw peripherals 
     const xAxisGenerator = d3.axisBottom()
@@ -105,8 +91,59 @@ async function drawBalloons(url){
             dimensions.boundedHeight
         }px)`)
 
+    const yAxisGenerator = d3.axisLeft()
+        .scale(yScale)
+
+    const yAxis = bounds.append("g")
+        //.call(yAxisGenerator)
+        // .style("transform", `translateX(${
+        //     0
+        // }px)`)
+
 
     // 7. Interaction stuff 
+
+    // Creating a zoom object
+    var zoom = d3.zoom()
+      .scaleExtent([0.5, 20])
+      .extent([[0, 0], [dimensions.boundedWidth, dimensions.boundedHeight]])
+      .on('zoom', updateZoom);
+
+    wrapper
+      .style('pointer-events', 'all')
+      .call(zoom);
+
+    // function to redraw while zooming (from https://stackoverflow.com/questions/66808447/how-can-i-zoom-into-this-graph-using-d3v6)
+    function updateZoom() {
+      console.log('zoomed')
+      // get the new scale
+      var transform = d3.zoomTransform(this);
+      var newX = transform.rescaleX(xScale);
+      var newY = transform.rescaleY(yScale);
+
+      // update the axes
+      xAxis.call(d3.axisBottom(newX));
+      //yAxis.call(d3.axisLeft(newY));
+
+
+      // update the chart
+      d3.selectAll("line.zoomable")
+        .attr("x1", p => newX(xAccessor(p)))
+        .attr("y1", p => newY(yAccessor(p)))
+        .attr("x2", p => newX(xAccessor(p)))
+        //.attr("y2", dimensions.boundedHeight)
+
+
+      d3.selectAll('circle.zoomable')
+          .attr('cx', function (p) {
+            console.log(newX(xAccessor(p)), newX(yAccessor(p)))
+
+            return newX(xAccessor(p));
+          })
+          .attr('cy', function (p) {
+            return newY(yAccessor(p));
+          })
+    }
 
     // // Tooltips
     // bounds.selectAll("circle")
