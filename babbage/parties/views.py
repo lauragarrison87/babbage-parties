@@ -11,7 +11,7 @@ def index(request):
     return HttpResponse(template.render(context, request))
 
 def balloon(request):
-    context = {'title' : 'Party Balloons'}
+    context = {}
     template = loader.get_template("parties/balloon.html")
     return HttpResponse(template.render(context, request))
 

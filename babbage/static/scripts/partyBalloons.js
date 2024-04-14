@@ -103,6 +103,14 @@ async function drawBalloons(url){
             dimensions.boundedHeight + dimensions.margin.top
         }px)`)
 
+    xAxis.append("text")
+        .attr("class", "axis-label")
+        .attr("x", dimensions.boundedWidth/2)
+        .attr("y", dimensions.margin.bottom)
+        .attr("fill","black")
+        .style("font-size", "1.3em")
+        .text("Date of event")
+
     // 7. Interaction 
 
     // Creating a zoom object
