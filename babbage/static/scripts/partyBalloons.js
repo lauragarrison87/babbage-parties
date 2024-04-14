@@ -114,10 +114,10 @@ async function drawBalloons(url){
       .call(zoom);
 
     // function to redraw while zooming (from https://stackoverflow.com/questions/66808447/how-can-i-zoom-into-this-graph-using-d3v6)
-    function updateZoom() {
+    function updateZoom(event) {
       console.log('zoomed')
       // get the new scale
-      var transform = d3.zoomTransform(this);
+      var transform = event.transform;
       var newX = transform.rescaleX(xScale);
       var newY = transform.rescaleY(yScale);
 
@@ -135,16 +135,11 @@ async function drawBalloons(url){
 
 
       d3.selectAll('circle.zoomable')
-          .attr('cx', function (p) {
-            console.log(newX(xAccessor(p)), newX(yAccessor(p)))
-
-            return newX(xAccessor(p));
-          })
-          .attr('cy', function (p) {
-            return newY(yAccessor(p));
-          })
+          .attr('cx', p => newX(xAccessor(p)))
+          .attr('cy', p => newY(yAccessor(p)))
+          .attr('r',  p => p.party_size * 4 * transform.k)
+    
     }
-
     // // Tooltips
     // bounds.selectAll("circle")
     //     .on("mouseenter", onMouseEnter)
