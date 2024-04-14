@@ -104,6 +104,20 @@ async function drawBalloons(url){
     // 7. Interaction stuff 
 
     // Creating a zoom object
+    wrapper.append("defs").append("clipPath")
+            .attr("id", "clip")
+            .append("rect")
+            .attr("width", dimensions.boundedWidth)
+            .attr("height", dimensions.boundedHeight);
+    
+
+    wrapper.attr("clip-path","url(#clip)")
+        .style("transform", `translate(${
+            dimensions.margin.left
+        }px, ${
+            dimensions.margin.top
+        }px)`)
+
     var zoom = d3.zoom()
       .scaleExtent([0.5, 20])
       .extent([[0, 0], [dimensions.boundedWidth, dimensions.boundedHeight]])
