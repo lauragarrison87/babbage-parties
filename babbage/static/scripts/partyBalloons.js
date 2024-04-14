@@ -2,7 +2,9 @@ async function drawBalloons(url){
 
     // 1. access data
     let parties = await d3.json(url)
-    console.table(parties[0])
+    //console.table(parties[0])
+
+    const partySizeFactor = 4
    
     // helper functions to transform data /////
     const dateParser = d3.timeParse("%Y-%m-%d")
@@ -27,17 +29,25 @@ async function drawBalloons(url){
 
 
     // 3. draw canvas 
-    const wrapper = d3.select("#storylines")
+    const svg = d3.select("#storylines")
     .append("svg")
       .attr("width", dimensions.width)
       .attr("height", dimensions.height)
 
-    const bounds = wrapper.append("g")
+    const drawArea = svg.append("g")
         .style("transform", `translate(${
             dimensions.margin.left
         }px, ${
             dimensions.margin.top
         }px)`)
+    
+    drawArea.append("defs").append("clipPath")
+        .attr("id", "clip")
+        .append("rect")
+        .attr("width", dimensions.boundedWidth)
+        .attr("height", dimensions.boundedHeight)
+        
+    drawArea.attr("clip-path","url(#clip)");
 
 
     // 4. create scales 
@@ -57,7 +67,7 @@ async function drawBalloons(url){
     const yAccessor = p => p.ypos;
 
 
-    let party_group = bounds.selectAll("g")
+    let party_group = drawArea.selectAll("g")
         .data(parties)
         .enter()
         .append("g")
@@ -75,7 +85,7 @@ async function drawBalloons(url){
     party_group.append("circle")
         .attr("cx", p => xScale(xAccessor(p)))
         .attr("cy", p => yScale(yAccessor(p)))
-        .attr("r", p => p.party_size * 4)
+        .attr("r", p => p.party_size * partySizeFactor)
         .attr("fill", "pink")
         .attr("stroke", "gray")
         .attr("class", "zoomable")
@@ -85,51 +95,28 @@ async function drawBalloons(url){
     const xAxisGenerator = d3.axisBottom()
         .scale(xScale)
 
-    const xAxis = bounds.append("g")
+    const xAxis = svg.append("g") 
         .call(xAxisGenerator)
-        .style("transform", `translateY(${
-            dimensions.boundedHeight
-        }px)`)
-
-    const yAxisGenerator = d3.axisLeft()
-        .scale(yScale)
-
-    const yAxis = bounds.append("g")
-        //.call(yAxisGenerator)
-        // .style("transform", `translateX(${
-        //     0
-        // }px)`)
-
-
-    // 7. Interaction stuff 
-
-    // Creating a zoom object
-    wrapper.append("defs").append("clipPath")
-            .attr("id", "clip")
-            .append("rect")
-            .attr("width", dimensions.boundedWidth)
-            .attr("height", dimensions.boundedHeight);
-    
-
-    wrapper.attr("clip-path","url(#clip)")
         .style("transform", `translate(${
             dimensions.margin.left
         }px, ${
-            dimensions.margin.top
+            dimensions.boundedHeight + dimensions.margin.top
         }px)`)
 
+    // 7. Interaction 
+
+    // Creating a zoom object
     var zoom = d3.zoom()
-      .scaleExtent([0.5, 20])
+      .scaleExtent([0.5, 7])
       .extent([[0, 0], [dimensions.boundedWidth, dimensions.boundedHeight]])
       .on('zoom', updateZoom);
 
-    wrapper
+    svg
       .style('pointer-events', 'all')
       .call(zoom);
 
     // function to redraw while zooming (from https://stackoverflow.com/questions/66808447/how-can-i-zoom-into-this-graph-using-d3v6)
     function updateZoom(event) {
-      console.log('zoomed')
       // get the new scale
       var transform = event.transform;
       var newX = transform.rescaleX(xScale);
@@ -137,7 +124,6 @@ async function drawBalloons(url){
 
       // update the axes
       xAxis.call(d3.axisBottom(newX));
-      //yAxis.call(d3.axisLeft(newY));
 
 
       // update the chart
@@ -151,7 +137,7 @@ async function drawBalloons(url){
       d3.selectAll('circle.zoomable')
           .attr('cx', p => newX(xAccessor(p)))
           .attr('cy', p => newY(yAccessor(p)))
-          .attr('r',  p => p.party_size * 4 * transform.k)
+          .attr('r',  p => p.party_size * partySizeFactor * transform.k)
     
     }
     // // Tooltips
