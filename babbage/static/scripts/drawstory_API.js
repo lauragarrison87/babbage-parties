@@ -62,8 +62,7 @@ async function drawStory(url){
 
     let guest_group = bounds.selectAll("g")
         .data(guests)
-        .enter()
-        .append("g")
+        .join("g")
         .text(g => g.name)
 
     guest_group.append("path")
@@ -74,7 +73,7 @@ async function drawStory(url){
 
     guest_group.selectAll("circle")
         .data(g => g.parties)
-        .enter().append("circle")
+        .join("circle")
             .attr("cx", p => xScale(xAccessor(p)))
             .attr("cy", p => yScale(yAccessor(p)))
             .attr("r", 4)
