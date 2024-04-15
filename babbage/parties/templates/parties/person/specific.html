@@ -1,4 +1,8 @@
-<html>
+{% load helper_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <body>
         <h1>{{ p }}</h1>
         This is {{ p.name }}. 
@@ -82,7 +86,9 @@
             <ul>
             {% for party in parties %}
                 <li>
-                    <h3>{{ party.party }}</h3>
+                    <h3>{{ party.pt.day|default_if_none:'' }} 
+                        {{ party.pt.month|month }} 
+                        {{ party.pt.year }}</h3>
                     {{ party.quote }}
                     {% if party.others %}
                         <h4>Other guests were:</h4>

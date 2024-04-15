@@ -51,7 +51,7 @@ def person_qid(request, qid):
         others = [ g.guest.name for g in other_guests ]
         parties.append(
             {
-                'party' : party,
+                'pt' : party,
                 'quote' : quote,
                 'others' : others,
             }
