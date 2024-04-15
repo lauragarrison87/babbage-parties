@@ -18,7 +18,7 @@ with open("parties.csv", newline="", encoding="utf8") as f:
         party,_,qid,_,source,_,_ = line
         if qid == "Unknown":
             qid = 'Q24238356'
-        qid = int(qid[1:])
+        qid = qid.strip()
         print(template.format(party=party, name=qid, source=source))
         
         

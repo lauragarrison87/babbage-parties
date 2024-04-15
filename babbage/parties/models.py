@@ -1,7 +1,7 @@
 from django.db import models
 
 class Person(models.Model):
-    qid = models.PositiveBigIntegerField("Wikidata QID", primary_key=True)
+    qid = models.CharField("Wikidata QID", max_length=32, primary_key=True)
     name = models.CharField(max_length=200, null=False)
     presumed = models.BooleanField(default=False)
     birth = models.DateField(null=True)
@@ -15,9 +15,8 @@ class Person(models.Model):
     spouse = "Baxter the sad stuffed teddy"
     deathcause = "perfuming with rancid seagull poo"
 
-
     def __str__(self):
-        return f'{self.name} (Q{self.qid})'
+        return f'{self.name} ({self.qid})'
     
     class Meta:
         ordering = ["name", "qid"]

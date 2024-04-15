@@ -2,9 +2,9 @@
     <body>
         <h1>{{ p }}</h1>
         This is {{ p.name }}. 
-        Their QID is Q{{ p.qid }}.
+        Their QID is {{ p.qid }}.
 
-        Their <a href="https://www.wikidata.org/wiki/Q{{ p.qid }}">Wikidata page</a>.
+        Their <a href="https://www.wikidata.org/wiki/{{ p.qid }}">Wikidata page</a>.
 
         {% if p.birth %}    
             They were born on {{ p.birth }}

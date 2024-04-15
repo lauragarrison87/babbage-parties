@@ -21,7 +21,7 @@ with open("guest_qid.csv", newline="", encoding="utf8") as f:
         if qid == "Unknown":
             qid = 'Q24238356' # "entity whose identity is not known"
         presume = bool(presume)
-        qid = int(qid.strip()[1:])
+        qid = qid.strip()
         print(template.format(qid=qid, name=name, presume=presume))
         
 
