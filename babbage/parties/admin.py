@@ -9,6 +9,6 @@ admin.site.register(Source)
 from .models import Party
 admin.site.register(Party)
 
-from .models import Guest
-admin.site.register(Guest)
+from .models import Mention
+admin.site.register(Mention)
 

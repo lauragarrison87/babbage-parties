@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.template import loader
 from django.http import HttpResponse, JsonResponse
-from .models import Person, Guest, Source, Party
+from .models import Person, Mention, Source, Party
 import random
 
 
@@ -31,16 +31,23 @@ def make_pronouns(gender):
 
 def person_qid(request, qid):
     person = Person.objects.get(qid=qid)
-    was_guest_at = Guest.objects.filter(name=person)
-
-    soirees = Guest.objects.select_related("party","source").filter(name=person)
-    
+   
+    soirees = (
+        Mention.objects
+            .filter(name=person)
+            .select_related("party","source")
+    )
     parties_1 = [(s.party, s.source.quote) for s in soirees]
     print(parties_1)
 
     parties = []
     for party, quote in parties_1:
-        other_guests = Guest.objects.filter(party=party).exclude(name=qid).select_related("name")
+        other_guests = (
+            Mention.objects
+                .filter(party=party)
+                .exclude(name=qid)
+                .select_related("name")
+        )
         others = [ g.name.name for g in other_guests ]
         parties.append(
             {
@@ -80,11 +87,13 @@ def api_balloon(request):
                 "ypos": random.uniform(0.1, 0.95),
             }
     
-    for mention in Guest.objects.all():
+    for mention in Mention.objects.all():
         response['parties'][mention.party.pid]['guests'].append(mention.name.qid)
         response['parties'][mention.party.pid]["party_size"] += 1
 
     return JsonResponse(list(response["parties"].values()), safe=False)
+
+###
 
 static_party_number = {}
 MAX_PARTY_NUM = 0
@@ -119,7 +128,7 @@ def get_visdata_by_person(request):
         
     
     for mention in (
-            Guest.objects
+            Mention.objects
             .select_related("party","name")
             .order_by("party")
         ):

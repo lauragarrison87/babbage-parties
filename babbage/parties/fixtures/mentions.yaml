@@ -1,865 +1,865 @@
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1835-05
     name: 546727
     source: Morgan1863
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1835-05
     name: 459275
     source: Morgan1863
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1845-04-26
     name: 27255564
     source: Bunbury2011a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1845-04-26
     name: 1063834
     source: Bunbury2011a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1847-04-24
     name: 18810603
     source: Bunbury2011b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1847-04-24
     name: 1063834
     source: Bunbury2011b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1847-04-24
     name: 5345150
     source: Bunbury2011b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1847-04-24
     name: 16063392
     source: Bunbury2011b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1847-04-24
     name: 223013
     source: Bunbury2011b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1846-02-14
     name: 5686
     source: Bunbury2011c
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1846-02-14
     name: 1063834
     source: Bunbury2011c
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1835-03-14
     name: 3471218
     source: Clayden1889a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1835-03-14
     name: 3161890
     source: Clayden1889a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1835-03-14
     name: 459275
     source: Clayden1889a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839-02-16
     name: 60536153
     source: Coolidge2013a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839-02-16
     name: 1234977
     source: Coolidge2013b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839-02-16
     name: 333922
     source: Coolidge2013b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839-02-16
     name: 902759
     source: Coolidge2013b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839
     name: 55363478
     source: Darwin1839a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839
     name: 5384940
     source: Darwin1839a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839
     name: 1035
     source: Darwin1839b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839
     name: 242147
     source: Darwin1839b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839
     name: 96079996
     source: Darwin1839c
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-06
     name: 124073
     source: Darwin1840
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-06
     name: 96079996
     source: Darwin1840
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-06
     name: 94777333
     source: Darwin1840
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1835
     name: 8750
     source: Dodge1873
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1836-02-20
     name: 8750
     source: Faraday1993
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1836-02-20
     name: 268702
     source: Faraday1993
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1844
     name: 5075542
     source: Hensel1881
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1844
     name: 46096
     source: Hensel1881
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1844
     name: 65780
     source: Hensel1881
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1844
     name: 24238356
     source: Hensel1881
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1835
     name: 4668904
     source: Longfellow1886
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1835
     name: 5548110
     source: Longfellow1886
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1835
     name: 3161890
     source: Longfellow1886
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1835
     name: 5701894
     source: Longfellow1886
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1835
     name: 459275
     source: Longfellow1886
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1835
     name: 152513
     source: Longfellow1886
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1836-06-04
     name: 3296187
     source: Lyell1881a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1836-06-04
     name: 5333
     source: Lyell1881a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1836-06-04
     name: 8018611
     source: Lyell1881b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1836-06-04
     name: 268702
     source: Lyell1881b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1837-05-25
     name: 6260357
     source: Lyell1881c
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1837-05-25
     name: 5333
     source: Lyell1881c
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839-03-15
     name: 637374
     source: Macready1875a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839-03-15
     name: 433093
     source: Macready1875a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839-03-15
     name: 902759
     source: Macready1875a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839-03-15
     name: 4888797
     source: Macready1875a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839-03-15
     name: 8007034
     source: Macready1875a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839-03-15
     name: 8750
     source: Macready1875a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839-03-15
     name: 6182166
     source: Macready1875a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839-03-15
     name: 1476802
     source: Macready1875a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-04-25
     name: 5345414
     source: Macready1875b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-04-25
     name: 6182166
     source: Macready1875b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-04-25
     name: 98558441
     source: Macready1875b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-04-25
     name: 637374
     source: Macready1875b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-04-25
     name: 16065697
     source: Macready1875b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-04-25
     name: 4889308
     source: Macready1875b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-04-25
     name: 4888797
     source: Macready1875b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-04-25
     name: 18575958
     source: Macready1875b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-04-25
     name: 4269655
     source: Macready1875b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-04-25
     name: 156942
     source: Macready1875b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-04-25
     name: 1398302
     source: Macready1875b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-04-25
     name: 4019944
     source: Macready1875b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-05-09
     name: 18575958
     source: Macready1912
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-05-09
     name: 21166109
     source: Macready1912
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-05-09
     name: 156942
     source: Macready1912
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-05-09
     name: 5686
     source: Macready1912
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-05-09
     name: 2426332
     source: Macready1912
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-05-09
     name: 637374
     source: Macready1912
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-05-09
     name: 3471218
     source: Macready1912
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838
     name: 234570
     source: Martineau1855
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1837-04-29
     name: 3471218
     source: Moore1983
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1837-04-29
     name: 315346
     source: Moore1983
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1843-02-04
     name: 5080054
     source: Morgan1862
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1843-02-04
     name: 3471218
     source: Morgan1862
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1843-02-04
     name: 459275
     source: Morgan1862
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839-03
     name: 850141
     source: Perkins1909
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839-03
     name: 2426332
     source: Perkins1909
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839-03
     name: 6261749
     source: Perkins1909
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1851-07-09
     name: 14278
     source: Pollock1887
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1851-07-09
     name: 2276484
     source: Pollock1887
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1851-07-09
     name: 860206
     source: Pollock1887
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1851-07-09
     name: 18531536
     source: Pollock1887
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1851-07-09
     name: 168468
     source: Pollock1887
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1833-06-16
     name: 272161
     source: Stein1985
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1833-06-16
     name: 7259
     source: Stein1985
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-02-01
     name: 902759
     source: Talbot1840
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-02-01
     name: 299565
     source: Talbot1840
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1840-02-01
     name: 1476802
     source: Talbot1840
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1844-02-24
     name: 272161
     source: Talbot1844
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838-05-26
     name: 459275
     source: Ticknor1880
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838-05-26
     name: 3161890
     source: Ticknor1880
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838-05-26
     name: 1476802
     source: Ticknor1880
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838-05-26
     name: 96077643
     source: Ticknor1880
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838-05-26
     name: 75567564
     source: Ticknor1880
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838-05-26
     name: 5545233
     source: Ticknor1880
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838-05-26
     name: 14278
     source: Ticknor1880
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838-05-26
     name: 687552
     source: Ticknor1880
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838-05-26
     name: 4269655
     source: Ticknor1880
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838-05-26
     name: 76075859
     source: Ticknor1880
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838-05-26
     name: 6260357
     source: Ticknor1880
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838-05-26
     name: 1234977
     source: Ticknor1880
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838-05-26
     name: 268702
     source: Ticknor1880
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838-05-26
     name: 350891
     source: Ticknor1880
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838-05-26
     name: 3525438
     source: Ticknor1880
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838-05-26
     name: 3471218
     source: Ticknor1880
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1838-05-26
     name: 5345414
     source: Ticknor1880
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1833-06-05
     name: 272161
     source: Toole1992a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1833-06-05
     name: 7259
     source: Toole1992a
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1833
     name: 7259
     source: Toole1992b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1833
     name: 22917436
     source: Toole1992b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1833-07
     name: 7259
     source: Toole1992c
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1834-06
     name: 7259
     source: Toole1992d
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1834-06
     name: 272161
     source: Toole1992d
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1839-03-30
     name: 7259
     source: Toole1998b
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1834-03-21
     name: 18122778
     source: Toole1998c
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1834-03-21
     name: 15994653
     source: Toole1998c
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1834-03-21
     name: 268702
     source: Toole1998c
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1834-03-21
     name: 7259
     source: Toole1998c
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1837
     name: 22917436
     source: deMorgan1882
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1837
     name: 208448
     source: deMorgan1882
 
 
-- model: parties.guest
+- model: parties.mention
   fields:
     party: 1837
     name: 7259

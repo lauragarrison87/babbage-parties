@@ -1,7 +1,7 @@
 import csv
 
 template = """\
-- model: parties.guest
+- model: parties.mention
   fields:
     party: {party}
     name: {name}

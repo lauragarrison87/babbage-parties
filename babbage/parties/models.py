@@ -50,7 +50,7 @@ class Party(models.Model):
         verbose_name_plural = "parties"
 
 
-class Guest(models.Model):
+class Mention(models.Model):
     party = models.ForeignKey(Party, on_delete=models.CASCADE)
     name = models.ForeignKey(Person, on_delete=models.CASCADE)
     source = models.ForeignKey(Source, on_delete=models.CASCADE)
