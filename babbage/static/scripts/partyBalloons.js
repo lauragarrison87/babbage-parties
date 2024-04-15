@@ -4,11 +4,11 @@ async function drawBalloons(url){
     let parties = await d3.json(url)
     //console.table(parties[0])
 
-    const partySizeFactor = 4
-   
     // helper functions to transform data /////
     const dateParser = d3.timeParse("%Y-%m-%d")
     
+    const calcPartySize = (p,k) => 10 + p.party_size * k
+   
     // 2. create chart dimensions
     let dimensions = {
     width: window.innerWidth * 0.85,
@@ -69,26 +69,32 @@ async function drawBalloons(url){
 
     let party_group = drawArea.selectAll("g")
         .data(parties)
-        .enter()
-        .append("g")
+        .join("g")
         .attr("id", p =>p.pid)
 
     party_group.append("line")
         .attr("x1", p => xScale(xAccessor(p)))
-        .attr("y1", p => yScale(yAccessor(p)))
+        .attr("y1", dimensions.boundedHeight)
         .attr("x2", p => xScale(xAccessor(p)))
         .attr("y2", dimensions.boundedHeight)
         .attr("stroke", "gray")
         .attr("class", "zoomable")
-
-    
+        .transition()
+            .duration(5000)
+            .attr("y1", p => yScale(yAccessor(p)))
+        
     party_group.append("circle")
         .attr("cx", p => xScale(xAccessor(p)))
-        .attr("cy", p => yScale(yAccessor(p)))
-        .attr("r", p => p.party_size * partySizeFactor)
+        .attr("cy", dimensions.boundedHeight)
+        .attr("r", 0)
         .attr("fill", "pink")
         .attr("stroke", "gray")
         .attr("class", "zoomable")
+        .transition()
+            .duration(5000)
+            .attr("r", p => calcPartySize(p, 1))
+            .attr("cy", p => yScale(yAccessor(p)))
+            
     
 
     // 6. draw peripherals 
@@ -145,7 +151,7 @@ async function drawBalloons(url){
       d3.selectAll('circle.zoomable')
           .attr('cx', p => newX(xAccessor(p)))
           .attr('cy', p => newY(yAccessor(p)))
-          .attr('r',  p => p.party_size * partySizeFactor * transform.k)
+          .attr('r',  p => calcPartySize(p, transform.k))
     
     }
     // // Tooltips

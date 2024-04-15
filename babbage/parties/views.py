@@ -77,7 +77,7 @@ def api_balloon(request):
                 "day": party.day if party.day else 1,
                 "guests": [],
                 "party_size": 0,
-                "ypos": random.random(),
+                "ypos": random.uniform(0.1, 0.95),
             }
     
     for mention in Guest.objects.all():
