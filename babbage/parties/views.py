@@ -34,7 +34,7 @@ def person_qid(request, qid):
    
     soirees = (
         Mention.objects
-            .filter(name=person)
+            .filter(guest=person)
             .select_related("party","source")
     )
     parties_1 = [(s.party, s.source.quote) for s in soirees]
@@ -45,10 +45,10 @@ def person_qid(request, qid):
         other_guests = (
             Mention.objects
                 .filter(party=party)
-                .exclude(name=qid)
-                .select_related("name")
+                .exclude(guest=qid)
+                .select_related("guest")
         )
-        others = [ g.name.name for g in other_guests ]
+        others = [ g.guest.name for g in other_guests ]
         parties.append(
             {
                 'party' : party,
@@ -87,9 +87,9 @@ def api_balloon(request):
                 "ypos": random.uniform(0.1, 0.95),
             }
     
-    for mention in Mention.objects.all():
-        response['parties'][mention.party.pid]['guests'].append(mention.name.qid)
-        response['parties'][mention.party.pid]["party_size"] += 1
+    for m in Mention.objects.all():
+        response['parties'][m.party.pid]['guests'].append(m.guest.qid)
+        response['parties'][m.party.pid]["party_size"] += 1
 
     return JsonResponse(list(response["parties"].values()), safe=False)
 
@@ -129,15 +129,15 @@ def get_visdata_by_person(request):
     
     for mention in (
             Mention.objects
-            .select_related("party","name")
+            .select_related("party","guest")
             .order_by("party")
         ):
-        response['people'][mention.name.qid]['parties'].append(
+        response['people'][mention.guest.qid]['parties'].append(
             {
                 "year": mention.party.year,
                 "month": mention.party.month if mention.party.month else 6,
                 "day": mention.party.day if mention.party.day else 1,
-                "ypos": response['people'][mention.name.qid]["personal_yval"],
+                "ypos": response['people'][mention.guest.qid]["personal_yval"],
             }
         )
     popular_people = []

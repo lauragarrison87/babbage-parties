@@ -4,7 +4,7 @@ template = """\
 - model: parties.mention
   fields:
     party: {party}
-    name: {name}
+    guest: {name}
     source: {source}
 
 """

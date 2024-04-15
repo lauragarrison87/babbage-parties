@@ -52,14 +52,14 @@ class Party(models.Model):
 
 class Mention(models.Model):
     party = models.ForeignKey(Party, on_delete=models.CASCADE)
-    name = models.ForeignKey(Person, on_delete=models.CASCADE)
+    guest = models.ForeignKey(Person, on_delete=models.CASCADE)
     source = models.ForeignKey(Source, on_delete=models.CASCADE)
 
     def __str__(self):
-        return f"{self.party}: {self.name} [{self.source}]"
+        return f"{self.party}: {self.guest} [{self.source}]"
     
     class Meta:
-        unique_together = ["party", "name", "source"]
-        ordering = ["party", "name"]
+        unique_together = ["party", "guest", "source"]
+        ordering = ["party", "guest"]
 
     
