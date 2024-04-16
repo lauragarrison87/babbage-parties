@@ -4,64 +4,53 @@
 <html lang="en">
 <head>
     <body>
-        <h1>{{ p }}</h1>
-        This is {{ p.name }}. 
-        Their QID is {{ p.qid }}.
-
-        Their <a href="https://www.wikidata.org/wiki/{{ p.qid }}">Wikidata page</a>.
-
-        {% if p.birth %}    
-            They were born on {{ p.birth }}
-        {% endif %}
-
-        <h1>Character Sheet for {{ p.name }}
+        <h1>{{p.name}}
+            <a href="https://www.wikidata.org/wiki/{{ p.qid }}">
+                [Wikidata]
+            </a>
+        </h1>
             ( 
             {% if p.birth %}    
                 {{ p.birth }}
-            {% else %}
-                ?
             {% endif %}
             &ndash;
             {% if p.death %}    
                 {{ p.death }})
-            {% else %}
-                ?
             {% endif %}
             )
-        </h1>
+       
 
         {% if p.occupation %}
-            <h2>Short description: {{ p.occupation }}</h2>
+            <h2>{{ p.occupation }}</h2>
         {% endif %}
 
         <p>
-            <!-- {{ longdescription }} -->
             {% if have_detail %}
                 {{ p.name }} was 
                 {% if p.gender or p.occupation %}
                     a {{ p.gender }} {{ p.occupation }} 
                 {% endif %}
                 {% if p.nationality %}
-                    from {{ p.nationality }}. 
-                {% endif %}
+                    from {{ p.nationality }} 
+                {% endif %}.
 
                 {% if p.aliases %}
-                    {{ subj_pron|title }} was also known as 
+                    {{ they|title }} {{ were }} also known as 
                     {{ p.aliases }}.
                 {% endif %}
             </p>
             <p>
                 {% if p.birthname %}
-                    {{ poss_pron|title }} birth name was {{ p.birthname }}. 
+                    {{ their|title }} birth name was {{ p.birthname }}. 
                 {% endif %}
 
                 {% if p.birthplace %}
-                    {{ subj_pron|title }} was born in {{ p.birthplace }}.
+                    {{ they|title }} {{were}} born in {{ p.birthplace }}.
                 {% endif %}
             </p>
             <p>
                 {% if p.spouse %}
-                    {{ subj_pron|title  }} was married to {{ p.spouse|title }}
+                    {{ they|title  }} {{were}} married to {{ p.spouse|title }}
                     {% if spouse_wasguest %}
                     , who was also a guest
                     {% endif %}
@@ -71,7 +60,7 @@
         </p>
                 {% if p.deathcause %}
                     <p>
-                    {{ subj_pron|title }} died 
+                    {{ they|title }} died 
                         {% if p.death %} 
                             in {{ p.death }} 
                         {% endif %}
@@ -79,21 +68,24 @@
                     </p>
                 {% endif %}
         
-
-
-        {% if parties %}
+        {% if party_list %}
         <h2>Soirées attended:</h2>
             <ul>
-            {% for party in parties %}
+            {% for p in party_list %}
                 <li>
-                    <h3>{{ party.pt.day|default_if_none:'' }} 
-                        {{ party.pt.month|month }} 
-                        {{ party.pt.year }}</h3>
-                    {{ party.quote }}
-                    {% if party.others %}
-                        <h4>Other guests were:</h4>
+                    <h3>{{ p.party.day|default_if_none:'' }} 
+                        {{ p.party.month|month }} 
+                        {{ p.party.year }}</h3>
+                    {% for s in p.sources %}
+                    <p>
+                    {{ s.quote }} 
+                    &mdash; {{ s.source }} 
+                    </p>
+                    {% endfor %}
+                    {% if p.others %}
+                        <h4>Other guests were</h4>
                         <ul>
-                        {% for guest in party.others %}
+                        {% for guest in p.others %}
                             <li>
                                 <a href="{% url 'person' guest.qid %}">
                                     {{ guest.name }}
@@ -106,7 +98,7 @@
             {% endfor %}
             </ul>
         {% else %}
-            <p>{{ subj_pron|title }} did not attend any soirées.</p>
+            <p>{{ they|title }} was not mentioned at any soirées.</p>
         {% endif %}
 
     </body>

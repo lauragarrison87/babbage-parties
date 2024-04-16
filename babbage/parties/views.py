@@ -23,49 +23,42 @@ def person_list(request):
 
 def make_pronouns(gender):
     if gender == "male":
-        return "he", "his"
+        return "he", "his", "was"
     elif gender == "female":
-        return "she", "her"
+        return "she", "her", "was"
     else: 
-        return "they", "their"
+        return "they", "their", "were"
 
 def person_qid(request, qid):
     person = Person.objects.get(qid=qid)
-   
-    soirees = (
-        Mention.objects
-            .filter(guest=person)
-            .select_related("party","source")
-    )
-    parties_1 = [(s.party, s.source.quote) for s in soirees]
-    print(parties_1)
-
-    parties = []
-    for party, quote in parties_1:
-        other_mentions = (
-            Mention.objects
-                .filter(party=party)
-                .exclude(guest=qid)
+    mentions = person.mention_set.all().select_related("party","source")
+    parties_attended = set(m.party for m in mentions)
+    party_list = []
+    for pa in parties_attended:
+        party_sources = set(m.source for m in mentions.filter(party=pa))
+        other_pa_mentions = ( 
+            pa.mention_set.all()
+                .exclude(guest=person)
                 .select_related("guest")
         )
-        others = [ m.guest for m in other_mentions ]
-        parties.append(
+        other_guests = set( opm.guest for opm in other_pa_mentions )
+        party_list.append(
             {
-                'pt' : party,
-                'quote' : quote,
-                'others' : others,
+                'party' : pa,
+                'sources' : party_sources,
+                'others' : other_guests,
             }
         )
-    print(parties)
 
     template = loader.get_template("parties/person/specific.html")
-    subj, poss = make_pronouns(person.gender)
+    subj, poss, to_be = make_pronouns(person.gender)
     context= {
         'p' : person, 
         "have_detail" : True,
-        "subj_pron" : subj,
-        "poss_pron" : poss,
-        "parties" : parties,
+        "they" : subj,
+        "their" : poss,
+        "were" : to_be,
+        "party_list" : party_list,
         }
     return HttpResponse(template.render(context, request))
 
