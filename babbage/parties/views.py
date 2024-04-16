@@ -42,13 +42,13 @@ def person_qid(request, qid):
 
     parties = []
     for party, quote in parties_1:
-        other_guests = (
+        other_mentions = (
             Mention.objects
                 .filter(party=party)
                 .exclude(guest=qid)
                 .select_related("guest")
         )
-        others = [ g.guest.name for g in other_guests ]
+        others = [ m.guest for m in other_mentions ]
         parties.append(
             {
                 'pt' : party,

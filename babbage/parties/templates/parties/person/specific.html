@@ -93,8 +93,12 @@
                     {% if party.others %}
                         <h4>Other guests were:</h4>
                         <ul>
-                        {% for name in party.others %}
-                            <li>{{ name }}</li>
+                        {% for guest in party.others %}
+                            <li>
+                                <a href="{% url 'person' guest.qid %}">
+                                    {{ guest.name }}
+                                </a>
+                            </li>
                         {% endfor %}
                         </ul>
                     {% endif %}
