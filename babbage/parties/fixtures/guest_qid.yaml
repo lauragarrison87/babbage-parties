@@ -2,559 +2,839 @@
   pk: Q7259
   fields:
     name: "Ada Lovelace"
-    presumed: False
 
 
 - model: parties.person
-  pk: Q350891
+  pk: Q22917436
   fields:
-    name: "Adam Sedgwick"
-    presumed: True
-
-
-- model: parties.person
-  pk: Q96077643
-  fields:
-    name: "Ann Taylor"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q272161
-  fields:
-    name: "Annabella Byron"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q208448
-  fields:
-    name: "Augustus de Morgan"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q4888797
-  fields:
-    name: "Benjamin Hawes"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q4889308
-  fields:
-    name: "Benjamin Travers"
-    presumed: True
-
-
-- model: parties.person
-  pk: Q55363478
-  fields:
-    name: "Caroline Darwin"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q18575958
-  fields:
-    name: "Catherine Stepney"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q5075542
-  fields:
-    name: "Charles Bennet"
-    presumed: True
-
-
-- model: parties.person
-  pk: Q1035
-  fields:
-    name: "Charles Darwin"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q5686
-  fields:
-    name: "Charles Dickens"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q860206
-  fields:
-    name: "Charles Dupin"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q5333
-  fields:
-    name: "Charles Lyell"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q156942
-  fields:
-    name: "Charles Wheatstone"
-    presumed: False
+    name: "Sophia Elizabeth De Morgan"
 
 
 - model: parties.person
   pk: Q15994653
   fields:
     name: "Charlotte Murchison"
-    presumed: True
 
 
 - model: parties.person
-  pk: Q168468
-  fields:
-    name: "David Brewster"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q98558441
-  fields:
-    name: "David Colden"
-    presumed: True
-
-
-- model: parties.person
-  pk: Q902759
-  fields:
-    name: "David Wilkie"
-    presumed: True
-
-
-- model: parties.person
-  pk: Q21166109
-  fields:
-    name: "Edward Kater"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q5345414
-  fields:
-    name: "Edward Stanley"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q60536153
-  fields:
-    name: "Ellen Coolidge"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q242147
-  fields:
-    name: "Emma Darwin"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q5384940
-  fields:
-    name: "Erasmus Darwin"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q65780
-  fields:
-    name: "Ernst Ludwig von Gerlach"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q46096
-  fields:
-    name: "Felix Mendelssohn"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q96079996
-  fields:
-    name: "Frances Allen"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q1476802
-  fields:
-    name: "Francis Chantrey"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q18531536
-  fields:
-    name: "Frederick Pollock"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q5545233
-  fields:
-    name: "George Ticknor"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q234570
-  fields:
-    name: "Harriet Martineau"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q1234977
-  fields:
-    name: "Henry Hallam"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q4269655
-  fields:
-    name: "Henry Hart Milman"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q433093
-  fields:
-    name: "Jane Marcet"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q3161890
-  fields:
-    name: "Jane Porter"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q124073
-  fields:
-    name: "Jean Charles Léonard de Sismondi"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q94777333
-  fields:
-    name: "Jessie Allen de Sismondi"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q14278
-  fields:
-    name: "John Herschel"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q6260357
-  fields:
-    name: "John Taylor"
-    presumed: True
-
-
-- model: parties.person
-  pk: Q2276484
-  fields:
-    name: "Marcellin Jobard"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q75567564
-  fields:
-    name: "Margaret Herschel"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q43386537
-  fields:
-    name: "Martha Charters Somerville"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q76075859
-  fields:
-    name: "Mary Ann Milman"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q125116928
-  fields:
-    name: "Mary Charlotte Somerville"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q3296187
-  fields:
-    name: "Mary Lyell"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q18122778
+  pk: Q125567744
   fields:
     name: "Mary Montgomery"
-    presumed: True
 
 
 - model: parties.person
   pk: Q268702
   fields:
     name: "Mary Somerville"
-    presumed: False
 
 
 - model: parties.person
-  pk: Q8750
+  pk: Q3161890
   fields:
-    name: "Michael Faraday"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q687552
-  fields:
-    name: "Nassau William Senior"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q1398302
-  fields:
-    name: "Neil Arnott"
-    presumed: False
+    name: "Jane Porter"
 
 
 - model: parties.person
   pk: Q3471218
   fields:
     name: "Samuel Rogers"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q6182166
-  fields:
-    name: "Sidney Smith"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q22917436
-  fields:
-    name: "Sophia de Morgan"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q338197
-  fields:
-    name: "Spencer Compton"
-    presumed: True
-
-
-- model: parties.person
-  pk: Q3525438
-  fields:
-    name: "Thomas Musgrave"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q2426332
-  fields:
-    name: "Thomas Talfourd"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q4019944
-  fields:
-    name: "William Brockedon"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q16065697
-  fields:
-    name: "William Harness"
-    presumed: True
-
-
-- model: parties.person
-  pk: Q299565
-  fields:
-    name: "William Henry Fox Talbot"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q637374
-  fields:
-    name: "William Macready"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q8018611
-  fields:
-    name: "William Somerville"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q333922
-  fields:
-    name: "William Whewell"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q8007034
-  fields:
-    name: "Lord Northampton"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q152513
-  fields:
-    name: "Henry Wadsworth Longfellow"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q4668904
-  fields:
-    name: "Abraham Hayward"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q5701894
-  fields:
-    name: "Helen Blackwood"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q5548110
-  fields:
-    name: "Georgiana Seymour"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q16063392
-  fields:
-    name: "John Moore"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q223013
-  fields:
-    name: "Hugh Falconer"
-    presumed: False
 
 
 - model: parties.person
   pk: Q459275
   fields:
     name: "Sydney Morgan"
-    presumed: False
-
-
-- model: parties.person
-  pk: Q5080054
-  fields:
-    name: "Charles Landseer"
-    presumed: True
 
 
 - model: parties.person
   pk: Q546727
   fields:
     name: "Sylvain Van de Weyer"
-    presumed: False
 
 
 - model: parties.person
-  pk: Q1063834
+  pk: Q140694
   fields:
-    name: "Charles Bunbury"
-    presumed: False
+    name: "Alexis de Tocqueville"
 
 
 - model: parties.person
-  pk: Q5345150
+  pk: Q326145
   fields:
-    name: "Edward Ryan"
-    presumed: False
+    name: "Gustave de Beaumont"
 
 
 - model: parties.person
-  pk: Q18810603
+  pk: Q125567909
   fields:
-    name: "Arethusa Milner Gibson"
-    presumed: False
+    name: "Sydney Jane Clarke"
 
 
 - model: parties.person
-  pk: Q24238356
+  pk: Q125568001
   fields:
-    name: "Indian princes"
-    presumed: False
+    name: "Olivia Clarke"
 
 
 - model: parties.person
-  pk: Q27255564
+  pk: Q125568245
   fields:
-    name: "Frances Joanna Bunbury"
-    presumed: False
+    name: "Josephine Clarke"
 
 
 - model: parties.person
-  pk: Q315346
+  pk: Q75545148
   fields:
-    name: "Thomas Moore"
-    presumed: False
+    name: "Augusta Elizabeth Herbert Vincent"
+
+
+- model: parties.person
+  pk: Q18577038
+  fields:
+    name: "Maria Theresa Lister"
+
+
+- model: parties.person
+  pk: Q519645
+  fields:
+    name: "Sarah Austin"
+
+
+- model: parties.person
+  pk: Q75248544
+  fields:
+    name: "Elizabeth Williams Green Stanhope"
 
 
 - model: parties.person
   pk: Q850141
   fields:
     name: "Caroline Norton"
-    presumed: True
+
+
+- model: parties.person
+  pk: Q152513
+  fields:
+    name: "Henry Wadsworth Longfellow"
+
+
+- model: parties.person
+  pk: Q4668904
+  fields:
+    name: "Abraham Hayward"
+
+
+- model: parties.person
+  pk: Q5701894
+  fields:
+    name: "Helen Blackwood"
+
+
+- model: parties.person
+  pk: Q5548110
+  fields:
+    name: "Georgiana Seymour"
+
+
+- model: parties.person
+  pk: Q8750
+  fields:
+    name: "Michael Faraday"
+
+
+- model: parties.person
+  pk: Q5333
+  fields:
+    name: "Charles Lyell"
+
+
+- model: parties.person
+  pk: Q3296187
+  fields:
+    name: "Mary Horner Lyell"
+
+
+- model: parties.person
+  pk: Q8018611
+  fields:
+    name: "William Somerville"
+
+
+- model: parties.person
+  pk: Q157043
+  fields:
+    name: "Joseph Henry"
+
+
+- model: parties.person
+  pk: Q271961
+  fields:
+    name: "Frances Milton Trollope"
+
+
+- model: parties.person
+  pk: Q1234977
+  fields:
+    name: "Henry Hallam"
+
+
+- model: parties.person
+  pk: Q4269655
+  fields:
+    name: "Henry Hart Milman"
+
+
+- model: parties.person
+  pk: Q1476802
+  fields:
+    name: "Francis Legatt Chantrey"
+
+
+- model: parties.person
+  pk: Q1071769
+  fields:
+    name: "Baden Powell"
+
+
+- model: parties.person
+  pk: Q156942
+  fields:
+    name: "Charles Wheatstone"
+
+
+- model: parties.person
+  pk: Q8017601
+  fields:
+    name: "William Ritchie"
+
+
+- model: parties.person
+  pk: Q3431264
+  fields:
+    name: "Richard Taylor"
+
+
+- model: parties.person
+  pk: Q315346
+  fields:
+    name: "Thomas Moore"
+
+
+- model: parties.person
+  pk: Q6260357
+  fields:
+    name: "John Taylor"
+
+
+- model: parties.person
+  pk: Q350891
+  fields:
+    name: "Adam Sedgwick"
+
+
+- model: parties.person
+  pk: Q5345414
+  fields:
+    name: "Edward Stanley"
+
+
+- model: parties.person
+  pk: Q98396269
+  fields:
+    name: "Anna Ticknor"
+
+
+- model: parties.person
+  pk: Q1408091
+  fields:
+    name: "George Ticknor"
+
+
+- model: parties.person
+  pk: Q14278
+  fields:
+    name: "John Herschel"
+
+
+- model: parties.person
+  pk: Q75567564
+  fields:
+    name: "Margaret Herschel"
+
+
+- model: parties.person
+  pk: Q76075859
+  fields:
+    name: "Mary Ann Milman"
+
+
+- model: parties.person
+  pk: Q125116928
+  fields:
+    name: "Mary Charlotte Somerville"
+
+
+- model: parties.person
+  pk: Q43386537
+  fields:
+    name: "Martha Charters Somerville"
+
+
+- model: parties.person
+  pk: Q687552
+  fields:
+    name: "Nassau William Senior"
+
+
+- model: parties.person
+  pk: Q3525438
+  fields:
+    name: "Thomas Musgrave"
+
+
+- model: parties.person
+  pk: Q327370
+  fields:
+    name: "George Bellas Greenough"
+
+
+- model: parties.person
+  pk: Q1346720
+  fields:
+    name: "Thomas Chandler Haliburton"
+
+
+- model: parties.person
+  pk: Q60536153
+  fields:
+    name: "Ellen Randolph Coolidge"
+
+
+- model: parties.person
+  pk: Q60536207
+  fields:
+    name: "Joseph Coolidge"
+
+
+- model: parties.person
+  pk: Q75912146
+  fields:
+    name: "Julia Maria Elton"
+
+
+- model: parties.person
+  pk: Q333922
+  fields:
+    name: "William Whewell"
+
+
+- model: parties.person
+  pk: Q1680654
+  fields:
+    name: "James Justinian Morier"
+
+
+- model: parties.person
+  pk: Q332685
+  fields:
+    name: "Joseph Hume"
+
+
+- model: parties.person
+  pk: Q1364848
+  fields:
+    name: "George Grote"
+
+
+- model: parties.person
+  pk: Q1607302
+  fields:
+    name: "Henry Taylor"
+
+
+- model: parties.person
+  pk: Q8012091
+  fields:
+    name: "William Henry Maule"
+
+
+- model: parties.person
+  pk: Q902759
+  fields:
+    name: "David Wilkie"
+
+
+- model: parties.person
+  pk: Q159758
+  fields:
+    name: "Joseph Mallord William Turner"
+
+
+- model: parties.person
+  pk: Q7788348
+  fields:
+    name: "Thomas Charles Morgan"
+
+
+- model: parties.person
+  pk: Q234570
+  fields:
+    name: "Harriet Martineau"
+
+
+- model: parties.person
+  pk: Q75300275
+  fields:
+    name: "Anna Maria Elliot Donkin"
+
+
+- model: parties.person
+  pk: Q5314138
+  fields:
+    name: "Dunbar James Douglas (Earl of Selkirk)"
+
+
+- model: parties.person
+  pk: Q344157
+  fields:
+    name: "Andrew Stevenson"
+
+
+- model: parties.person
+  pk: Q94685628
+  fields:
+    name: "Sarah (Sally) Coles Stevenson"
 
 
 - model: parties.person
   pk: Q6261749
   fields:
     name: "John Van Buren"
-    presumed: True
+
+
+- model: parties.person
+  pk: Q1066198
+  fields:
+    name: "Charles Sumner"
+
+
+- model: parties.person
+  pk: Q125824502
+  fields:
+    name: "Sarah Rogers"
+
+
+- model: parties.person
+  pk: Q4888797
+  fields:
+    name: "Benjamin Hawes"
+
+
+- model: parties.person
+  pk: Q125824661
+  fields:
+    name: "Helen Wilkie William Hunter"
+
+
+- model: parties.person
+  pk: Q433093
+  fields:
+    name: "Jane Marcet"
+
+
+- model: parties.person
+  pk: Q6182166
+  fields:
+    name: "Sydney Smith"
+
+
+- model: parties.person
+  pk: Q338197
+  fields:
+    name: "Spencer Compton (Lord Northampton)"
+
+
+- model: parties.person
+  pk: Q637374
+  fields:
+    name: "William Macready"
+
+
+- model: parties.person
+  pk: Q76067143
+  fields:
+    name: "Catherine Frances Atkins"
+
+
+- model: parties.person
+  pk: Q7794093
+  fields:
+    name: "Thomas Sopwith"
+
+
+- model: parties.person
+  pk: Q299565
+  fields:
+    name: "William Henry Fox Talbot"
+
+
+- model: parties.person
+  pk: Q125568458
+  fields:
+    name: "Mary Ann Wale Chantrey"
+
+
+- model: parties.person
+  pk: Q5546360
+  fields:
+    name: "George William Wood"
+
+
+- model: parties.person
+  pk: Q21548779
+  fields:
+    name: "Robert Hutton"
+
+
+- model: parties.person
+  pk: Q1701428
+  fields:
+    name: "John Phillips"
+
+
+- model: parties.person
+  pk: Q5764886
+  fields:
+    name: "Charles Henry Bellenden Ker"
+
+
+- model: parties.person
+  pk: Q5543812
+  fields:
+    name: "George Rennie"
+
+
+- model: parties.person
+  pk: Q958853
+  fields:
+    name: "Edward Codrington"
+
+
+- model: parties.person
+  pk: Q75253549
+  fields:
+    name: "Elizabeth Anne Sturgis Bates"
+
+
+- model: parties.person
+  pk: Q53098702
+  fields:
+    name: "Harriet Bury (Countess of Charleville)"
+
+
+- model: parties.person
+  pk: Q6145332
+  fields:
+    name: "James Wentworth Buller"
+
+
+- model: parties.person
+  pk: Q5715941
+  fields:
+    name: "Georgiana Chatterton"
+
+
+- model: parties.person
+  pk: Q1035
+  fields:
+    name: "Charles Darwin"
+
+
+- model: parties.person
+  pk: Q242147
+  fields:
+    name: "Emma Darwin"
+
+
+- model: parties.person
+  pk: Q26213082
+  fields:
+    name: "William Gosset"
+
+
+- model: parties.person
+  pk: Q75334503
+  fields:
+    name: "Hannah Cohen Rothschild"
+
+
+- model: parties.person
+  pk: Q7527156
+  fields:
+    name: "Henry Holland"
+
+
+- model: parties.person
+  pk: Q75911166
+  fields:
+    name: "Jane Campbell Munro"
+
+
+- model: parties.person
+  pk: Q75253367
+  fields:
+    name: "Anne Lucy Poulett Nugent"
+
+
+- model: parties.person
+  pk: Q7526276
+  fields:
+    name: "Charles Ogle"
+
+
+- model: parties.person
+  pk: Q75464806
+  fields:
+    name: "Mary Anne Cary Ogle"
+
+
+- model: parties.person
+  pk: Q7528061
+  fields:
+    name: "John Shelley"
+
+
+- model: parties.person
+  pk: Q75282802
+  fields:
+    name: "Frances Winckley Shelley"
+
+
+- model: parties.person
+  pk: Q6470434
+  fields:
+    name: "Mary Shepherd"
+
+
+- model: parties.person
+  pk: Q2426332
+  fields:
+    name: "Thomas Talfourd"
+
+
+- model: parties.person
+  pk: Q75585254
+  fields:
+    name: "Julia Webster"
+
+
+- model: parties.person
+  pk: Q125566865
+  fields:
+    name: "Miss Edgeworth"
+
+
+- model: parties.person
+  pk: Q106231
+  fields:
+    name: "Daniel Webster"
+
+
+- model: parties.person
+  pk: Q125294531
+  fields:
+    name: "Harriette Story Paige"
+
+
+- model: parties.person
+  pk: Q2850561
+  fields:
+    name: "Ann Maria Porter"
+
+
+- model: parties.person
+  pk: Q96079996
+  fields:
+    name: "Frances Allen"
+
+
+- model: parties.person
+  pk: Q55363478
+  fields:
+    name: "Caroline Darwin"
+
+
+- model: parties.person
+  pk: Q5384940
+  fields:
+    name: "Erasmus Alvey Darwin"
+
+
+- model: parties.person
+  pk: Q4889308
+  fields:
+    name: "Benjamin Travers"
+
+
+- model: parties.person
+  pk: Q18575958
+  fields:
+    name: "Catherine Stepney"
+
+
+- model: parties.person
+  pk: Q98558441
+  fields:
+    name: "David Cadwallader Colden"
+
+
+- model: parties.person
+  pk: Q1398302
+  fields:
+    name: "Neil Arnott"
+
+
+- model: parties.person
+  pk: Q4019944
+  fields:
+    name: "William Brockedon"
+
+
+- model: parties.person
+  pk: Q16065697
+  fields:
+    name: "William Harness"
+
+
+- model: parties.person
+  pk: Q5686
+  fields:
+    name: "Charles Dickens"
+
+
+- model: parties.person
+  pk: Q21166109
+  fields:
+    name: "Edward Kater"
+
+
+- model: parties.person
+  pk: Q124073
+  fields:
+    name: "Jean Charles Léonard de Sismondi"
+
+
+- model: parties.person
+  pk: Q94777333
+  fields:
+    name: "Jessie Allen de Sismondi"
+
+
+- model: parties.person
+  pk: Q5080054
+  fields:
+    name: "Charles Landseer"
+
+
+- model: parties.person
+  pk: Q272161
+  fields:
+    name: "Anne Isabella NoelByron"
+
+
+- model: parties.person
+  pk: Q1268423
+  fields:
+    name: "Dwarkanath Tagore"
+
+
+- model: parties.person
+  pk: Q65780
+  fields:
+    name: "Ernst Ludwig von Gerlach (Baron Gerlach)"
+
+
+- model: parties.person
+  pk: Q46096
+  fields:
+    name: "Felix Mendelssohn"
+
+
+- model: parties.person
+  pk: Q5075542
+  fields:
+    name: "Charles Bennet (Lord Ossulton)"
+
+
+- model: parties.person
+  pk: Q1063834
+  fields:
+    name: "Charles Bunbury"
+
+
+- model: parties.person
+  pk: Q27255564
+  fields:
+    name: "Frances Joanna Bunbury"
+
+
+- model: parties.person
+  pk: Q18531536
+  fields:
+    name: "William Frederick Pollock"
+
+
+- model: parties.person
+  pk: Q5543571
+  fields:
+    name: "George Pryme"
+
+
+- model: parties.person
+  pk: Q6249916
+  fields:
+    name: "John Murray"
+
+
+- model: parties.person
+  pk: Q5345150
+  fields:
+    name: "Edward Ryan"
+
+
+- model: parties.person
+  pk: Q21165660
+  fields:
+    name: "John Carrick Moore"
+
+
+- model: parties.person
+  pk: Q125568640
+  fields:
+    name: "Graham Francis Moore"
+
+
+- model: parties.person
+  pk: Q223013
+  fields:
+    name: "Hugh Falconer"
+
+
+- model: parties.person
+  pk: Q18810603
+  fields:
+    name: "Arethusa Milner Gibson"
+
+
+- model: parties.person
+  pk: Q2137717
+  fields:
+    name: "George Borrow"
+
+
+- model: parties.person
+  pk: Q2997652
+  fields:
+    name: "Richard Whately"
 
 

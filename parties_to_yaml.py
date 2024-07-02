@@ -12,11 +12,12 @@ template = """\
 
 with open("parties.csv", newline="", encoding="utf8") as f:
     next(f)
+    next(f)
     csvfile = csv.reader(f)
     seen = set()
     for line in csvfile:
         pid = line[0].strip()
-        if pid in seen:
+        if not pid or pid in seen:
             continue
         else:
             seen.add(pid)
@@ -27,8 +28,11 @@ with open("parties.csv", newline="", encoding="utf8") as f:
             case [y,m]:
                 print(template.format(pid=pid, year=int(y), month=int(m), day="null"))
             case [y]:
-                print(template.format(pid=pid, year=int(y), month="null", day="null"))
-        
-        
+                try:
+                    year = int(y)
+                except ValueError:
+                    year="null"
+                print(template.format(pid=pid, year=year, month="null", day="null"))
+
 
 

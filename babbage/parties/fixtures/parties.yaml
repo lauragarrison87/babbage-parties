@@ -1,33 +1,17 @@
 - model: parties.party
-  pk: 1835-05
+  pk: 1833
   fields:
-    year: 1835
-    month: 5
+    year: 1833
+    month: null
     day: null
 
 
 - model: parties.party
-  pk: 1845-04-26
+  pk: 1834-03-21
   fields:
-    year: 1845
-    month: 4
-    day: 26
-
-
-- model: parties.party
-  pk: 1847-04-24
-  fields:
-    year: 1847
-    month: 4
-    day: 24
-
-
-- model: parties.party
-  pk: 1846-02-14
-  fields:
-    year: 1846
-    month: 2
-    day: 14
+    year: 1834
+    month: 3
+    day: 21
 
 
 - model: parties.party
@@ -39,26 +23,10 @@
 
 
 - model: parties.party
-  pk: 1839-02-16
+  pk: 1835-05
   fields:
-    year: 1839
-    month: 2
-    day: 16
-
-
-- model: parties.party
-  pk: 1839
-  fields:
-    year: 1839
-    month: null
-    day: null
-
-
-- model: parties.party
-  pk: 1840-06
-  fields:
-    year: 1840
-    month: 6
+    year: 1835
+    month: 5
     day: null
 
 
@@ -79,14 +47,6 @@
 
 
 - model: parties.party
-  pk: 1844
-  fields:
-    year: 1844
-    month: null
-    day: null
-
-
-- model: parties.party
   pk: 1836-06-04
   fields:
     year: 1836
@@ -95,19 +55,83 @@
 
 
 - model: parties.party
-  pk: 1837-05-25
+  pk: 1837-03-04
   fields:
     year: 1837
-    month: 5
-    day: 25
+    month: 3
+    day: 4
 
 
 - model: parties.party
-  pk: 1839-03-15
+  pk: 1837-04-08
+  fields:
+    year: 1837
+    month: 4
+    day: 8
+
+
+- model: parties.party
+  pk: 1837-04-29
+  fields:
+    year: 1837
+    month: 4
+    day: 29
+
+
+- model: parties.party
+  pk: 1838-05-26
+  fields:
+    year: 1838
+    month: 5
+    day: 26
+
+
+- model: parties.party
+  pk: 1839-02-07
+  fields:
+    year: 1839
+    month: 2
+    day: 7
+
+
+- model: parties.party
+  pk: 1839-02-16
+  fields:
+    year: 1839
+    month: 2
+    day: 16
+
+
+- model: parties.party
+  pk: 1839-03-16
   fields:
     year: 1839
     month: 3
-    day: 15
+    day: 16
+
+
+- model: parties.party
+  pk: 1839-06-22
+  fields:
+    year: 1839
+    month: 6
+    day: 22
+
+
+- model: parties.party
+  pk: 1839
+  fields:
+    year: 1839
+    month: null
+    day: null
+
+
+- model: parties.party
+  pk: 1840-02-01
+  fields:
+    year: 1840
+    month: 2
+    day: 1
 
 
 - model: parties.party
@@ -127,19 +151,11 @@
 
 
 - model: parties.party
-  pk: 1838
+  pk: 1840-06-06
   fields:
-    year: 1838
-    month: null
-    day: null
-
-
-- model: parties.party
-  pk: 1837-04-29
-  fields:
-    year: 1837
-    month: 4
-    day: 29
+    year: 1840
+    month: 6
+    day: 6
 
 
 - model: parties.party
@@ -151,38 +167,6 @@
 
 
 - model: parties.party
-  pk: 1839-03
-  fields:
-    year: 1839
-    month: 3
-    day: null
-
-
-- model: parties.party
-  pk: 1851-07-09
-  fields:
-    year: 1851
-    month: 7
-    day: 9
-
-
-- model: parties.party
-  pk: 1833-06-16
-  fields:
-    year: 1833
-    month: 6
-    day: 16
-
-
-- model: parties.party
-  pk: 1840-02-01
-  fields:
-    year: 1840
-    month: 2
-    day: 1
-
-
-- model: parties.party
   pk: 1844-02-24
   fields:
     year: 1844
@@ -191,59 +175,59 @@
 
 
 - model: parties.party
-  pk: 1838-05-26
+  pk: 1844
   fields:
-    year: 1838
-    month: 5
-    day: 26
-
-
-- model: parties.party
-  pk: 1833-06-05
-  fields:
-    year: 1833
-    month: 6
-    day: 5
-
-
-- model: parties.party
-  pk: 1833
-  fields:
-    year: 1833
+    year: 1844
     month: null
     day: null
 
 
 - model: parties.party
-  pk: 1833-07
+  pk: 1845-04-26
   fields:
-    year: 1833
-    month: 7
-    day: null
+    year: 1845
+    month: 4
+    day: 26
 
 
 - model: parties.party
-  pk: 1834-06
+  pk: 1846-02-14
   fields:
-    year: 1834
+    year: 1846
+    month: 2
+    day: 14
+
+
+- model: parties.party
+  pk: 1846-06
+  fields:
+    year: 1846
     month: 6
     day: null
 
 
 - model: parties.party
-  pk: 1839-03-30
+  pk: 1847-04-24
   fields:
-    year: 1839
-    month: 3
-    day: 30
+    year: 1847
+    month: 4
+    day: 24
 
 
 - model: parties.party
-  pk: 1834-03-21
+  pk: Unknown (multiple)
   fields:
-    year: 1834
-    month: 3
-    day: 21
+    year: null
+    month: null
+    day: null
+
+
+- model: parties.party
+  pk: Unknown
+  fields:
+    year: null
+    month: null
+    day: null
 
 
 - model: parties.party
@@ -252,5 +236,53 @@
     year: 1837
     month: null
     day: null
+
+
+- model: parties.party
+  pk: 1838
+  fields:
+    year: 1838
+    month: null
+    day: null
+
+
+- model: parties.party
+  pk: 1842-04
+  fields:
+    year: 1842
+    month: 4
+    day: null
+
+
+- model: parties.party
+  pk: 1840-03-21
+  fields:
+    year: 1840
+    month: 3
+    day: 21
+
+
+- model: parties.party
+  pk: 1839-06-15
+  fields:
+    year: 1839
+    month: 6
+    day: 15
+
+
+- model: parties.party
+  pk: 1837-04-15
+  fields:
+    year: 1837
+    month: 4
+    day: 15
+
+
+- model: parties.party
+  pk: 1839-04-20
+  fields:
+    year: 1839
+    month: 4
+    day: 20
 
 
