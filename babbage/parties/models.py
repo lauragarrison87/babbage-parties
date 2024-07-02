@@ -3,7 +3,6 @@ from django.db import models
 class Person(models.Model):
     qid = models.CharField("Wikidata QID", max_length=32, primary_key=True)
     name = models.CharField(max_length=200, null=False)
-    presumed = models.BooleanField(default=False)
     birth = models.DateField(null=True)
     death = models.DateField(null=True)
     gender = "female"
@@ -37,7 +36,7 @@ class Source(models.Model):
 
 class Party(models.Model):
     pid = models.CharField("Party ID", max_length=80, primary_key=True)
-    year = models.SmallIntegerField(null=False)
+    year = models.SmallIntegerField(null=True)
     month = models.SmallIntegerField(null=True)
     day = models.SmallIntegerField(null=True)
 
@@ -53,6 +52,7 @@ class Mention(models.Model):
     party = models.ForeignKey(Party, on_delete=models.CASCADE)
     guest = models.ForeignKey(Person, on_delete=models.CASCADE)
     source = models.ForeignKey(Source, on_delete=models.CASCADE)
+    presumed = models.BooleanField(default=False)
 
     def __str__(self):
         return f"{self.party}: {self.guest} [{self.source}]"

@@ -1,4 +1,5 @@
 import csv
+import json
 import sys
 import difflib
 from pprint import pprint
@@ -9,8 +10,8 @@ sources_template = """\
 - model: parties.source
   pk: "{sid}"
   fields:
-    source: "{source}"
-    quote: "{quote}"
+    source: {source}
+    quote: {quote}
     pages: {pages}
 
 """
@@ -43,7 +44,12 @@ with open("parties.csv", newline="", encoding="utf8") as f:
             assert prev_data == current_data
         except KeyError:
             sources_consistency[sid] = current_data
-            print(sources_template.format(sid=sid, source=source, quote=quote, pages=pages))
+            print(sources_template.format(
+                sid=sid, 
+                source=json.dumps(source, ensure_ascii=False), 
+                quote=json.dumps(quote, ensure_ascii=False), 
+                pages=pages
+            ))
         except AssertionError:
             for a,b in zip(prev_data, current_data):
                 if a == b:
