@@ -2,17 +2,17 @@ from django.db import models
 
 class Person(models.Model):
     qid = models.CharField("Wikidata QID", max_length=32, primary_key=True)
-    name = models.CharField(max_length=200, null=False)
+    name = models.CharField(max_length=256, null=False)
     birth = models.DateField(null=True)
     death = models.DateField(null=True)
-    gender = "female"
-    occupation = "DJ"
-    nationality = "Angola"
-    aliases = "Oliver Tater Tizzle"
-    birthname = "Bear"
-    birthplace = "Portland"
-    spouse = "Baxter the sad stuffed teddy"
-    deathcause = "perfuming with rancid seagull poo"
+    gender = models.CharField(max_length=32, null=True)
+    occupation = models.CharField(max_length=256, null=True)
+    nationality = models.CharField(max_length=256, null=True)
+    aliases = models.CharField(max_length=256, null=True)
+    birthname = models.CharField(max_length=256, null=True)
+    birthplace = models.CharField(max_length=256, null=True)
+    spouse = models.ForeignKey("Person", on_delete=models.SET_NULL, null=True)
+    deathcause = models.CharField(max_length=256, null=True)
 
     def __str__(self):
         return f'{self.name} ({self.qid})'
