@@ -3,8 +3,8 @@ from django.db import models
 class Person(models.Model):
     qid = models.CharField("Wikidata QID", max_length=32, primary_key=True)
     name = models.CharField(max_length=256, null=False)
-    birth = models.DateField(null=True)
-    death = models.DateField(null=True)
+    birth = models.CharField(max_length=32, null=True)
+    death = models.CharField(max_length=32, null=True)
     gender = models.CharField(max_length=32, null=True)
     occupation = models.CharField(max_length=256, null=True)
     nationality = models.CharField(max_length=256, null=True)
