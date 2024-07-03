@@ -20,14 +20,20 @@
             )
        
         {% if p.occupation %}
-            <h2>{{ p.occupation }}</h2>
+            <h2>{{ p.occupation|title }}</h2>
         {% endif %}
 
         <p>
             {% if have_detail %}
                 {{ p.name }} was 
                 {% if p.gender or p.occupation %}
-                    a {{ p.gender }} {{ p.occupation }} 
+                    a
+                {% endif %}
+                {% if p.gender %}
+                    {{ p.gender }}
+                {% endif %}
+                {% if p.occupation %}
+                    {{ p.occupation }}
                 {% endif %}
                 {% if p.nationality %}
                     from {{ p.nationality }} 
