@@ -1,0 +1,3641 @@
+- model: parties.party
+  pk: 1833
+  fields:
+    year: 1833
+    month: null
+    day: null
+
+
+- model: parties.person
+  pk: Q7259
+  fields:
+    name: "Ada Lovelace"
+
+
+- model: parties.book
+  pk: Stanley1993
+  fields:
+    citation: "Stanley, Autumn. 1993. Mothers and Daughters of Invention: Notes for a Revised History of Technology. New Brunswick, New Jersey: Rutgers University Press."
+
+- model: parties.source
+  pk: Stanley1993
+  fields:
+    book: Stanley1993
+    quote: "As Mrs. De Morgan wrote, ‘While other visitors gazed at the working of this beautiful instrument with the sort of expression, and I dare say the sort of feeling, that some savages are said to have shown on first seeing a looking glass or hearing a gun, . . . Miss Byron, young as she was, understood its workings, and saw the great beauty of the invention’ (Angluin, 7)"
+    pages: 434
+
+
+- model: parties.mention
+  fields:
+    party: 1833
+    guest: Q7259
+    source: Stanley1993
+    presumed: False
+
+
+- model: parties.person
+  pk: Q22917436
+  fields:
+    name: "Sophia Elizabeth De Morgan"
+
+
+- model: parties.mention
+  fields:
+    party: 1833
+    guest: Q22917436
+    source: Stanley1993
+    presumed: False
+
+
+- model: parties.party
+  pk: 1834-03-21
+  fields:
+    year: 1834
+    month: 3
+    day: 21
+
+
+- model: parties.book
+  pk: Toole1998
+  fields:
+    citation: "Toole, Betty Alexandra. 1998. Ada: The Enchantress of Numbers, Prophet of the Computer Age ; A Pathway to the 21st Century. 2nd ed. Mill Valley: Strawberry Press."
+
+- model: parties.source
+  pk: Toole1998a
+  fields:
+    book: Toole1998
+    quote: "“I hope I may have the pleasure of meeting you on Saturday at Mr Babbage’s. I am going with Miss Montgomery to dine at Mrs Murchison’s, & we shall be at Mr B’s for a short time in the evening. I have not seen him yet, but he sent a very respectful message through Mrs Murchison, inviting Miss Montgomery & me to his Saturday parties.”"
+    pages: 44
+
+
+- model: parties.mention
+  fields:
+    party: 1834-03-21
+    guest: Q7259
+    source: Toole1998a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q15994653
+  fields:
+    name: "Charlotte Murchison"
+
+
+- model: parties.mention
+  fields:
+    party: 1834-03-21
+    guest: Q15994653
+    source: Toole1998a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q125567744
+  fields:
+    name: "Mary Montgomery"
+
+
+- model: parties.mention
+  fields:
+    party: 1834-03-21
+    guest: Q125567744
+    source: Toole1998a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q268702
+  fields:
+    name: "Mary Somerville"
+
+
+- model: parties.mention
+  fields:
+    party: 1834-03-21
+    guest: Q268702
+    source: Toole1998a
+    presumed: True
+
+
+- model: parties.party
+  pk: 1835-03-14
+  fields:
+    year: 1835
+    month: 3
+    day: 14
+
+
+- model: parties.person
+  pk: Q3161890
+  fields:
+    name: "Jane Porter"
+
+
+- model: parties.book
+  pk: Clayden1889
+  fields:
+    citation: "Clayden, Peter William. 1889. Rogers and His Contemporaries. Vol. 2. London: Smith, Elder & Co."
+
+- model: parties.source
+  pk: Clayden1889a
+  fields:
+    book: Clayden1889
+    quote: "“Babbage’s parties are becoming blue with Lady Morgan, Miss Jane Porter, &c.”"
+    pages: 116
+
+
+- model: parties.source
+  pk: Clayden1889b
+  fields:
+    book: Clayden1889
+    quote: "“Babbage had a very blue party last Saturday. Lady Morgan, Miss Jane Porter, &c., &c.”"
+    pages: 120
+
+
+- model: parties.mention
+  fields:
+    party: 1835-03-14
+    guest: Q3161890
+    source: Clayden1889a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1835-03-14
+    guest: Q3161890
+    source: Clayden1889b
+    presumed: False
+
+
+- model: parties.person
+  pk: Q3471218
+  fields:
+    name: "Samuel Rogers"
+
+
+- model: parties.mention
+  fields:
+    party: 1835-03-14
+    guest: Q3471218
+    source: Clayden1889a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1835-03-14
+    guest: Q3471218
+    source: Clayden1889b
+    presumed: False
+
+
+- model: parties.person
+  pk: Q459275
+  fields:
+    name: "Sydney Morgan"
+
+
+- model: parties.mention
+  fields:
+    party: 1835-03-14
+    guest: Q459275
+    source: Clayden1889a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1835-03-14
+    guest: Q459275
+    source: Clayden1889b
+    presumed: False
+
+
+- model: parties.party
+  pk: 1835-05
+  fields:
+    year: 1835
+    month: 5
+    day: null
+
+
+- model: parties.book
+  pk: Morgan1863
+  fields:
+    citation: "Morgan, Sydney. 1863. Lady Morgan’s Memoirs - Autobiography, Diaries and Correspondence. Vol. 2, 2nd ed. London: WM. H. Allen & Co."
+
+- model: parties.source
+  pk: Morgan1863a
+  fields:
+    book: Morgan1863
+    quote: "“Babbage’s party last night very pleasant; got into mon petit coin—had a minister, a philosopher, a reviewer, a politician, and a dandy, successively sur la sellette. Vanderweyer charming, spirituel and observing. He inspires one with views and opinions similar to his own, and we agree upon most things.”"
+    pages: 399
+
+
+- model: parties.mention
+  fields:
+    party: 1835-05
+    guest: Q459275
+    source: Morgan1863a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q546727
+  fields:
+    name: "Sylvain Van de Weyer"
+
+
+- model: parties.mention
+  fields:
+    party: 1835-05
+    guest: Q546727
+    source: Morgan1863a
+    presumed: False
+
+
+- model: parties.party
+  pk: 1835
+  fields:
+    year: 1835
+    month: null
+    day: null
+
+
+- model: parties.person
+  pk: Q140694
+  fields:
+    name: "Alexis de Tocqueville"
+
+
+- model: parties.book
+  pk: Walker1836
+  fields:
+    citation: "Walker, Thomas. 1836. \"Art. 7 - The Original\" The Quarterly Review, February 1836, 445-487."
+
+- model: parties.source
+  pk: Walker1836
+  fields:
+    book: Walker1836
+    quote: "Mr. Babbage's Saturday evening-parties should be mentioned to show what science can effect for itself. They were amongst the most brilliant of the last season, and presented an interesting coup d'oeil of beauty and celebrity. As the Sheridan sisters entered the room, where Mrs. Leicester Stanhope, Mrs. Austin, Mrs. Lister, Lady Vincent, the present Lady King ('Ada, sole daughter of my house and heart'), Lady Morgan's nieces, &c. &c., were already clustered, M. de Beaumont exclaimed half aloud to M. de Tocqueville - Ah, cette beauté Anglaise! c'est vraiment étonnante!"
+    pages: 476
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q140694
+    source: Walker1836
+    presumed: False
+
+
+- model: parties.person
+  pk: Q326145
+  fields:
+    name: "Gustave de Beaumont"
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q326145
+    source: Walker1836
+    presumed: False
+
+
+- model: parties.person
+  pk: Q125567909
+  fields:
+    name: "Sydney Jane Clarke"
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q125567909
+    source: Walker1836
+    presumed: False
+
+
+- model: parties.person
+  pk: Q125568001
+  fields:
+    name: "Olivia Clarke"
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q125568001
+    source: Walker1836
+    presumed: False
+
+
+- model: parties.person
+  pk: Q125568245
+  fields:
+    name: "Josephine Clarke"
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q125568245
+    source: Walker1836
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q7259
+    source: Walker1836
+    presumed: False
+
+
+- model: parties.person
+  pk: Q75545148
+  fields:
+    name: "Augusta Elizabeth Herbert Vincent"
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q75545148
+    source: Walker1836
+    presumed: True
+
+
+- model: parties.person
+  pk: Q18577038
+  fields:
+    name: "Maria Theresa Lister"
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q18577038
+    source: Walker1836
+    presumed: True
+
+
+- model: parties.person
+  pk: Q519645
+  fields:
+    name: "Sarah Austin"
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q519645
+    source: Walker1836
+    presumed: True
+
+
+- model: parties.person
+  pk: Q75248544
+  fields:
+    name: "Elizabeth Williams Green Stanhope"
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q75248544
+    source: Walker1836
+    presumed: False
+
+
+- model: parties.person
+  pk: Q850141
+  fields:
+    name: "Caroline Norton"
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q850141
+    source: Walker1836
+    presumed: False
+
+
+- model: parties.person
+  pk: Q152513
+  fields:
+    name: "Henry Wadsworth Longfellow"
+
+
+- model: parties.book
+  pk: Longfellow1886
+  fields:
+    citation: "Longfellow, Samuel. 1886. Life of Henry Wadsworth Longfellow: With Extracts from His Journals and Correspondence. Vol. 1. Boston: Ticknor and Company."
+
+- model: parties.source
+  pk: Longfellow1886
+  fields:
+    book: Longfellow1886
+    quote: "spending an evening at Mr. Babbage's, where were Miss Jane Porter, Lady Morgan, Mr. Hayward the translator of Faust, and Mrs. Blackwood and Lady Seymour, the reigning beauties."
+    pages: 204
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q152513
+    source: Longfellow1886
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q3161890
+    source: Longfellow1886
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q459275
+    source: Longfellow1886
+    presumed: False
+
+
+- model: parties.person
+  pk: Q4668904
+  fields:
+    name: "Abraham Hayward"
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q4668904
+    source: Longfellow1886
+    presumed: False
+
+
+- model: parties.person
+  pk: Q5701894
+  fields:
+    name: "Helen Blackwood"
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q5701894
+    source: Longfellow1886
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q5701894
+    source: Walker1836
+    presumed: False
+
+
+- model: parties.person
+  pk: Q5548110
+  fields:
+    name: "Georgiana Seymour"
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q5548110
+    source: Longfellow1886
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1835
+    guest: Q5548110
+    source: Walker1836
+    presumed: False
+
+
+- model: parties.party
+  pk: 1836-02-20
+  fields:
+    year: 1836
+    month: 2
+    day: 20
+
+
+- model: parties.book
+  pk: Faraday1993
+  fields:
+    citation: "Faraday, Michael. 1993. The Correspondence of Michael Faraday ; 1832-December 1840 ; Letters 525-1333. Vol. 2, edited by Frank A. J. L. James. London: The Institution of Electrical Engineers."
+
+- model: parties.source
+  pk: Faraday1993
+  fields:
+    book: Faraday1993
+    quote: "“The information obtained from Mr Babbage on Saturday Evening respecting the Argostoli stream was so far complete that I will not trouble you any further about the matter but write out to Sir Howard Douglas & tell him what we know of the case here & what hands it is in.”"
+    pages: 346
+
+
+- model: parties.mention
+  fields:
+    party: 1836-02-20
+    guest: Q268702
+    source: Faraday1993
+    presumed: False
+
+
+- model: parties.person
+  pk: Q8750
+  fields:
+    name: "Michael Faraday"
+
+
+- model: parties.mention
+  fields:
+    party: 1836-02-20
+    guest: Q8750
+    source: Faraday1993
+    presumed: False
+
+
+- model: parties.party
+  pk: 1836-06-04
+  fields:
+    year: 1836
+    month: 6
+    day: 4
+
+
+- model: parties.person
+  pk: Q5333
+  fields:
+    name: "Charles Lyell"
+
+
+- model: parties.book
+  pk: Lyell1881
+  fields:
+    citation: "Lyell, Charles. 1881. Life, Letters and Journals of Sir Charles Lyell, Bart. Author of 'Principles of Geology' &c. Vol. 1, edited by Katherine Lyell. London: John Murray."
+
+- model: parties.source
+  pk: Lyell1881a
+  fields:
+    book: Lyell1881
+    quote: "“We dine to-day (June 4) with the Somervilles, and in the evening Babbage gives one of his evening meetings which are very brilliantly attended by fashionable ladies, as well as literary and scientific gents, and where one meets with persons high in all professions, and with distinguished foreigners.”"
+    pages: 466
+
+
+- model: parties.mention
+  fields:
+    party: 1836-06-04
+    guest: Q5333
+    source: Lyell1881a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q3296187
+  fields:
+    name: "Mary Horner Lyell"
+
+
+- model: parties.mention
+  fields:
+    party: 1836-06-04
+    guest: Q3296187
+    source: Lyell1881a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1836-06-04
+    guest: Q268702
+    source: Lyell1881a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q8018611
+  fields:
+    name: "William Somerville"
+
+
+- model: parties.mention
+  fields:
+    party: 1836-06-04
+    guest: Q8018611
+    source: Lyell1881a
+    presumed: False
+
+
+- model: parties.party
+  pk: 1837-03-04
+  fields:
+    year: 1837
+    month: 3
+    day: 4
+
+
+- model: parties.book
+  pk: Darwin1837
+  fields:
+    citation: "Darwin, Charles. Personal letter. 27 February 1837. “Letter to Caroline Darwin ('It is nearly...'),\" letter no. 346. Darwin Correspondence Project. University of Cambridge. https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-346.xml."
+
+- model: parties.source
+  pk: Darwin1837a
+  fields:
+    book: Darwin1837
+    quote: "“I heard from Lyell yesterday [...] He wants me to be up on Saturday for a party at Mr. Babbage, who has sent me a card for his parties this season. Lyell says Babbage’s parties are the best in the way of literary people in London–and that there is a good mixture of pretty women–“"
+    pages: /
+
+
+- model: parties.mention
+  fields:
+    party: 1837-03-04
+    guest: Q5333
+    source: Darwin1837a
+    presumed: False
+
+
+- model: parties.party
+  pk: 1837-04-08
+  fields:
+    year: 1837
+    month: 4
+    day: 8
+
+
+- model: parties.person
+  pk: Q157043
+  fields:
+    name: "Joseph Henry"
+
+
+- model: parties.book
+  pk: Henry1972
+  fields:
+    citation: "Henry, Joseph. 1972.The papers of Joseph Henry: The Princeton Years: January 1836-December 1837. Vol.3, edited by Nathan Reingold. Washington: Smithsonian Institution Press."
+
+- model: parties.source
+  pk: Henry1972
+  fields:
+    book: Henry1972
+    quote: "“then I went to a soirée at Mr Babbages. So many clever people were there as to confuse me, you will know best, Hallam & Milman & Chantry but I prized most Powell Wheatstone Ritchie (Profs) & Taylor & Mrs. Somerville was there also pleasing both men & women, the latter you will admit a most difficult task for so [...] a lady, but she is without affectations as much at home in the occupations & amusements of the ladies as in the study of the men & withal too amiable to avail jealousy. [...] At Mr Babbage’s soirée there was quite an odd looking lady past thirty ‘for the least’–in grass green velvet gown & flaring turban: the rumour went about that it was Mrs Trollop & next a sensation as it quietly spread & the old lady sailed about with this unknown companion!"
+    pages: 256-257
+
+
+- model: parties.mention
+  fields:
+    party: 1837-04-08
+    guest: Q157043
+    source: Henry1972
+    presumed: False
+
+
+- model: parties.person
+  pk: Q271961
+  fields:
+    name: "Frances Milton Trollope"
+
+
+- model: parties.mention
+  fields:
+    party: 1837-04-08
+    guest: Q271961
+    source: Henry1972
+    presumed: True
+
+
+- model: parties.person
+  pk: Q1234977
+  fields:
+    name: "Henry Hallam"
+
+
+- model: parties.mention
+  fields:
+    party: 1837-04-08
+    guest: Q1234977
+    source: Henry1972
+    presumed: False
+
+
+- model: parties.person
+  pk: Q4269655
+  fields:
+    name: "Henry Hart Milman"
+
+
+- model: parties.mention
+  fields:
+    party: 1837-04-08
+    guest: Q4269655
+    source: Henry1972
+    presumed: False
+
+
+- model: parties.person
+  pk: Q1476802
+  fields:
+    name: "Francis Legatt Chantrey"
+
+
+- model: parties.mention
+  fields:
+    party: 1837-04-08
+    guest: Q1476802
+    source: Henry1972
+    presumed: True
+
+
+- model: parties.person
+  pk: Q1071769
+  fields:
+    name: "Baden Powell"
+
+
+- model: parties.mention
+  fields:
+    party: 1837-04-08
+    guest: Q1071769
+    source: Henry1972
+    presumed: False
+
+
+- model: parties.person
+  pk: Q156942
+  fields:
+    name: "Charles Wheatstone"
+
+
+- model: parties.mention
+  fields:
+    party: 1837-04-08
+    guest: Q156942
+    source: Henry1972
+    presumed: False
+
+
+- model: parties.person
+  pk: Q8017601
+  fields:
+    name: "William Ritchie"
+
+
+- model: parties.mention
+  fields:
+    party: 1837-04-08
+    guest: Q8017601
+    source: Henry1972
+    presumed: False
+
+
+- model: parties.person
+  pk: Q3431264
+  fields:
+    name: "Richard Taylor"
+
+
+- model: parties.mention
+  fields:
+    party: 1837-04-08
+    guest: Q3431264
+    source: Henry1972
+    presumed: True
+
+
+- model: parties.mention
+  fields:
+    party: 1837-04-08
+    guest: Q268702
+    source: Henry1972
+    presumed: False
+
+
+- model: parties.party
+  pk: 1837-04-29
+  fields:
+    year: 1837
+    month: 4
+    day: 29
+
+
+- model: parties.person
+  pk: Q315346
+  fields:
+    name: "Thomas Moore"
+
+
+- model: parties.book
+  pk: Moore1988
+  fields:
+    citation: "Moore, Thomas. 1988. The Journal of Thomas Moore: 1836-1842. Edited by Wilfred S. Dowden, Barbara G. Bartholomew, and Joy L. Linsley. 5 vol. Newark: University of Delaware Press."
+
+- model: parties.source
+  pk: Moore1988a
+  fields:
+    book: Moore1988
+    quote: "“From the dinner Rogers & I went together to Babbage’s, where we staid but for a short time & then home”"
+    pages: 1866
+
+
+- model: parties.mention
+  fields:
+    party: 1837-04-29
+    guest: Q315346
+    source: Moore1988a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1837-04-29
+    guest: Q3471218
+    source: Moore1988a
+    presumed: False
+
+
+- model: parties.party
+  pk: 1838-05-26
+  fields:
+    year: 1838
+    month: 5
+    day: 26
+
+
+- model: parties.person
+  pk: Q6260357
+  fields:
+    name: "John Taylor"
+
+
+- model: parties.book
+  pk: Ticknor1876
+  fields:
+    citation: "Ticknor, George. 1876. Life, Letters, and Journals of George Ticknor. Vol. 2. London: Sampson Low, Marston, Searle, & Rivington."
+
+- model: parties.source
+  pk: Ticknor1876
+  fields:
+    book: Ticknor1876
+    quote: "“About eleven o’clock we got away from Lord Fitzwilliam’s and went to Mr Babbage’s. It was very crowded tonight, and very brilliant; for among the people there were Hallam, Milman and his pretty wife; the Bishop of Norwich, Stanley, the Bishop of Hereford, Musgrave, both the Hellenists; Rogers, Sir J. Herschel and his beautiful wife, Sedgwick, Mrs Somerville and her daughters, Senior, the Taylors, Sir F. Chantrey, Jane Porter, Lady Morgan, and I know not how many others. We seemed really to know as many people as we should in a party at home, which is a rare thing in a strange capital, and rarest of all in this vast overgrown London. Notwithstanding, therefore, our fatiguing day, we enjoyed it very much.”"
+    pages: 178
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q6260357
+    source: Ticknor1876
+    presumed: True
+
+
+- model: parties.person
+  pk: Q350891
+  fields:
+    name: "Adam Sedgwick"
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q350891
+    source: Ticknor1876
+    presumed: True
+
+
+- model: parties.person
+  pk: Q5345414
+  fields:
+    name: "Edward Stanley"
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q5345414
+    source: Ticknor1876
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q1476802
+    source: Ticknor1876
+    presumed: False
+
+
+- model: parties.person
+  pk: Q98396269
+  fields:
+    name: "Anna Ticknor"
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q98396269
+    source: Ticknor1876
+    presumed: False
+
+
+- model: parties.person
+  pk: Q1408091
+  fields:
+    name: "George Ticknor"
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q1408091
+    source: Ticknor1876
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q1234977
+    source: Ticknor1876
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q4269655
+    source: Ticknor1876
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q3161890
+    source: Ticknor1876
+    presumed: False
+
+
+- model: parties.person
+  pk: Q14278
+  fields:
+    name: "John Herschel"
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q14278
+    source: Ticknor1876
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q3431264
+    source: Ticknor1876
+    presumed: True
+
+
+- model: parties.person
+  pk: Q75567564
+  fields:
+    name: "Margaret Herschel"
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q75567564
+    source: Ticknor1876
+    presumed: False
+
+
+- model: parties.person
+  pk: Q76075859
+  fields:
+    name: "Mary Ann Milman"
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q76075859
+    source: Ticknor1876
+    presumed: False
+
+
+- model: parties.person
+  pk: Q125116928
+  fields:
+    name: "Mary Charlotte Somerville"
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q125116928
+    source: Ticknor1876
+    presumed: False
+
+
+- model: parties.person
+  pk: Q43386537
+  fields:
+    name: "Martha Charters Somerville"
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q43386537
+    source: Ticknor1876
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q268702
+    source: Ticknor1876
+    presumed: False
+
+
+- model: parties.person
+  pk: Q687552
+  fields:
+    name: "Nassau William Senior"
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q687552
+    source: Ticknor1876
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q3471218
+    source: Ticknor1876
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q459275
+    source: Ticknor1876
+    presumed: False
+
+
+- model: parties.person
+  pk: Q3525438
+  fields:
+    name: "Thomas Musgrave"
+
+
+- model: parties.mention
+  fields:
+    party: 1838-05-26
+    guest: Q3525438
+    source: Ticknor1876
+    presumed: False
+
+
+- model: parties.party
+  pk: 1839-02-07
+  fields:
+    year: 1839
+    month: 2
+    day: 7
+
+
+- model: parties.person
+  pk: Q327370
+  fields:
+    name: "George Bellas Greenough"
+
+
+- model: parties.book
+  pk: Davis2005
+  fields:
+    citation: "Davis, Richard A. 2005. Inventing Sam Slick: A Biography of Thomas Chandler Haliburton. Toronto: University of Toronto Press. ; Original source: Greenough, George. 1839-1842. \"Greenough's Diaries and Engagement Books.\" UCL Archives, 7/43-46, 1839-42. London: University College."
+
+- model: parties.source
+  pk: Davis2005
+  fields:
+    book: Davis2005
+    quote: "On 7 February, Greenough took Haliburton to Dunstable house, then to Charles Babbage's soirée."
+    pages: 256
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-07
+    guest: Q327370
+    source: Davis2005
+    presumed: False
+
+
+- model: parties.person
+  pk: Q1346720
+  fields:
+    name: "Thomas Chandler Haliburton"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-07
+    guest: Q1346720
+    source: Davis2005
+    presumed: False
+
+
+- model: parties.party
+  pk: 1839-02-16
+  fields:
+    year: 1839
+    month: 2
+    day: 16
+
+
+- model: parties.person
+  pk: Q60536153
+  fields:
+    name: "Ellen Randolph Coolidge"
+
+
+- model: parties.book
+  pk: Coolidge2013
+  fields:
+    citation: "Coolidge, Ellen. 2013. Thomas Jefferson’s Granddaughter in Queen Victoria’s England: The Travel Diary of Ellen Wayles Coolidge, 1838–1839. Edited by Ann Lucas Birle and Lisa A. Francavilla. Massachusetts Historical Society."
+
+- model: parties.source
+  pk: Coolidge2013a
+  fields:
+    book: Coolidge2013
+    quote: "Saturday morning we breakfasted with M‘ Rogers and Saturday evening at half past nine, went to M‘ Babbage’s house in Dorset St. Manchester Sq. Here was a gathering of the elect, a “re-union” of literary & scientific men, artists, authors, celebrities of both sexes. Those who like myself had no claim of learning or letters for admittance into so choice an assembly, could only rejoice in the opportunity of seeing so many Lions in one cage. We had, Mr Babbage himself the inventor of the famous calculating machine, Mr Hallam, the author of the “Middle Ages,” the Revd Mr Whewell, whose Bridgewater Treatise I had read in the U.S. and whose Architectural Notes on German Churches I have been studying this summer, a propos to my recent acquaintance with English Cathedrals; Mr Morier, whose Hadji Baba in Persia & England, I have cried & laughed over; Judge Haliburton, alias Sam Slick; Mr Rogers, the poet of Memory & of Italy; Mr Hume, the political calculator; Mr Grote, the friend of the Ballot & of Dugald Stewart; Mr Taylor, the author of Philip Van Artevelde; Mr Justice Maule, who possessed of talents, knowledge, every thing which fits him to do honour to the place he holds, might have remained a simple barrister for all his life, had he not bought himself into Parliament — he gave two thousand pounds for a seat in the House of Commons, and a seat upon the Bench soon paid him his money with interest. This is the way they manage things in England it appears. Then came Sir Francis Chauntrey; Sir David Wilkie; Turner, a very favorite painter here though rather slightingly mentioned by Dr Waagen, who allows him great talent it is true, but reproves him for the abuse of it; Sir Charles & Lady Morgan; Mrs Austen, whose translation of the Letters of a German Prince (PucklerMuskau) the best translation ever made into the English language, has put her on a footing with original writers; Miss Martineau, to whom there is no denying the praise of talent, though accompanied by self-conceit & prejudice—such was the character of the company. There were a few titled persons present, among whom I heard the name of Lady Anna Maria Donkin, sister of the Earl of Minto, and the Earl of Selkirk, whose family history connects him with the more famous Paul Jones, who was the son of a gardener in the service of Lord Selkirk’s father. The Americans of the party were Mr & Mrs Stevenson, Mr John Van Buren, Mr Charles Sumner, Mr C. & myself. It was a pleasure to me to see so many persons whose names | had seen in print, and the assembly of the evening was literally what Carlyle calls “that crowning phenomenon, and summary of modern civilisation, a soirée of Lions.”’ There were no doubt “many blue men and women, dear Mrs Rigmaroles, great Mr Rigmaroles” in this company of distinguished persons— many “pewter tankards scoured bright” and mistaken by “dim-eyed animals” like myself, for “solar luminaries,” but there were also some rightful objects of that hero worship which even Carlyle applauds. “Veneration of great men is perennial in the nature of man; this in all times, especially in these, is one of the blessedest facts predicable of him.” The rooms, after a while, became crowded and warm, and I went below with Mrs Stevenson to get a cup of tea. Refreshments of various kinds were served up on tables behind which servants were stationed to attend upon the guests; there was tea, coffee, lemonade, wine, fruit, cake, thin bread & butter, and I believe sandwiches. Enough of every thing and good, but no affectation of style or shew. Returning up stairs I encountered Miss Rogers whom I like better & better. She is not only a sensible but a good-natured person. Now good nature is not a common virtue among the English. If they happen to possess they are ashamed to acknowledge it, and when you do find it, it has the charm of rarity. I was presented to some few persons, exchanged a few words with Mr & Mrs Hallam, Mr Whewell & Judge Haliburton, & held something approaching to a conversation with Mr Morier & Mr Babbage—but as to becoming acquainted with any one in such a crowd, and where all talk is necessarily desultory, I do not understand the possibility of it. Miss Martineau whom I knew in America, says, I am told, that she should be pleased to renew the acquaintance. If so let her make the first advance. She is on her own ground now and I am the stranger. I certainly shall not do homage to her. Lady Morgan was rather cold. One of my friends told me that I had committed an unpardonable mistake in speaking to her of any thing but herself & her own writings. That Glorvina expected to hear of nothing but her own perfections, and that when I talked to her on other subjects I had shewn a want of taste & feeling, at which she was naturally disgusted. Alas! —The little Goody was dressed in scarlet velvet with a black hat & feathers and a band of small diamonds over her brow, but the Irish witch prevails over all her finery. Mr Babbage invited us to join his saturday evening parties whenever we were not otherwise engaged—a permission of which we shall gladly avail ourselves."
+    pages: 244-246
+
+
+- model: parties.source
+  pk: Coolidge2013b
+  fields:
+    book: Coolidge2013
+    quote: "“The persons, on the other hand, whom I meet in society have all, more or less, the same style of manners and “of dress, and their ordinary conversation is pitched nearly in the same key. They vary because Nature has put it out of their power to conform in all things to a given standard, but they vary as little as they can. This, in general society, produces a certain amount of insipidity, a want of heartiness, or earnestness, of any sort of warmth or glow. At “Babbage’s Menagerie,” as Lady Anna Maria Donkin calls his saturday evening parties, where so many political, literary, scientific & artistic characters assemble, I should say that the distinguishing mark was want of all character for good or evil. This is, I suppose, unavoidable, at least to a certain extent. If each individual carried into the company of others too much of his individual self there might be many petty shocks & some rude collisions. Yet it seems a pity that Babbage, Hallam, Whewell, Wilkie &c &c should move about requiring, as M' Morier said, to have labels pinned to their backs, in order to tell one from another. Yet it is better to have them simply ticketed with their names than be obliged to add as M’ William Coke did when he rode a vicious mare, “she kicks,” which might be the case were these gentlemen to come into society without leaving their individualities behind."
+    pages: 250-251
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q60536153
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q60536153
+    source: Coolidge2013b
+    presumed: False
+
+
+- model: parties.person
+  pk: Q60536207
+  fields:
+    name: "Joseph Coolidge"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q60536207
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q1234977
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q1234977
+    source: Coolidge2013b
+    presumed: False
+
+
+- model: parties.person
+  pk: Q75912146
+  fields:
+    name: "Julia Maria Elton"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q75912146
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q333922
+  fields:
+    name: "William Whewell"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q333922
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q333922
+    source: Coolidge2013b
+    presumed: False
+
+
+- model: parties.person
+  pk: Q1680654
+  fields:
+    name: "James Justinian Morier"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q1680654
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q1680654
+    source: Coolidge2013b
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q1346720
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q3471218
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q332685
+  fields:
+    name: "Joseph Hume"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q332685
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q1364848
+  fields:
+    name: "George Grote"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q1364848
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q1607302
+  fields:
+    name: "Henry Taylor"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q1607302
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q8012091
+  fields:
+    name: "William Henry Maule"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q8012091
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q1476802
+    source: Coolidge2013a
+    presumed: True
+
+
+- model: parties.person
+  pk: Q902759
+  fields:
+    name: "David Wilkie"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q902759
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q902759
+    source: Coolidge2013b
+    presumed: False
+
+
+- model: parties.person
+  pk: Q159758
+  fields:
+    name: "Joseph Mallord William Turner"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q159758
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q7788348
+  fields:
+    name: "Thomas Charles Morgan"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q7788348
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q459275
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q519645
+    source: Coolidge2013a
+    presumed: True
+
+
+- model: parties.person
+  pk: Q234570
+  fields:
+    name: "Harriet Martineau"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q234570
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q75300275
+  fields:
+    name: "Anna Maria Elliot Donkin"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q75300275
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q75300275
+    source: Coolidge2013b
+    presumed: False
+
+
+- model: parties.person
+  pk: Q5314138
+  fields:
+    name: "Dunbar James Douglas (Earl of Selkirk)"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q5314138
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q344157
+  fields:
+    name: "Andrew Stevenson"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q344157
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q94685628
+  fields:
+    name: "Sarah (Sally) Coles Stevenson"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q94685628
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q6261749
+  fields:
+    name: "John Van Buren"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q6261749
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q1066198
+  fields:
+    name: "Charles Sumner"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q1066198
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q125824502
+  fields:
+    name: "Sarah Rogers"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-02-16
+    guest: Q125824502
+    source: Coolidge2013a
+    presumed: False
+
+
+- model: parties.party
+  pk: 1839-03-16
+  fields:
+    year: 1839
+    month: 3
+    day: 16
+
+
+- model: parties.person
+  pk: Q4888797
+  fields:
+    name: "Benjamin Hawes"
+
+
+- model: parties.book
+  pk: Macready1875
+  fields:
+    citation: "MacReady, William. 1875. Macready's Reminiscences and Selections from his Diaries and Letters. Vol. 2, edited by Sir Frederick Pollock, Bart. London: MacMillan and Co."
+
+- model: parties.source
+  pk: Macready1875a
+  fields:
+    book: Macready1875
+    quote: "“Went to Babbage’s conversazione, where I saw Faraday, Wilkie, Chantrey, Hawes, who told me that the House gave me a lusty cheer on the occasion of Lord John Russell’s mention of my name. Babbage showed me a very curious machine to mark on paper the velocity of a steam-carriage, &c., its shakings both vertical and horizontal: also an effect of the sun’s rays on glass laid over a certain composition, which gives shade all round the object placed between the glass and composition. Sidney Smith, Lord Northampton, Mrs. Marcet, I also Saw. [...] and I brought Catherine home.”"
+    pages: 140
+
+
+- model: parties.book
+  pk: Sopwith1891
+  fields:
+    citation: "Sopwith, Thomas. 1891. Thomas Sopwith, M.A., C.E., F.R.S. ; with Excerpts from his Diary of Fifty-Seven Years. Edited by Benjamin Ward Richardson. London: Longmans, Green, & Co."
+
+- model: parties.source
+  pk: Sopwith1891
+  fields:
+    book: Sopwith1891
+    quote: "“At nine I went to Mr. Babbage’s soirée. There was a great assemblage of nobility and of scientific persons, amongst whom I had the pleasure to converse with the following: the Marquis of Northampton, President of the Royal Society, - his manners are extremely pleasing, and expressive of kind and amiable feelings ; Mr. Talbot, the inventor of a kind of photogenic drawing in which the object appears white and the rest of the surface of the paper is very dark, - some very admirable examples of which were lying on a chiffonier and attracted great attention: the finest films of vegetable form, and the minutest threads of the finest lacework, are shown with surprising delicacy and clearness ; Sir Francis and Lady Chantrey, G. W.  Wood, M.P., Robert Hutton, M.P., Professor Phillips, Professor Wheatstone, Bellender Ker, George Rennie. “Of those whom I only knew by being pointed out were: Admiral Codrington, M. Van de Weyer the Belgian Ambassador, Professor Faraday, Mr. And Mrs. Collidge, Mrs. Marcet, Lady Charleville, Wentworth Buller, Lady Chatterton, who wrote “My Aunt Dorothy,” Charles Darwin, Charles Lyell, Sir William Gossett, Mrs. Rothschild (widow of the famous stockbroker), Mr. Hawes, M.P., Dr. Holland, Lady Monroe, Mr. Macready the tragedian, Lady Nugent, Admiral Sir Charles and Lady Ogle, Sir John and Lady Shelley, Sydney Smith, Lady Mary Shepherd, Lady Vincent, Wilkie the celebrated painter, and many others of whom it may be truly said, in newspaper fashion, their names are ‘too numerous to mention.’”"
+    pages: 170-171
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q4888797
+    source: Macready1875a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q4888797
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.source
+  pk: Coolidge2013c
+  fields:
+    book: Coolidge2013
+    quote: "In the evening of Saturday M‘ Coolidge & myself went to two parties— a small one at Miss Martineau’s where we met the Carlyles, and a larger one at M‘ Babbage’s where I again saw MS Marcet. By the way I heard a few days since, that this lady who spends much of her time at Geneva, had been remonstrated with by the Select-men or Syndics, (or by whatever name may be called the guardians of public morals in the City of Calvin,) on the bad example which she set in having, when she went out, a footman to walk after her, instead of a little maid with her clogs. Thus Luxury advances with rapid strides, the strides of a long-legged footman, over the territory of the Republic, and the wealth and pride of England are contaminating the purity of the ancient manners & modes of life in Geneva. This evening I made acquaintance with Sir David Wilkie & his sister. This lady sat for Meg in her brother’s picture of Duncan Gray. Meg is an improved likeness of Miss Wilkie, but still a likeness. Among the guests at M' Babbage’s were the President of the Royal Society the Marquis of Northampton, Sir Francis & Lady Chauntrey, Lady Ogle, sublime in velvet & point lace, & M. & Mme Van de Weyer—she in a white muslin dress & a coiffure of velvet & blonde, a solecism in dress of which no frenchwoman could ever have been guilty. The Grammar of the French toilette has it’s inviolable rules. Certain things go together, certain other things have no fitness of companionship. The subordinate parts of the dress must agree with the principals as the adjective agrees with it’s noun, or the verb with it’s nominative. Blond lace & velvet with Muslin is against the Syntax of dress, shews an ignorance of Concord & Government. The English commit many of these faults of Grammar. I have received a great deal of valuable instruction in this branch of female education from my french maid Josephine, who is learned and a pedant in such matters. The charm of a french toilette consists first in the observance of these laws, which have their foundation in good taste, but also in it’s fitness to time, place & season. The distinctions of summer, autumn, winter & spring dress, (I have seen an Englishwoman driving in Hyde Park in July with a Fur Boa on her shoulders,) of morning & evening, (English ladies sometimes wear rich silks to breakfast) of full dress and half dress, of walking, carriage & parlour costumes, are observed with a precision which custom renders easy. Then in a french toilette, even as I have seen it in England, there is a harmony of colours which you do not always find in the dress of an English lady, and there is a neatness & freshness in all the minor articles, gloves, shoes, ribbons, handkerchiefs, which I am sorry to say does not exist universally among similar small items, as they are worn & used by the Anglo Saxons. “They order these things better in France” than in any other part of the world."
+    pages: 308-309
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q902759
+    source: Macready1875a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q902759
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q902759
+    source: Coolidge2013c
+    presumed: False
+
+
+- model: parties.person
+  pk: Q125824661
+  fields:
+    name: "Helen Wilkie William Hunter"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q125824661
+    source: Coolidge2013c
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q1476802
+    source: Macready1875a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q1476802
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q1476802
+    source: Coolidge2013c
+    presumed: False
+
+
+- model: parties.person
+  pk: Q433093
+  fields:
+    name: "Jane Marcet"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q433093
+    source: Macready1875a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q433093
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q433093
+    source: Coolidge2013c
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q8750
+    source: Macready1875a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q8750
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.person
+  pk: Q6182166
+  fields:
+    name: "Sydney Smith"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q6182166
+    source: Macready1875a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q6182166
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.person
+  pk: Q338197
+  fields:
+    name: "Spencer Compton (Lord Northampton)"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q338197
+    source: Macready1875a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q338197
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q338197
+    source: Coolidge2013c
+    presumed: False
+
+
+- model: parties.person
+  pk: Q637374
+  fields:
+    name: "William Macready"
+
+
+- model: parties.book
+  pk: Macready1875a ; Sopwith1891
+  fields:
+    citation: "MacReady, William. 1875. Macready's Reminiscences and Selections from his Diaries and Letters. Vol. 2, edited by Sir Frederick Pollock, Bart. London: MacMillan and Co. ; Sopwith, Thomas. 1891. Thomas Sopwith, M.A., C.E., F.R.S. ; with Excerpts from his Diary of Fifty-Seven Years. Edited by Benjamin Ward Richardson. London: Longmans, Green, & Co."
+
+- model: parties.source
+  pk: Macready1875a ; Sopwith1891
+  fields:
+    book: Macready1875a ; Sopwith1891
+    quote: "“Went to Babbage’s conversazione, where I saw Faraday, Wilkie, Chantrey, Hawes, who told me that the House gave me a lusty cheer on the occasion of Lord John Russell’s mention of my name. Babbage showed me a very curious machine to mark on paper the velocity of a steam-carriage, &c., its shakings both vertical and horizontal: also an effect of the sun’s rays on glass laid over a certain composition, which gives shade all round the object placed between the glass and composition. Sidney Smith, Lord Northampton, Mrs. Marcet, I also Saw. [...] and I brought Catherine home.”; “At nine I went to Mr. Babbage’s soirée. There was a great assemblage of nobility and of scientific persons, amongst whom I had the pleasure to converse with the following: the Marquis of Northampton, President of the Royal Society, - his manners are extremely pleasing, and expressive of kind and amiable feelings ; Mr. Talbot, the inventor of a kind of photogenic drawing in which the object appears white and the rest of the surface of the paper is very dark, - some very admirable examples of which were lying on a chiffonier and attracted great attention: the finest films of vegetable form, and the minutest threads of the finest lacework, are shown with surprising delicacy and clearness ; Sir Francis and Lady Chantrey, G. W.  Wood, M.P., Robert Hutton, M.P., Professor Phillips, Professor Wheatstone, Bellender Ker, George Rennie. “Of those whom I only knew by being pointed out were: Admiral Codrington, M. Van de Weyer the Belgian Ambassador, Professor Faraday, Mr. And Mrs. Collidge, Mrs. Marcet, Lady Charleville, Wentworth Buller, Lady Chatterton, who wrote “My Aunt Dorothy,” Charles Darwin, Charles Lyell, Sir William Gossett, Mrs. Rothschild (widow of the famous stockbroker), Mr. Hawes, M.P., Dr. Holland, Lady Monroe, Mr. Macready the tragedian, Lady Nugent, Admiral Sir Charles and Lady Ogle, Sir John and Lady Shelley, Sydney Smith, Lady Mary Shepherd, Lady Vincent, Wilkie the celebrated painter, and many others of whom it may be truly said, in newspaper fashion, their names are ‘too numerous to mention.’”"
+    pages: 140 ; 170-171
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q637374
+    source: Macready1875a ; Sopwith1891
+    presumed: False
+
+
+- model: parties.person
+  pk: Q76067143
+  fields:
+    name: "Catherine Frances Atkins"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q76067143
+    source: Macready1875a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q7794093
+  fields:
+    name: "Thomas Sopwith"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q7794093
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.person
+  pk: Q299565
+  fields:
+    name: "William Henry Fox Talbot"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q299565
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.person
+  pk: Q125568458
+  fields:
+    name: "Mary Ann Wale Chantrey"
+
+
+- model: parties.book
+  pk: Sopwith1891 ; Coolidge2013
+  fields:
+    citation: "Sopwith, Thomas. 1891. Thomas Sopwith, M.A., C.E., F.R.S. ; with Excerpts from his Diary of Fifty-Seven Years. Edited by Benjamin Ward Richardson. London: Longmans, Green, & Co. ; Coolidge, Ellen. 2013. Thomas Jefferson’s Granddaughter in Queen Victoria’s England: The Travel Diary of Ellen Wayles Coolidge, 1838–1839. Edited by Ann Lucas Birle and Lisa A. Francavilla. Massachusetts Historical Society."
+
+- model: parties.source
+  pk: Sopwith1891 ; Coolidge2013c
+  fields:
+    book: Sopwith1891 ; Coolidge2013
+    quote: "“At nine I went to Mr. Babbage’s soirée. There was a great assemblage of nobility and of scientific persons, amongst whom I had the pleasure to converse with the following: the Marquis of Northampton, President of the Royal Society, - his manners are extremely pleasing, and expressive of kind and amiable feelings ; Mr. Talbot, the inventor of a kind of photogenic drawing in which the object appears white and the rest of the surface of the paper is very dark, - some very admirable examples of which were lying on a chiffonier and attracted great attention: the finest films of vegetable form, and the minutest threads of the finest lacework, are shown with surprising delicacy and clearness ; Sir Francis and Lady Chantrey, G. W.  Wood, M.P., Robert Hutton, M.P., Professor Phillips, Professor Wheatstone, Bellender Ker, George Rennie. “Of those whom I only knew by being pointed out were: Admiral Codrington, M. Van de Weyer the Belgian Ambassador, Professor Faraday, Mr. And Mrs. Collidge, Mrs. Marcet, Lady Charleville, Wentworth Buller, Lady Chatterton, who wrote “My Aunt Dorothy,” Charles Darwin, Charles Lyell, Sir William Gossett, Mrs. Rothschild (widow of the famous stockbroker), Mr. Hawes, M.P., Dr. Holland, Lady Monroe, Mr. Macready the tragedian, Lady Nugent, Admiral Sir Charles and Lady Ogle, Sir John and Lady Shelley, Sydney Smith, Lady Mary Shepherd, Lady Vincent, Wilkie the celebrated painter, and many others of whom it may be truly said, in newspaper fashion, their names are ‘too numerous to mention.’”  ; In the evening of Saturday M‘ Coolidge & myself went to two parties— a small one at Miss Martineau’s where we met the Carlyles, and a larger one at M‘ Babbage’s where I again saw MS Marcet. By the way I heard a few days since, that this lady who spends much of her time at Geneva, had been remonstrated with by the Select-men or Syndics, (or by whatever name may be called the guardians of public morals in the City of Calvin,) on the bad example which she set in having, when she went out, a footman to walk after her, instead of a little maid with her clogs. Thus Luxury advances with rapid strides, the strides of a long-legged footman, over the territory of the Republic, and the wealth and pride of England are contaminating the purity of the ancient manners & modes of life in Geneva. This evening I made acquaintance with Sir David Wilkie & his sister. This lady sat for Meg in her brother’s picture of Duncan Gray. Meg is an improved likeness of Miss Wilkie, but still a likeness. Among the guests at M' Babbage’s were the President of the Royal Society the Marquis of Northampton, Sir Francis & Lady Chauntrey, Lady Ogle, sublime in velvet & point lace, & M. & Mme Van de Weyer—she in a white muslin dress & a coiffure of velvet & blonde, a solecism in dress of which no frenchwoman could ever have been guilty. The Grammar of the French toilette has it’s inviolable rules. Certain things go together, certain other things have no fitness of companionship. The subordinate parts of the dress must agree with the principals as the adjective agrees with it’s noun, or the verb with it’s nominative. Blond lace & velvet with Muslin is against the Syntax of dress, shews an ignorance of Concord & Government. The English commit many of these faults of Grammar. I have received a great deal of valuable instruction in this branch of female education from my french maid Josephine, who is learned and a pedant in such matters. The charm of a french toilette consists first in the observance of these laws, which have their foundation in good taste, but also in it’s fitness to time, place & season. The distinctions of summer, autumn, winter & spring dress, (I have seen an Englishwoman driving in Hyde Park in July with a Fur Boa on her shoulders,) of morning & evening, (English ladies sometimes wear rich silks to breakfast) of full dress and half dress, of walking, carriage & parlour costumes, are observed with a precision which custom renders easy. Then in a french toilette, even as I have seen it in England, there is a harmony of colours which you do not always find in the dress of an English lady, and there is a neatness & freshness in all the minor articles, gloves, shoes, ribbons, handkerchiefs, which I am sorry to say does not exist universally among similar small items, as they are worn & used by the Anglo Saxons. “They order these things better in France” than in any other part of the world."
+    pages: 170-171 ; 308-309
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q125568458
+    source: Sopwith1891 ; Coolidge2013c
+    presumed: False
+
+
+- model: parties.person
+  pk: Q5546360
+  fields:
+    name: "George William Wood"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q5546360
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.person
+  pk: Q21548779
+  fields:
+    name: "Robert Hutton"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q21548779
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.person
+  pk: Q1701428
+  fields:
+    name: "John Phillips"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q1701428
+    source: Sopwith1891
+    presumed: True
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q156942
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.person
+  pk: Q5764886
+  fields:
+    name: "Charles Henry Bellenden Ker"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q5764886
+    source: Sopwith1891
+    presumed: True
+
+
+- model: parties.person
+  pk: Q5543812
+  fields:
+    name: "George Rennie"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q5543812
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.person
+  pk: Q958853
+  fields:
+    name: "Edward Codrington"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q958853
+    source: Sopwith1891
+    presumed: True
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q546727
+    source: Sopwith1891 ; Coolidge2013c
+    presumed: False
+
+
+- model: parties.person
+  pk: Q75253549
+  fields:
+    name: "Elizabeth Anne Sturgis Bates"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q75253549
+    source: Coolidge2013c
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q60536207
+    source: Sopwith1891 ; Coolidge2013c
+    presumed: True
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q60536153
+    source: Sopwith1891 ; Coolidge2013c
+    presumed: True
+
+
+- model: parties.person
+  pk: Q53098702
+  fields:
+    name: "Harriet Bury (Countess of Charleville)"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q53098702
+    source: Sopwith1891
+    presumed: True
+
+
+- model: parties.person
+  pk: Q6145332
+  fields:
+    name: "James Wentworth Buller"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q6145332
+    source: Sopwith1891
+    presumed: True
+
+
+- model: parties.person
+  pk: Q5715941
+  fields:
+    name: "Georgiana Chatterton"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q5715941
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.person
+  pk: Q1035
+  fields:
+    name: "Charles Darwin"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q1035
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.person
+  pk: Q242147
+  fields:
+    name: "Emma Darwin"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q242147
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q5333
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.person
+  pk: Q26213082
+  fields:
+    name: "William Gosset"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q26213082
+    source: Sopwith1891
+    presumed: True
+
+
+- model: parties.person
+  pk: Q75334503
+  fields:
+    name: "Hannah Cohen Rothschild"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q75334503
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.person
+  pk: Q7527156
+  fields:
+    name: "Henry Holland"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q7527156
+    source: Sopwith1891
+    presumed: True
+
+
+- model: parties.person
+  pk: Q75911166
+  fields:
+    name: "Jane Campbell Munro"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q75911166
+    source: Sopwith1891
+    presumed: True
+
+
+- model: parties.person
+  pk: Q75253367
+  fields:
+    name: "Anne Lucy Poulett Nugent"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q75253367
+    source: Sopwith1891
+    presumed: True
+
+
+- model: parties.person
+  pk: Q7526276
+  fields:
+    name: "Charles Ogle"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q7526276
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.person
+  pk: Q75464806
+  fields:
+    name: "Mary Anne Cary Ogle"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q75464806
+    source: Sopwith1891 ; Coolidge2013c
+    presumed: False
+
+
+- model: parties.person
+  pk: Q7528061
+  fields:
+    name: "John Shelley"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q7528061
+    source: Sopwith1891
+    presumed: True
+
+
+- model: parties.person
+  pk: Q75282802
+  fields:
+    name: "Frances Winckley Shelley"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q75282802
+    source: Sopwith1891
+    presumed: True
+
+
+- model: parties.person
+  pk: Q6470434
+  fields:
+    name: "Mary Shepherd"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q6470434
+    source: Sopwith1891
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q75545148
+    source: Sopwith1891
+    presumed: True
+
+
+- model: parties.book
+  pk: Perkins1909
+  fields:
+    citation: "Perkins, Jane Gray. 1909. The Life of the Honourable Mrs. Norton, with Portraits. New York: Henry Holt and Co."
+
+- model: parties.source
+  pk: Perkins1909
+  fields:
+    book: Perkins1909
+    quote: "“We hear of her again from another American, John Van Buren, son of the President of the United States, who had come to England for the Queen's coronation, and was still lingering there in March of the following year. He met her at a reception at Babbage's, standing in a doorway, talking to Mr. Talfourd. She was very gracious to him and he admired her conversation, but her beauty was so unlike the fragile loveliness of his own countrywomen that he was not entirely pleased with \" that superb lump of flesh,\" as Sidney Smith once jokingly called her. [...] It was in the summer of this year, 1839, that the Bill for which she had fought so long [...]”"
+    pages: 156
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q850141
+    source: Perkins1909
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q6261749
+    source: Perkins1909
+    presumed: False
+
+
+- model: parties.person
+  pk: Q2426332
+  fields:
+    name: "Thomas Talfourd"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q2426332
+    source: Perkins1909
+    presumed: False
+
+
+- model: parties.party
+  pk: 1839-06-22
+  fields:
+    year: 1839
+    month: 6
+    day: 22
+
+
+- model: parties.person
+  pk: Q75585254
+  fields:
+    name: "Julia Webster"
+
+
+- model: parties.book
+  pk: Paige1917a ; Webster1942
+  fields:
+    citation: "Paige, Harriette Story. 1917. Daniel Webster in England: Journal of Harriette Story Paige 1839. Edited by Edward Gray. Boston and New York: Houghton Mifflin Company. ; Webster, Caroline Le Roy. 1942. Mr. W. & I ; Being the Authentic Diary of Caroline Le Roy Webster during a Famous Journey with the Honorable Daniel Webster to Great Britain and the Continents in the Year 1839. Binghamton: Ives Washburn."
+
+- model: parties.source
+  pk: Paige1917a ; Webster1942
+  fields:
+    book: Paige1917a ; Webster1942
+    quote: "“After dinner we went to a Soirée at Mr. Babbage’s, where we met a younger sister of Miss Edgeworth, rather a peculiar looking person, with short, and dark curly hair. We also, chatted some time with Miss Jane Porter. She is a thin person, not at all handsome, but with a sensible, and agreeable physiognomy, dressed in black in quite an old-fashioned style; I should suppose her about fifty years old. She made many enquiries about our country, and expressed the highest reverence, and admiration, for the character of Washington.”; “Mr. W., Mrs P. and Julia have gone to Mr. Babbages. I left them there, but having been quite ill today, was glad to return home, and get a little rest ; Mr. B. has his Saturday evening soirees, very intellectual, and I am told very pleasant. — Julia and Mrs. P. had quite a pleasant time at Babbages — saw Ann Maria Porter, she sent her regards to me, and said she should come and see me — they spent almost an hour.”"
+    pages: 54 ; 26
+
+
+- model: parties.mention
+  fields:
+    party: 1839-06-22
+    guest: Q75585254
+    source: Paige1917a ; Webster1942
+    presumed: False
+
+
+- model: parties.person
+  pk: Q125566865
+  fields:
+    name: "Miss Edgeworth"
+
+
+- model: parties.book
+  pk: Paige1917
+  fields:
+    citation: "Paige, Harriette Story. 1917. Daniel Webster in England: Journal of Harriette Story Paige 1839. Edited by Edward Gray. Boston and New York: Houghton Mifflin Company."
+
+- model: parties.source
+  pk: Paige1917a
+  fields:
+    book: Paige1917
+    quote: "“After dinner we went to a Soirée at Mr. Babbage’s, where we met a younger sister of Miss Edgeworth, rather a peculiar looking person, with short, and dark curly hair. We also, chatted some time with Miss Jane Porter. She is a thin person, not at all handsome, but with a sensible, and agreeable physiognomy, dressed in black in quite an old-fashioned style; I should suppose her about fifty years old. She made many enquiries about our country, and expressed the highest reverence, and admiration, for the character of Washington.”"
+    pages: 54
+
+
+- model: parties.mention
+  fields:
+    party: 1839-06-22
+    guest: Q125566865
+    source: Paige1917a
+    presumed: True
+
+
+- model: parties.mention
+  fields:
+    party: 1839-06-22
+    guest: Q3161890
+    source: Paige1917a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q106231
+  fields:
+    name: "Daniel Webster"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-06-22
+    guest: Q106231
+    source: Paige1917a ; Webster1942
+    presumed: False
+
+
+- model: parties.person
+  pk: Q125294531
+  fields:
+    name: "Harriette Story Paige"
+
+
+- model: parties.mention
+  fields:
+    party: 1839-06-22
+    guest: Q125294531
+    source: Paige1917a ; Webster1942
+    presumed: False
+
+
+- model: parties.person
+  pk: Q2850561
+  fields:
+    name: "Ann Maria Porter"
+
+
+- model: parties.book
+  pk: Webster1942
+  fields:
+    citation: "Webster, Caroline Le Roy. 1942. Mr. W. & I ; Being the Authentic Diary of Caroline Le Roy Webster during a Famous Journey with the Honorable Daniel Webster to Great Britain and the Continents in the Year 1839. Binghamton: Ives Washburn."
+
+- model: parties.source
+  pk: Webster1942
+  fields:
+    book: Webster1942
+    quote: "“Mr. W., Mrs P. and Julia have gone to Mr. Babbages. I left them there, but having been quite ill today, was glad to return home, and get a little rest ; Mr. B. has his Saturday evening soirees, very intellectual, and I am told very pleasant. — Julia and Mrs. P. had quite a pleasant time at Babbages — saw Ann Maria Porter, she sent her regards to me, and said she should come and see me — they spent almost an hour.”"
+    pages: 26
+
+
+- model: parties.mention
+  fields:
+    party: 1839-06-22
+    guest: Q2850561
+    source: Webster1942
+    presumed: False
+
+
+- model: parties.party
+  pk: 1839
+  fields:
+    year: 1839
+    month: null
+    day: null
+
+
+- model: parties.book
+  pk: Darwin1839_470
+  fields:
+    citation: "Darwin, Charles. Personal letter. February 1839 - August 1842. “Letter to Charles Babbage (‘Will you...’),”  letter no. 470. Darwin Correspondence Project. University of Cambridge. https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-470.xml."
+
+- model: parties.source
+  pk: Darwin1839_470
+  fields:
+    book: Darwin1839_470
+    quote: "“Will you have the kindness to excuse me, once again asking your permission to bring with Mrs. Darwin and myself, to your party on Saturday Evening, a relative of ours, Miss Allen of Cresselly, who is staying with us.”"
+    pages: /
+
+
+- model: parties.mention
+  fields:
+    party: 1839
+    guest: Q1035
+    source: Darwin1839_470
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839
+    guest: Q242147
+    source: Darwin1839_470
+    presumed: False
+
+
+- model: parties.person
+  pk: Q96079996
+  fields:
+    name: "Frances Allen"
+
+
+- model: parties.mention
+  fields:
+    party: 1839
+    guest: Q96079996
+    source: Darwin1839_470
+    presumed: False
+
+
+- model: parties.book
+  pk: Darwin1839_479
+  fields:
+    citation: "Darwin, Charles. Personal letter. 19 February 1839 - August 1842. “Letter to Charles Babbage (‘My Sister...’),” letter no. 479. Darwin Correspondence Project. University of Cambridge. https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-479.xml."
+
+- model: parties.source
+  pk: Darwin1839_479
+  fields:
+    book: Darwin1839_479
+    quote: "“My sister is at present staying with us, will you be so kind as to allow me to bring her to your party on Saturday, that she may see the World.”"
+    pages: /
+
+
+- model: parties.mention
+  fields:
+    party: 1839
+    guest: Q1035
+    source: Darwin1839_479
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839
+    guest: Q242147
+    source: Darwin1839_479
+    presumed: False
+
+
+- model: parties.person
+  pk: Q55363478
+  fields:
+    name: "Caroline Darwin"
+
+
+- model: parties.mention
+  fields:
+    party: 1839
+    guest: Q55363478
+    source: Darwin1839_479
+    presumed: False
+
+
+- model: parties.book
+  pk: Darwin1839_474
+  fields:
+    citation: "Darwin, Charles. Personal letter. October 1839 - August 1842. “Letter to Charles Babbage (‘I am very...’),” letter no. 474. Darwin Correspondence Project. University of Cambridge. https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-474.xml."
+
+- model: parties.source
+  pk: Darwin1839_474
+  fields:
+    book: Darwin1839_474
+    quote: "“I am very much obliged to you for your several cards which you have so kindly sent us, & which I should have had greater pleasure in accepting than any other parties, had not I found by dear-bought experience that my health will not at present stand going out in the evening. I am going to take a liberty, which I trust you will excuse; it is to ask permission for my sister who is staying with us to accompany my brother, whom I understand you have also kindly asked, to your party tomorrow evening: Mrs. Darwin not being well enough to go out at present.-”"
+    pages: /
+
+
+- model: parties.mention
+  fields:
+    party: 1839
+    guest: Q55363478
+    source: Darwin1839_474
+    presumed: False
+
+
+- model: parties.person
+  pk: Q5384940
+  fields:
+    name: "Erasmus Alvey Darwin"
+
+
+- model: parties.mention
+  fields:
+    party: 1839
+    guest: Q5384940
+    source: Darwin1839_474
+    presumed: False
+
+
+- model: parties.party
+  pk: 1840-02-01
+  fields:
+    year: 1840
+    month: 2
+    day: 1
+
+
+- model: parties.book
+  pk: Talbot1840
+  fields:
+    citation: "Talbot, William Henry Fox. Personal letter. 1840. “Letter to Constance Talbot,” February 2, 1840. Manuscripts - Fox Talbot Collection. London: British Library. https://foxtalbot.dmu.ac.uk/letters/transcriptFreetext.php?keystring=babbage&keystring2=lace&keystring3=&year1=1839&year2=1840&pageNumber=3&pageTotal=4&referringPage=0."
+
+- model: parties.source
+  pk: Talbot1840
+  fields:
+    book: Talbot1840
+    quote: "“My pictures had great success at Mr Babbage's last night, Sir David Wilkie and Sir Francis Chantrey happened to be there & admired them.”"
+    pages: /
+
+
+- model: parties.mention
+  fields:
+    party: 1840-02-01
+    guest: Q902759
+    source: Talbot1840
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1840-02-01
+    guest: Q1476802
+    source: Talbot1840
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1840-02-01
+    guest: Q299565
+    source: Talbot1840
+    presumed: False
+
+
+- model: parties.party
+  pk: 1840-04-25
+  fields:
+    year: 1840
+    month: 4
+    day: 25
+
+
+- model: parties.source
+  pk: Macready1875b
+  fields:
+    book: Macready1875
+    quote: "“David Colden came into my room and accompanied me to Babbage’s, where I saw Sidney Smith, Professor Wheatstone, the Brockedons, two or three whom I knew, but not by name, Harness, Travers, Hawes, Lady Stepney, Dr. Arnott Milman, the Bishop of Norwich (Stanley), who wished to be known to me. I had a very interesting conversation with him, a man I admire and reverence so much, speaking with great warmth of the effort I had made and the probable effect it carried out. I was very much pleased with him.”"
+    pages: 159
+
+
+- model: parties.mention
+  fields:
+    party: 1840-04-25
+    guest: Q4888797
+    source: Macready1875b
+    presumed: False
+
+
+- model: parties.person
+  pk: Q4889308
+  fields:
+    name: "Benjamin Travers"
+
+
+- model: parties.mention
+  fields:
+    party: 1840-04-25
+    guest: Q4889308
+    source: Macready1875b
+    presumed: True
+
+
+- model: parties.person
+  pk: Q18575958
+  fields:
+    name: "Catherine Stepney"
+
+
+- model: parties.mention
+  fields:
+    party: 1840-04-25
+    guest: Q18575958
+    source: Macready1875b
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1840-04-25
+    guest: Q156942
+    source: Macready1875b
+    presumed: False
+
+
+- model: parties.person
+  pk: Q98558441
+  fields:
+    name: "David Cadwallader Colden"
+
+
+- model: parties.mention
+  fields:
+    party: 1840-04-25
+    guest: Q98558441
+    source: Macready1875b
+    presumed: True
+
+
+- model: parties.mention
+  fields:
+    party: 1840-04-25
+    guest: Q5345414
+    source: Macready1875b
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1840-04-25
+    guest: Q4269655
+    source: Macready1875b
+    presumed: False
+
+
+- model: parties.person
+  pk: Q1398302
+  fields:
+    name: "Neil Arnott"
+
+
+- model: parties.mention
+  fields:
+    party: 1840-04-25
+    guest: Q1398302
+    source: Macready1875b
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1840-04-25
+    guest: Q6182166
+    source: Macready1875b
+    presumed: False
+
+
+- model: parties.person
+  pk: Q4019944
+  fields:
+    name: "William Brockedon"
+
+
+- model: parties.mention
+  fields:
+    party: 1840-04-25
+    guest: Q4019944
+    source: Macready1875b
+    presumed: True
+
+
+- model: parties.person
+  pk: Q16065697
+  fields:
+    name: "William Harness"
+
+
+- model: parties.mention
+  fields:
+    party: 1840-04-25
+    guest: Q16065697
+    source: Macready1875b
+    presumed: True
+
+
+- model: parties.mention
+  fields:
+    party: 1840-04-25
+    guest: Q637374
+    source: Macready1875b
+    presumed: False
+
+
+- model: parties.party
+  pk: 1840-05-09
+  fields:
+    year: 1840
+    month: 5
+    day: 9
+
+
+- model: parties.book
+  pk: Macready1912
+  fields:
+    citation: "MacReady, William. 1912. The Diaries of William Charles MacReady 1833-1851. Vol. 2, edited by William Toynbee. Michigan: Chapman and Halll, lmt."
+
+- model: parties.source
+  pk: Macready1912
+  fields:
+    book: Macready1912
+    quote: "“Talfourd came into my room. [...] Dickens came, and we went in his carriage, all three to Babbage's. The room was very much crowded, but I saw few that I knew there – Wheatstone, Edward Kater, Lady Stepney, and Rogers, who invited Dickens and myself to dine with him on Sunday fortnight. Talfourd left us soon; Dickens set me down.”"
+    pages: 59
+
+
+- model: parties.mention
+  fields:
+    party: 1840-05-09
+    guest: Q18575958
+    source: Macready1912
+    presumed: False
+
+
+- model: parties.person
+  pk: Q5686
+  fields:
+    name: "Charles Dickens"
+
+
+- model: parties.mention
+  fields:
+    party: 1840-05-09
+    guest: Q5686
+    source: Macready1912
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1840-05-09
+    guest: Q156942
+    source: Macready1912
+    presumed: False
+
+
+- model: parties.person
+  pk: Q21166109
+  fields:
+    name: "Edward Kater"
+
+
+- model: parties.mention
+  fields:
+    party: 1840-05-09
+    guest: Q21166109
+    source: Macready1912
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1840-05-09
+    guest: Q3471218
+    source: Macready1912
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1840-05-09
+    guest: Q2426332
+    source: Macready1912
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1840-05-09
+    guest: Q637374
+    source: Macready1912
+    presumed: False
+
+
+- model: parties.party
+  pk: 1840-06-06
+  fields:
+    year: 1840
+    month: 6
+    day: 6
+
+
+- model: parties.book
+  pk: Darwin1840_570
+  fields:
+    citation: "Darwin, Charles. Personal letter. 1840. “Letter to Charles Babbage,” May 26, 1840. Letter no. 570. Darwin Correspondence Project. University of Cambridge. https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-570.xml."
+
+- model: parties.source
+  pk: Darwin1840_570
+  fields:
+    book: Darwin1840_570
+    quote: "“I have called with this note to beg a favour of you. M. Sismondi, the historian & Madam Sismondi (my wife’s aunt) have just arrived in England and are coming together with Miss Allen to stay with us, would you, therefore, permit us to bring them to the parties, you have been kind enough to ask us to.”"
+    pages: /
+
+
+- model: parties.mention
+  fields:
+    party: 1840-06-06
+    guest: Q1035
+    source: Darwin1840_570
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1840-06-06
+    guest: Q242147
+    source: Darwin1840_570
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1840-06-06
+    guest: Q96079996
+    source: Darwin1840_570
+    presumed: False
+
+
+- model: parties.person
+  pk: Q124073
+  fields:
+    name: "Jean Charles Léonard de Sismondi"
+
+
+- model: parties.mention
+  fields:
+    party: 1840-06-06
+    guest: Q124073
+    source: Darwin1840_570
+    presumed: False
+
+
+- model: parties.person
+  pk: Q94777333
+  fields:
+    name: "Jessie Allen de Sismondi"
+
+
+- model: parties.mention
+  fields:
+    party: 1840-06-06
+    guest: Q94777333
+    source: Darwin1840_570
+    presumed: False
+
+
+- model: parties.party
+  pk: 1843-02-04
+  fields:
+    year: 1843
+    month: 2
+    day: 4
+
+
+- model: parties.source
+  pk: Morgan1863b
+  fields:
+    book: Morgan1863
+    quote: "“We did our Babbage last Saturday (his first of the season), where were all the habitués of the good old times, ‘your slave, but now your slave no longer,’ Rogers, gave me a crush of the hand as he passed me in the crowd, and turned his eyes tenderly on me, whilst I averted mine disdainfully; we looked an illustration of Death and the Lady and I had a mind to ask Landseer, who stood near me, to take it for his next subject.”"
+    pages: 474
+
+
+- model: parties.mention
+  fields:
+    party: 1843-02-04
+    guest: Q459275
+    source: Morgan1863b
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1843-02-04
+    guest: Q7788348
+    source: Morgan1863b
+    presumed: True
+
+
+- model: parties.mention
+  fields:
+    party: 1843-02-04
+    guest: Q3471218
+    source: Morgan1863b
+    presumed: False
+
+
+- model: parties.person
+  pk: Q5080054
+  fields:
+    name: "Charles Landseer"
+
+
+- model: parties.mention
+  fields:
+    party: 1843-02-04
+    guest: Q5080054
+    source: Morgan1863b
+    presumed: False
+
+
+- model: parties.party
+  pk: 1844-02-24
+  fields:
+    year: 1844
+    month: 2
+    day: 24
+
+
+- model: parties.person
+  pk: Q272161
+  fields:
+    name: "Anne Isabella NoelByron"
+
+
+- model: parties.book
+  pk: Talbot1844
+  fields:
+    citation: "Babbage, Charles. Personal letter. 1844. “Letter to William Henry Fox Talbot,” February 26, 1844. Fox Talbot Museum. Lacock: Lacock Abbey."
+
+- model: parties.source
+  pk: Talbot1844
+  fields:
+    book: Talbot1844
+    quote: "“Many thanks for the loan of those beautiful photographs. They were much admired last Saturday Evg... In the meantime I gave Lady Byron a treat to whom I lent them for a few hours.”"
+    pages: /
+
+
+- model: parties.mention
+  fields:
+    party: 1844-02-24
+    guest: Q272161
+    source: Talbot1844
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1844-02-24
+    guest: Q299565
+    source: Talbot1844
+    presumed: False
+
+
+- model: parties.party
+  pk: 1844
+  fields:
+    year: 1844
+    month: null
+    day: null
+
+
+- model: parties.person
+  pk: Q1268423
+  fields:
+    name: "Dwarkanath Tagore"
+
+
+- model: parties.book
+  pk: Hensel1881
+  fields:
+    citation: "Hensel, Sebastian. 1882. The Mendelssohn Family (1792-1847), from Letters and Journals, with Eight Portraits from Drawings by Wilhelm Hensel. Vol. 2, 2nd ed., translated by Carl Klingemann and an American Collaborator. New York: Harper & Brothers."
+
+- model: parties.source
+  pk: Hensel1881
+  fields:
+    book: Hensel1881
+    quote: "“Mr. Babbage gave me for the latter a pamphlet giving an account of his calculating machine, which I have brought to Soden. He gives such evening parties, frequented by all the celebrities – Indian princes, Baron Gerlach, the beauties of the season, Lord Ossulstone, and myself.”"
+    pages: 293
+
+
+- model: parties.mention
+  fields:
+    party: 1844
+    guest: Q1268423
+    source: Hensel1881
+    presumed: True
+
+
+- model: parties.person
+  pk: Q65780
+  fields:
+    name: "Ernst Ludwig von Gerlach (Baron Gerlach)"
+
+
+- model: parties.mention
+  fields:
+    party: 1844
+    guest: Q65780
+    source: Hensel1881
+    presumed: True
+
+
+- model: parties.person
+  pk: Q46096
+  fields:
+    name: "Felix Mendelssohn"
+
+
+- model: parties.mention
+  fields:
+    party: 1844
+    guest: Q46096
+    source: Hensel1881
+    presumed: False
+
+
+- model: parties.person
+  pk: Q5075542
+  fields:
+    name: "Charles Bennet (Lord Ossulton)"
+
+
+- model: parties.mention
+  fields:
+    party: 1844
+    guest: Q5075542
+    source: Hensel1881
+    presumed: True
+
+
+- model: parties.party
+  pk: 1845-04-26
+  fields:
+    year: 1845
+    month: 4
+    day: 26
+
+
+- model: parties.person
+  pk: Q1063834
+  fields:
+    name: "Charles Bunbury"
+
+
+- model: parties.book
+  pk: Bunbury2011
+  fields:
+    citation: "Bunbury, Charles James Fox. 2011. Memorials of Sir C.J.F. Bunbury, Bart. Middle Life Part 1.Vol. 2, edited by Frances Horner Bunbury, and Katharine Horner Lyell. Cambridge: Cambridge University Press."
+
+- model: parties.source
+  pk: Bunbury2011a
+  fields:
+    book: Bunbury2011
+    quote: "“April 26th. \"We went to Babbage's evening party, which was a very agreeable one, and less inconveniently crowded than usual."
+    pages: 59
+
+
+- model: parties.mention
+  fields:
+    party: 1845-04-26
+    guest: Q1063834
+    source: Bunbury2011a
+    presumed: False
+
+
+- model: parties.person
+  pk: Q27255564
+  fields:
+    name: "Frances Joanna Bunbury"
+
+
+- model: parties.mention
+  fields:
+    party: 1845-04-26
+    guest: Q27255564
+    source: Bunbury2011a
+    presumed: True
+
+
+- model: parties.person
+  pk: Q18531536
+  fields:
+    name: "William Frederick Pollock"
+
+
+- model: parties.book
+  pk: Pollock1887
+  fields:
+    citation: "Pollock, Frederick. 1887. Personal Remembrances of Sir Frederick Pollock, Second Baronet, Sometime Queen's Remembrancer. Vol. 1. London: Macmillan and Co."
+
+- model: parties.source
+  pk: Pollock1887
+  fields:
+    book: Pollock1887
+    quote: "26th April. - Evening at Babbage's. These Saturday parties at the large house at the top of Manchester Street were always very pleasant and amusing. It used to be said that they were given partly for the sake of providing entertainment for his mother while alive, and partly to interest people of position and influence in the progress of the calculating engines. Certainly one always met a great variety of notable people at them, and of all kinds - politicians, scientific and literary notabilities, actors, and persons of mere fashion and rank. There were always objects of scientific novelty or importance to be seen in the drawing-rooms, and Babbage was an active and ubiquitous host. The only refreshments served used to be tea and slices of brown bread and butter of exceptional excellence."
+    pages: 230-231
+
+
+- model: parties.mention
+  fields:
+    party: 1845-04-26
+    guest: Q18531536
+    source: Pollock1887
+    presumed: False
+
+
+- model: parties.party
+  pk: 1846-02-14
+  fields:
+    year: 1846
+    month: 2
+    day: 14
+
+
+- model: parties.source
+  pk: Bunbury2011c
+  fields:
+    book: Bunbury2011
+    quote: "At Babbage's party this evening, the celebrated Charles Dickens was pointed out to me. His appearance, I must say, is not much in his favour, though he has certainly a clever countenance."
+    pages: 118
+
+
+- model: parties.mention
+  fields:
+    party: 1846-02-14
+    guest: Q1063834
+    source: Bunbury2011c
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1846-02-14
+    guest: Q5686
+    source: Bunbury2011c
+    presumed: False
+
+
+- model: parties.party
+  pk: 1846-06
+  fields:
+    year: 1846
+    month: 6
+    day: null
+
+
+- model: parties.person
+  pk: Q5543571
+  fields:
+    name: "George Pryme"
+
+
+- model: parties.book
+  pk: Pryme1870
+  fields:
+    citation: "Pryme, George. 1870. Autobiographic Recollections of George Pryme, ESQ. M.A. Edited by Alicia Bayne. Cambridge: Deighton, Bell, and Co. London: Bell and Daldy."
+
+- model: parties.source
+  pk: Pryme1870
+  fields:
+    book: Pryme1870
+    quote: "While in Town I attended two of Babbage's Saturday evening réunions, to which he had kindly given me a general invitation. There I found again my former friend, Lord Murray, who happened to be in London - our pleasure on meeting was, I think, mutual. [...] I remember my Father pointing out Lord Murray to me, and their gratification at meeting. He was a fine portly man, with a handsome, genial face. His last words to my Father were, \"You must come and see me in Scotland,\" but they never met again. These Soirées were charming -unique- the rooms so well lighted, and apparently multiplied by a semi-magical Lamp of Mr Babbage's own invention - the Host so clever, and so kind to his guests, and they the finest company in London."
+    pages: 311-312
+
+
+- model: parties.mention
+  fields:
+    party: 1846-06
+    guest: Q5543571
+    source: Pryme1870
+    presumed: False
+
+
+- model: parties.person
+  pk: Q6249916
+  fields:
+    name: "John Murray"
+
+
+- model: parties.mention
+  fields:
+    party: 1846-06
+    guest: Q6249916
+    source: Pryme1870
+    presumed: False
+
+
+- model: parties.party
+  pk: 1847-04-24
+  fields:
+    year: 1847
+    month: 4
+    day: 24
+
+
+- model: parties.source
+  pk: Bunbury2011b
+  fields:
+    book: Bunbury2011
+    quote: "“Babbage's evening party and enjoyed it much. There was a great variety of people. I met many whom I knew and liked, and had much pleasant talk, especially with Sir Edward Ryan, John Moore and his brother, Dr. Falconer, and Mrs Milner Gibson. The Latter is intimate with Disraeli, and I talked with her about his strange and fantastic but very entertaining novel of \"Tancred.\""
+    pages: 228
+
+
+- model: parties.mention
+  fields:
+    party: 1847-04-24
+    guest: Q1063834
+    source: Bunbury2011b
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1847-04-24
+    guest: Q27255564
+    source: Bunbury2011b
+    presumed: True
+
+
+- model: parties.person
+  pk: Q5345150
+  fields:
+    name: "Edward Ryan"
+
+
+- model: parties.mention
+  fields:
+    party: 1847-04-24
+    guest: Q5345150
+    source: Bunbury2011b
+    presumed: False
+
+
+- model: parties.person
+  pk: Q21165660
+  fields:
+    name: "John Carrick Moore"
+
+
+- model: parties.mention
+  fields:
+    party: 1847-04-24
+    guest: Q21165660
+    source: Bunbury2011b
+    presumed: True
+
+
+- model: parties.person
+  pk: Q125568640
+  fields:
+    name: "Graham Francis Moore"
+
+
+- model: parties.mention
+  fields:
+    party: 1847-04-24
+    guest: Q125568640
+    source: Bunbury2011b
+    presumed: True
+
+
+- model: parties.person
+  pk: Q223013
+  fields:
+    name: "Hugh Falconer"
+
+
+- model: parties.mention
+  fields:
+    party: 1847-04-24
+    guest: Q223013
+    source: Bunbury2011b
+    presumed: False
+
+
+- model: parties.person
+  pk: Q18810603
+  fields:
+    name: "Arethusa Milner Gibson"
+
+
+- model: parties.mention
+  fields:
+    party: 1847-04-24
+    guest: Q18810603
+    source: Bunbury2011b
+    presumed: False
+
+
+- model: parties.party
+  pk: Unknown (multiple)
+  fields:
+    year: null
+    month: null
+    day: null
+
+
+- model: parties.book
+  pk: Martineau1877
+  fields:
+    citation: "Martineau, Harriet. 1877. Harriet Martineau's Autobiogrhapy. Vol. 1, edited by Maria Weston Chapman. Boston: James R. Osgood and Co."
+
+- model: parties.source
+  pk: Martineau1877
+  fields:
+    book: Martineau1877
+    quote: "“All were eager to go to his glorious soirées; and I always thought he appeared to great advantage as a host. His patience in explaining his machine in those days was really exemplary. I felt it so, the first time I saw the miracle, as it appeared to me; but I thought so much more, a year or two after, when a lady, to whom he had sacrificed some very precious time, on the supposition that she understood as much as she assumed to do, finished by saying “Now, Mr. Babbage, there is only one thing more that I want to know. If you put the question in wrong, will the answer come out right?” All time and attention devoted to lady examiners of his machine, from that time forward, I regarded as sacrifices of genuine good nature.”"
+    pages: 166
+
+
+- model: parties.mention
+  fields:
+    party: Unknown (multiple)
+    guest: Q234570
+    source: Martineau1877
+    presumed: False
+
+
+- model: parties.book
+  pk: Dodge1873
+  fields:
+    citation: "Dodge, N. S. 1873. \"A Philosopher and His Friends.\" The Lakeside Monthly, vol. 9 - March, 1873, no. 51, 236-245."
+
+- model: parties.source
+  pk: Dodge1873
+  fields:
+    book: Dodge1873
+    quote: "“Of Faraday, on the contrary, he was an ardent admirer. Among all the guests who used to assemble in Dorset street, and who took part in those delightful entertainments that made Mr. Babbage’s house almost as famous for the flavor of its society as Charles Lamb’s was at an earlier day, no one was more honored than the Secretary of the Royal Institution.”"
+    pages: 240
+
+
+- model: parties.mention
+  fields:
+    party: Unknown (multiple)
+    guest: Q8750
+    source: Dodge1873
+    presumed: False
+
+
+- model: parties.party
+  pk: Unknown
+  fields:
+    year: null
+    month: null
+    day: null
+
+
+- model: parties.book
+  pk: Babbage1864
+  fields:
+    citation: "Babbage, Charles. 1864. Passages from the Life of a Philosopher. London: Longman, Green, Longman, Roberts, & Green."
+
+- model: parties.source
+  pk: Babbage1864a
+  fields:
+    book: Babbage1864
+    quote: "“I myself repaired and restored all the mechanism of the Silver Lady, by which title she was afterwards known to my friends. I placed her under a glass case on a pedestal in my drawing-room, where she received, in her own silent but graceful manner, those valued friends who so frequently honoured me with their society on certain Saturday evenings. This piece of mechanism formed a striking contrast with the unfinished portion of the Difference Engine, No. 1, which was placed in the adjacent room: the whole of the latter mechanism existed in drawings upon paper before any portion of it was put together. […] The criticisms on the costume of the Silver Lady were various. In the course of the evening, Lady Morgan communicated to me confidentially her own opinion of the dress. Holding up her fan, she whispered, “My dear Mr. Babbage, I think your Silver Lady is rather slightly clad to-night; shall I lend her a petticoat?” to which I replied, “My dear Lady Morgan, I am much indebted for your very considerate offer, but I fear you have not got one to spare.””"
+    pages: 365-366
+
+
+- model: parties.mention
+  fields:
+    party: Unknown
+    guest: Q459275
+    source: Babbage1864a
+    presumed: False
+
+
+- model: parties.source
+  pk: Babbage1864b
+  fields:
+    book: Babbage1864
+    quote: "“The late Lady M.........., having a great desire to see Mr. Borrow, asked me to invite him to one of my Saturday evening parties. I expressed my regret that, not having the pleasure of his acquaintance, I was unable to ask him to my house, as I never made “lions” of my guests. A short time after, a friend who was coming to me on the following Saturday, called to ask me to allow him to bring Mr. Borrow who dined with him on that day, to my party in the evening. Of course, I willingly gave the invitation, and then wrote a note to inform Lady M.......... of the occurrence of the opportunity she wished for. On the following Saturday evening Lady M.......... was announced, and immediately asked me whether Mr. Borrow had arrived. I said that he had, and that he was in the further room. I then added, that in the course of a few moments I should have great pleasure in presenting to her Mr. Borrow. Lady M.........., who had several other engagements that evening, said, “Only tell me what sort of a person he is, and I will go and find him out myself.” I observed that he was a remarkably tall, straggling person, with a very intelligent countenance. With these instructions her ladyship left me, and finding, as she imagined, exactly the man I had described, immediately accosted him. The conversation was highly interesting, and included a great variety of widely different subjects. It concluded by Lady M.......... expressing her delight with her new acquaintance, from whom she parted with this remark, “What a delightful gipsying life you must have led!” A slight mistake had, however, occurred, which was not discovered until long after: the person thus addressed was not Mr. Borrow, but Dr. Whately, the Archbishop of Dublin.”"
+    pages: 368-369
+
+
+- model: parties.mention
+  fields:
+    party: Unknown
+    guest: Q459275
+    source: Babbage1864b
+    presumed: True
+
+
+- model: parties.person
+  pk: Q2137717
+  fields:
+    name: "George Borrow"
+
+
+- model: parties.mention
+  fields:
+    party: Unknown
+    guest: Q2137717
+    source: Babbage1864b
+    presumed: True
+
+
+- model: parties.person
+  pk: Q2997652
+  fields:
+    name: "Richard Whately"
+
+
+- model: parties.mention
+  fields:
+    party: Unknown
+    guest: Q2997652
+    source: Babbage1864b
+    presumed: False
+
+
+- model: parties.party
+  pk: 1837
+  fields:
+    year: 1837
+    month: null
+    day: null
+
+
+- model: parties.party
+  pk: 1838
+  fields:
+    year: 1838
+    month: null
+    day: null
+
+
+- model: parties.party
+  pk: 1842-04
+  fields:
+    year: 1842
+    month: 4
+    day: null
+
+
+- model: parties.party
+  pk: 1840-03-21
+  fields:
+    year: 1840
+    month: 3
+    day: 21
+
+
+- model: parties.party
+  pk: 1839-06-15
+  fields:
+    year: 1839
+    month: 6
+    day: 15
+
+
+- model: parties.party
+  pk: 1837-04-15
+  fields:
+    year: 1837
+    month: 4
+    day: 15
+
+
+- model: parties.book
+  pk: Darwin2002
+  fields:
+    citation: "Darwin, Emma. 2002. \"Emma Darwin's diary: 1824-1882.\" Edited by John van Wyhe. CUL-DAR242. Darwin Online. University of Cambridge. https://darwin-online.org.uk/content/frameset?pageseq=1&itemID=CUL-DAR242&viewtype=text"
+
+- model: parties.source
+  pk: Darwin2002a
+  fields:
+    book: Darwin2002
+    quote: "Mr Babbage"
+    pages: /
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q242147
+    source: Darwin2002a
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-03-16
+    guest: Q1035
+    source: Darwin2002a
+    presumed: False
+
+
+- model: parties.party
+  pk: 1839-04-20
+  fields:
+    year: 1839
+    month: 4
+    day: 20
+
+
+- model: parties.source
+  pk: Darwin2002b
+  fields:
+    book: Darwin2002
+    quote: "Babbage-"
+    pages: /
+
+
+- model: parties.mention
+  fields:
+    party: 1839-04-20
+    guest: Q242147
+    source: Darwin2002b
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-04-20
+    guest: Q1035
+    source: Darwin2002b
+    presumed: False
+
+
+- model: parties.source
+  pk: Darwin2002c
+  fields:
+    book: Darwin2002
+    quote: "Babbage"
+    pages: /
+
+
+- model: parties.mention
+  fields:
+    party: 1839-06-22
+    guest: Q242147
+    source: Darwin2002c
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1839-06-22
+    guest: Q1035
+    source: Darwin2002c
+    presumed: False
+
+
+- model: parties.source
+  pk: Darwin2002d
+  fields:
+    book: Darwin2002
+    quote: "Babbage"
+    pages: /
+
+
+- model: parties.mention
+  fields:
+    party: 1840-04-25
+    guest: Q242147
+    source: Darwin2002d
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1840-04-25
+    guest: Q1035
+    source: Darwin2002d
+    presumed: False
+
+
+- model: parties.source
+  pk: Darwin2002e
+  fields:
+    book: Darwin2002
+    quote: "Mr Babbage"
+    pages: /
+
+
+- model: parties.mention
+  fields:
+    party: 1840-05-09
+    guest: Q242147
+    source: Darwin2002e
+    presumed: False
+
+
+- model: parties.mention
+  fields:
+    party: 1840-05-09
+    guest: Q1035
+    source: Darwin2002e
+    presumed: False
+
+
