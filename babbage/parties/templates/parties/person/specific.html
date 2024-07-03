@@ -77,10 +77,11 @@
                         {{ p.party.month|month }} 
                         {{ p.party.year }}</h3>
                     {% for s in p.sources %}
-                    <p>
-                    {{ s.quote }} 
-                    &mdash; {{ s.source }} 
-                    </p>
+                    <blockquote>
+                    <p>{{ s.quote }}</p>
+                    <cite>{{ s.book.citation }} pp.{{ s.pages }}</cite>
+                    </blockquote>
+                    
                     {% endfor %}
                     {% if p.others %}
                         <h4>Other guests were</h4>
